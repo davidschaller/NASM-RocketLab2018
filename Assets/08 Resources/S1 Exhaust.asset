@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: S1 Exhaust
+  subNames:
+  - S1 exhaust
+  - S1 exhaust location
+  - rocketParent
+  - S1 path
+  - timer
+  subTypes:
+  - UnityEngine.GameObject
+  - UnityEngine.Vector3
+  - UnityEngine.Transform
+  - System.String
+  - System.Single
+  events:
+  - {fileID: 11400000, guid: 81b583d09ab1344e4944863df409e8e1, type: 2}
+  - {fileID: 11400000, guid: 915d16d7c2ab741f790bf92ce615e95b, type: 2}
+  - {fileID: 11400000, guid: f3ec9fb7cd4d946d0966238e9fae7e9d, type: 2}
+  - {fileID: 11400000, guid: ea03f21ef919a4b99b026ffc82242567, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: 915d16d7c2ab741f790bf92ce615e95b, type: 2}
+    eventVarName: prefab
+    substitutionName: S1 exhaust
+  - theEvent: {fileID: 11400000, guid: 915d16d7c2ab741f790bf92ce615e95b, type: 2}
+    eventVarName: localPosition
+    substitutionName: S1 exhaust location
+  - theEvent: {fileID: 11400000, guid: 915d16d7c2ab741f790bf92ce615e95b, type: 2}
+    eventVarName: parent
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: ea03f21ef919a4b99b026ffc82242567, type: 2}
+    eventVarName: parentToDeactivate
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: ea03f21ef919a4b99b026ffc82242567, type: 2}
+    eventVarName: pathToDeactivate
+    substitutionName: S1 path
+  - theEvent: {fileID: 11400000, guid: f3ec9fb7cd4d946d0966238e9fae7e9d, type: 2}
+    eventVarName: waitTime
+    substitutionName: timer

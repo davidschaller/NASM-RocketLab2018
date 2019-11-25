@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: Level Loader scenario
+  subNames:
+  - level name
+  - show progress
+  - renderer
+  - xml
+  subTypes:
+  - System.String
+  - System.Boolean
+  - UnityEngine.Transform
+  - UnityEngine.TextAsset
+  events:
+  - {fileID: 11400000, guid: 9cc0c56b9575b5244b518268cb3d1bec, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: 9cc0c56b9575b5244b518268cb3d1bec, type: 2}
+    eventVarName: sceneName
+    substitutionName: level name
+  - theEvent: {fileID: 11400000, guid: 9cc0c56b9575b5244b518268cb3d1bec, type: 2}
+    eventVarName: showProgress
+    substitutionName: show progress
+  - theEvent: {fileID: 11400000, guid: 9cc0c56b9575b5244b518268cb3d1bec, type: 2}
+    eventVarName: trloadLevelDialog
+    substitutionName: renderer
+  - theEvent: {fileID: 11400000, guid: 9cc0c56b9575b5244b518268cb3d1bec, type: 2}
+    eventVarName: xmlFile
+    substitutionName: xml

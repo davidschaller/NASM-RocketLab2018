@@ -1,0 +1,10 @@
+1.1.1
+- Fixed compatibility with Unity 3.5.
+
+1.1
+- New primitive: Pyramid
+- New primitive: Slope
+- The capsule radius is now clamped to half its height
+
+1.0
+- Initial release

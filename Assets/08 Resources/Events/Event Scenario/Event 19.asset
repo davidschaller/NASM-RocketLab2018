@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b12a6d7e5984dd68e7b37f9d567808, type: 3}
+  m_Name: Event 19
+  m_EditorClassIdentifier: 
+  startEvent: 0
+  nickname: instantiate S1 exhaust
+  exitEvents:
+  - {fileID: 11400000, guid: f3ec9fb7cd4d946d0966238e9fae7e9d, type: 2}
+  editorPosition:
+    serializedVersion: 2
+    x: 218
+    y: 412
+    width: 50
+    height: 50
+  selectedEventRect:
+    serializedVersion: 2
+    x: 213
+    y: 407
+    width: 60
+    height: 60
+  connectorRect:
+    serializedVersion: 2
+    x: 258
+    y: 452
+    width: 10
+    height: 10
+  dragging: 0
+  draggingConnector: 0
+  isDirty: 0
+  prefab: {fileID: 100004, guid: 9939f2a9d0b384f33bee52259e5c7144, type: 2}
+  parent: {fileID: 0}
+  localPosition: {x: -1.28999996, y: -6.26202393, z: -.700805724}
+  localEuler: {x: 0, y: 0, z: 0}

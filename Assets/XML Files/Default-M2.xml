@@ -1,0 +1,215 @@
+<root>
+	<start_design_button>
+		<English>Start Designing!</English>
+	</start_design_button>
+	<missions>
+		<English>Missions: </English>
+	</missions>
+
+  <choose_component_button>
+    <English>Next Component</English>
+  </choose_component_button>
+
+  <choose_component_button_change>
+    <English>Redesign Next Component</English>
+  </choose_component_button_change>
+
+  <to_next_tab>
+    <English>XXXNext Component</English>
+  </to_next_tab>
+
+  <enter>
+    <English>Enter</English>
+  </enter>
+
+  <compare_button>
+    <English>Compare to Real Rocket</English>
+  </compare_button>
+
+  <close_compare_button>
+    <English>Close Comparison</English>
+  </close_compare_button>
+
+  <compare_title>
+    <English>Rocket Comparison</English>
+  </compare_title>
+  
+  <launch_button>
+    <English>Prepare for Launch!</English>
+  </launch_button>
+
+  <complete_rocket_button>
+    <English>Complete Rocket Design</English>
+  </complete_rocket_button>
+
+  <success_rate>
+    <English>Success Rate</English>
+  </success_rate>
+
+  <mission1_title>
+    <English>Ballistic Trajectory</English>
+  </mission1_title>
+  <mission2_title>
+    <English>Earth Orbit</English>
+  </mission2_title>
+  <mission3_title>
+    <English>Escape Velocity</English>
+  </mission3_title>
+
+  <mission1_description>
+    <English>Reach an altitude of 100 kilometers.</English>
+  </mission1_description>
+
+  <mission2_description>
+    <English>Reach an altitude of 1,500 kilometers and enter Earth orbit.</English>
+  </mission2_description>
+
+  <mission3_description>
+    <English>Escape the Earth's gravity on a trajectory toward the moon.</English>
+  </mission3_description>
+
+  <risk>
+    <English>Risk:</English>
+  </risk>
+
+  <thrust>
+    <English>THRUST</English>
+  </thrust>
+
+  <weight>
+    <English>WEIGHT</English>
+  </weight>
+
+  <ratio>
+    <English>Ratio: </English>
+  </ratio>
+
+  <cost>
+    <English>Cost: </English>
+  </cost>
+
+  <budget>
+    <English>Budget</English>
+  </budget>
+
+  <budget-low>
+    <English>PLENTY</English>
+  </budget-low>
+
+  <budget-meduim>
+    <English>SOME</English>
+  </budget-meduim>
+  
+  <budget-high>
+    <English>NOT MUCH</English>
+  </budget-high>
+
+  <budget-way-over>
+    <English>GONE!</English>
+  </budget-way-over>
+
+  <gallery-button>
+    <English>Spaceport Gallery</English>
+  </gallery-button>
+
+  <home-button>
+    <English>Home</English>
+  </home-button>
+
+  <rocket-name>
+    <English>Rocket Name:</English>
+  </rocket-name>
+
+  <start-launch-button>
+    <English>Launch Rocket!</English>
+  </start-launch-button>
+
+  <virtual-space-button>
+    <English>Virtual/Real Spaceport</English>
+  </virtual-space-button>
+
+  <pause-countdown-button>
+    <English>Pause Countdown</English>
+  </pause-countdown-button>
+
+  <take-picture-button>
+    <English>Take Picture</English>
+  </take-picture-button>
+
+  <inflight-header>
+    <English>Flight {0} Status</English>
+  </inflight-header>
+
+  <summary-header-success>
+    <English>Flight {0}: SUCCESS</English>
+  </summary-header-success>
+
+  <summary-header-failure>
+    <English>Flight {0}: FAILURE</English>
+  </summary-header-failure>
+
+  <flight_summary>
+    <propel1>
+      <English>Altitude: 3 meters
+Rocket propellant exploded at liftoff.</English>
+    </propel1>
+    
+    <propel2>
+      <English>Altitude: 110 meters
+Rocket exploded shortly after liftoff.</English>
+    </propel2>
+    
+        <propel3>
+      <English>Altitude: 725 meters
+Rocket exploded during ascent.</English>
+    </propel3>
+    
+        <control1>
+      <English>Altitude: 25 meters
+Rocket veered off-course.</English>
+    </control1>
+    
+        <control2>
+      <English>Altitude: 110 meters
+Rocket veered off-course.</English>
+    </control2>
+    
+        <control3>
+      <English>Altitude: 2.1 kilometers
+Rocket veered off-course.</English>
+    </control3>
+    
+        <stages1>
+      <English>Altitude: 110 meters
+The first stage of your rocket failed.</English>
+    </stages1>
+    
+        <stages2>
+      <English>Altitude: 66 kilometers
+Your rocket's second stage did not ignite after stage separation.</English>
+    </stages2>
+    
+        <stages3>
+      <English>Altitude: 95 kilometers
+One stage of your rocket ignited improperly, destroying the rocket.</English>
+    </stages3>
+    
+            <success>
+      <English>Altitude 1,500 kilometers
+      
+Your rocket reached space and entered Earth orbit.</English>
+    </success>
+    
+
+    
+        <weight1>
+      <English>Altitude 57 meters
+Your rocket had too low of a thrust:weight ratio and was unable to maintain velocity.</English>
+    </weight1>
+    
+        <weight2>
+      <English>Altitude 4 meters
+Your rocket had too low of a thrust:weight ratio and failed to clear the launch pad.</English>
+    </weight2>
+  </flight_summary>
+</root>

@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: Rocket lose control 1
+  subNames:
+  - rocketParent
+  - rocket
+  - camera-main
+  - camera-anim1
+  - camera-anim2
+  - camera-anim3
+  - rocket-500m
+  - rocket-lose control
+  - liftoff smoke
+  - smoke position
+  - smoke parent
+  - camera 2
+  - camera2timer
+  - camera3timer
+  - camera3
+  - camera4
+  - camera1
+  - rocket audio
+  - audio source GO
+  - audio playX
+  - audio volume
+  - exhaust path
+  - explosion
+  - rocket path
+  - onlychildren
+  - eventplayer
+  subTypes:
+  - UnityEngine.Transform
+  - UnityEngine.Animation
+  - UnityEngine.Animation
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.GameObject
+  - UnityEngine.Vector3
+  - UnityEngine.Transform
+  - UnityEngine.GameObject
+  - System.Single
+  - System.Single
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - UnityEngine.AudioClip
+  - UnityEngine.GameObject
+  - System.Int32
+  - System.Single
+  - System.String
+  - UnityEngine.GameObject
+  - System.String
+  - System.Boolean
+  - EventPlayer
+  events:
+  - {fileID: 11400000, guid: 18c067da266e34b46a9de3ccaae86364, type: 2}
+  - {fileID: 11400000, guid: bc6c103fc78814ccbbfc6ff68c490c45, type: 2}
+  - {fileID: 11400000, guid: 2646ba33ddb714b56ba57c8379795fe1, type: 2}
+  - {fileID: 11400000, guid: 05abff2e5153944c082e57ad6769c222, type: 2}
+  - {fileID: 11400000, guid: b3511d527ef644631a1839e56e4bde57, type: 2}
+  - {fileID: 11400000, guid: f28a930fd5dd94d3b9317da975f6351e, type: 2}
+  - {fileID: 11400000, guid: 18cae7787f7f6410c80db610997f723d, type: 2}
+  - {fileID: 11400000, guid: ef18469b806a74ad9b4c84d04154e79b, type: 2}
+  - {fileID: 11400000, guid: 4cb104f5ca7e64b57b25cecb1ca3567f, type: 2}
+  - {fileID: 11400000, guid: f786187b262d34199bd6dde9e8ed0c67, type: 2}
+  - {fileID: 11400000, guid: b9b1c3e98337c4e039d52ac6c06542d7, type: 2}
+  - {fileID: 11400000, guid: e18a5c4debae94e4dad987d1aca9bead, type: 2}
+  - {fileID: 11400000, guid: 9c5fbefe553fc47dd96d95c3e95b003f, type: 2}
+  - {fileID: 11400000, guid: 13f246daf139448798be66847cf50e7f, type: 2}
+  - {fileID: 11400000, guid: 4317fa119afc54a3eb0e9063fb826cc0, type: 2}
+  - {fileID: 11400000, guid: cbbece5a6d6bc4b34aae0a69efb915ab, type: 2}
+  - {fileID: 11400000, guid: 5281f0aad73bf4200a50ed6444de352d, type: 2}
+  - {fileID: 11400000, guid: 809054b01bae444cd9977a325d043fd7, type: 2}
+  - {fileID: 11400000, guid: 79d029733b9a0429cbc1f9fc7fd45e86, type: 2}
+  - {fileID: 11400000, guid: 2cfffccb1968f472bb403b4422ccebac, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: bc6c103fc78814ccbbfc6ff68c490c45, type: 2}
+    eventVarName: clip
+    substitutionName: camera-anim1
+  - theEvent: {fileID: 11400000, guid: bc6c103fc78814ccbbfc6ff68c490c45, type: 2}
+    eventVarName: animation
+    substitutionName: camera-main
+  - theEvent: {fileID: 11400000, guid: 05abff2e5153944c082e57ad6769c222, type: 2}
+    eventVarName: clip
+    substitutionName: camera-anim2
+  - theEvent: {fileID: 11400000, guid: 05abff2e5153944c082e57ad6769c222, type: 2}
+    eventVarName: animation
+    substitutionName: camera-main
+  - theEvent: {fileID: 11400000, guid: b3511d527ef644631a1839e56e4bde57, type: 2}
+    eventVarName: clip
+    substitutionName: camera-anim3
+  - theEvent: {fileID: 11400000, guid: b3511d527ef644631a1839e56e4bde57, type: 2}
+    eventVarName: animation
+    substitutionName: camera-main
+  - theEvent: {fileID: 11400000, guid: 2646ba33ddb714b56ba57c8379795fe1, type: 2}
+    eventVarName: animation
+    substitutionName: rocket
+  - theEvent: {fileID: 11400000, guid: 2646ba33ddb714b56ba57c8379795fe1, type: 2}
+    eventVarName: clip
+    substitutionName: rocket-500m
+  - theEvent: {fileID: 11400000, guid: f28a930fd5dd94d3b9317da975f6351e, type: 2}
+    eventVarName: animation
+    substitutionName: rocket
+  - theEvent: {fileID: 11400000, guid: f28a930fd5dd94d3b9317da975f6351e, type: 2}
+    eventVarName: clip
+    substitutionName: rocket-lose control
+  - theEvent: {fileID: 11400000, guid: 18cae7787f7f6410c80db610997f723d, type: 2}
+    eventVarName: prefab
+    substitutionName: liftoff smoke
+  - theEvent: {fileID: 11400000, guid: 18cae7787f7f6410c80db610997f723d, type: 2}
+    eventVarName: localPosition
+    substitutionName: smoke position
+  - theEvent: {fileID: 11400000, guid: 18cae7787f7f6410c80db610997f723d, type: 2}
+    eventVarName: parent
+    substitutionName: smoke parent
+  - theEvent: {fileID: 11400000, guid: ef18469b806a74ad9b4c84d04154e79b, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera 2
+  - theEvent: {fileID: 11400000, guid: c35c3dd97c8c94ca493f3ad3945e7b18, type: 2}
+    eventVarName: waitTime
+    substitutionName: camera2timer
+  - theEvent: {fileID: 11400000, guid: 4cb104f5ca7e64b57b25cecb1ca3567f, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera 2
+  - theEvent: {fileID: 11400000, guid: b9b1c3e98337c4e039d52ac6c06542d7, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera3
+  - theEvent: {fileID: 11400000, guid: f786187b262d34199bd6dde9e8ed0c67, type: 2}
+    eventVarName: waitTime
+    substitutionName: camera3timer
+  - theEvent: {fileID: 11400000, guid: 9c5fbefe553fc47dd96d95c3e95b003f, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera3
+  - theEvent: {fileID: 11400000, guid: e18a5c4debae94e4dad987d1aca9bead, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera4
+  - theEvent: {fileID: 11400000, guid: 13f246daf139448798be66847cf50e7f, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera1
+  - theEvent: {fileID: 11400000, guid: 4317fa119afc54a3eb0e9063fb826cc0, type: 2}
+    eventVarName: audioClip
+    substitutionName: rocket audio
+  - theEvent: {fileID: 11400000, guid: 4317fa119afc54a3eb0e9063fb826cc0, type: 2}
+    eventVarName: soundSource
+    substitutionName: audio source GO
+  - theEvent: {fileID: 11400000, guid: 4317fa119afc54a3eb0e9063fb826cc0, type: 2}
+    eventVarName: timesToPlay
+    substitutionName: audio playX
+  - theEvent: {fileID: 11400000, guid: 4317fa119afc54a3eb0e9063fb826cc0, type: 2}
+    eventVarName: volume
+    substitutionName: audio volume
+  - theEvent: {fileID: 11400000, guid: cbbece5a6d6bc4b34aae0a69efb915ab, type: 2}
+    eventVarName: waitTime
+    substitutionName: camera2timer
+  - theEvent: {fileID: 11400000, guid: 5281f0aad73bf4200a50ed6444de352d, type: 2}
+    eventVarName: parent
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: a0bf1170ae6a540da83a92539409fd29, type: 2}
+    eventVarName: parentToDeactivate
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: 5281f0aad73bf4200a50ed6444de352d, type: 2}
+    eventVarName: prefab
+    substitutionName: explosion
+  - theEvent: {fileID: 11400000, guid: a0bf1170ae6a540da83a92539409fd29, type: 2}
+    eventVarName: pathToDeactivate
+    substitutionName: exhaust path
+  - theEvent: {fileID: 11400000, guid: 809054b01bae444cd9977a325d043fd7, type: 2}
+    eventVarName: parentToDeactivate
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: 809054b01bae444cd9977a325d043fd7, type: 2}
+    eventVarName: pathToDeactivate
+    substitutionName: rocket path
+  - theEvent: {fileID: 11400000, guid: 01469a578a29644d4994f3f119a4812e, type: 2}
+    eventVarName: waitTime
+    substitutionName: wait after explosion
+  - theEvent: {fileID: 11400000, guid: 79d029733b9a0429cbc1f9fc7fd45e86, type: 2}
+    eventVarName: destroyOnlyChildren
+    substitutionName: onlychildren
+  - theEvent: {fileID: 11400000, guid: 79d029733b9a0429cbc1f9fc7fd45e86, type: 2}
+    eventVarName: parentToInstantiate
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: 79d029733b9a0429cbc1f9fc7fd45e86, type: 2}
+    eventVarName: pathToInstantiate
+    substitutionName: exhaust path
+  - theEvent: {fileID: 11400000, guid: 2cfffccb1968f472bb403b4422ccebac, type: 2}
+    eventVarName: player
+    substitutionName: eventplayer

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: Rocket Liftoff test
+  subNames:
+  - rocket liftoff
+  - rocket liftoff1
+  - camera1
+  - camera2
+  - camera
+  - mesh
+  - rocket
+  - explosion
+  - rocketdestroy
+  - destroy children
+  - parent
+  - exhaust
+  - position
+  - euler
+  subTypes:
+  - UnityEngine.Animation
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.Animation
+  - UnityEngine.Mesh
+  - UnityEngine.Transform
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - System.Boolean
+  - System.Int32
+  - UnityEngine.GameObject
+  - UnityEngine.Vector3
+  - UnityEngine.Vector3
+  events:
+  - {fileID: 11400000, guid: fb4ffbfc5e3a040e69ea2ea87792f4f0, type: 2}
+  - {fileID: 11400000, guid: 2c4ed5dfc94504cca90d270d604b1826, type: 2}
+  - {fileID: 11400000, guid: a80192f1222e24a9d943538bf89d2ffa, type: 2}
+  - {fileID: 11400000, guid: 2e946d1301d5f45fa8fedb86d106ca85, type: 2}
+  - {fileID: 11400000, guid: e66e6c206b9f940b7af82b40df2adec0, type: 2}
+  - {fileID: 11400000, guid: f5a4d895961e746178e4c83abdc41cc1, type: 2}
+  - {fileID: 11400000, guid: 508a805358a43443aade4e88e70e600c, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: 2c4ed5dfc94504cca90d270d604b1826, type: 2}
+    eventVarName: animation
+    substitutionName: rocket liftoff
+  - theEvent: {fileID: 11400000, guid: 2c4ed5dfc94504cca90d270d604b1826, type: 2}
+    eventVarName: clip
+    substitutionName: rocket liftoff1
+  - theEvent: {fileID: 11400000, guid: a80192f1222e24a9d943538bf89d2ffa, type: 2}
+    eventVarName: animation
+    substitutionName: camera
+  - theEvent: {fileID: 11400000, guid: a80192f1222e24a9d943538bf89d2ffa, type: 2}
+    eventVarName: clip
+    substitutionName: camera1
+  - theEvent: {fileID: 11400000, guid: 2e946d1301d5f45fa8fedb86d106ca85, type: 2}
+    eventVarName: clip
+    substitutionName: camera2
+  - theEvent: {fileID: 11400000, guid: 2e946d1301d5f45fa8fedb86d106ca85, type: 2}
+    eventVarName: animation
+    substitutionName: camera
+  - theEvent: {fileID: 11400000, guid: 2c4ed5dfc94504cca90d270d604b1826, type: 2}
+    eventVarName: animationContainer
+    substitutionName: rocket
+  - theEvent: {fileID: 11400000, guid: e66e6c206b9f940b7af82b40df2adec0, type: 2}
+    eventVarName: targetObject
+    substitutionName: explosion
+  - theEvent: {fileID: 11400000, guid: f5a4d895961e746178e4c83abdc41cc1, type: 2}
+    eventVarName: targetObject
+    substitutionName: rocketdestroy
+  - theEvent: {fileID: 11400000, guid: f5a4d895961e746178e4c83abdc41cc1, type: 2}
+    eventVarName: destroyOnlyChildren
+    substitutionName: destroy children
+  - theEvent: {fileID: 11400000, guid: e66e6c206b9f940b7af82b40df2adec0, type: 2}
+    eventVarName: partActivateion
+    substitutionName: parent
+  - theEvent: {fileID: 11400000, guid: 1e7b1b7bc2cf743098b74a0f794044f2, type: 2}
+    eventVarName: targetObject
+    substitutionName: exhaust
+  - theEvent: {fileID: 11400000, guid: 508a805358a43443aade4e88e70e600c, type: 2}
+    eventVarName: prefab
+    substitutionName: exhaust
+  - theEvent: {fileID: 11400000, guid: 508a805358a43443aade4e88e70e600c, type: 2}
+    eventVarName: parent
+    substitutionName: rocket
+  - theEvent: {fileID: 11400000, guid: 508a805358a43443aade4e88e70e600c, type: 2}
+    eventVarName: localPosition
+    substitutionName: position
+  - theEvent: {fileID: 11400000, guid: 508a805358a43443aade4e88e70e600c, type: 2}
+    eventVarName: localEuler
+    substitutionName: euler

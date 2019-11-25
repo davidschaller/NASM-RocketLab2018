@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: EventSplitter-5x
+  subNames:
+  - ep1
+  - ep2
+  - ep3
+  - ep4
+  - ep5
+  subTypes:
+  - EventPlayer
+  - EventPlayer
+  - EventPlayer
+  - EventPlayer
+  - EventPlayer
+  events:
+  - {fileID: 11400000, guid: 64cede83d0f9e4717be2fef5965ba94b, type: 2}
+  - {fileID: 11400000, guid: dd987e1d544fa4b2ea4729ea0a5a346a, type: 2}
+  - {fileID: 11400000, guid: 3fe622202a2b14f2db6e409fedb510df, type: 2}
+  - {fileID: 11400000, guid: 19ebf18c4108548fdb7d6ea19ef493d4, type: 2}
+  - {fileID: 11400000, guid: b948d11cc755e422c9647e74da62daa5, type: 2}
+  - {fileID: 11400000, guid: fb32b4bb8dd924e529900e6d8739f51b, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: fb32b4bb8dd924e529900e6d8739f51b, type: 2}
+    eventVarName: player
+    substitutionName: ep5
+  - theEvent: {fileID: 11400000, guid: b948d11cc755e422c9647e74da62daa5, type: 2}
+    eventVarName: player
+    substitutionName: ep4
+  - theEvent: {fileID: 11400000, guid: 19ebf18c4108548fdb7d6ea19ef493d4, type: 2}
+    eventVarName: player
+    substitutionName: ep3
+  - theEvent: {fileID: 11400000, guid: 3fe622202a2b14f2db6e409fedb510df, type: 2}
+    eventVarName: player
+    substitutionName: ep2
+  - theEvent: {fileID: 11400000, guid: dd987e1d544fa4b2ea4729ea0a5a346a, type: 2}
+    eventVarName: player
+    substitutionName: ep1

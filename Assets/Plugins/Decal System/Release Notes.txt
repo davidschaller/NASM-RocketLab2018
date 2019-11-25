@@ -1,0 +1,43 @@
+Decal System Release Notes
+
+Version 1.3
+- Unity 4 required.
+-> Several workarounds and conditional compilations could be removed.
+- Resolved: Projector gizmos are not shown if the decals game object is selected. (Reported by mentalBLUR studio)
+-> Projector gizmos are always shown as a workaround.
+- Improved projector box visualization.
+-> Nicer integration with the environment thanks to the GL class.
+- Resolved: Decals in prefabs create an uncontrollable number of mesh assets. (Reported by mentalBLUR studio)
+- SkinQuality is taken into account for Skinned Decals.
+-> SkinnedDecalsMesh.Add (...) signature has changed accordingly.
+- Due to a bounds issue, updateWhenOffscreen is enabled by default for all skinned decals mesh renderers.
+- Added Bullet Example for skinned meshes.
+
+Version 1.2.2
+- Resolved: No more exception throwing if target mesh has an empty normals array. (Reported by Shane C)
+
+Version 1.2.1
+- Resolved: Inverted triangles in some cases. (Reported by Igor Samuilov)
+- Added Bullet Example for dynamic objects.
+- Unity 4 Preview.
+
+Version 1.2
+- Added "Cast Shadows" and "Receive Shadows" options. (Reported by Xatoku)
+- Updated documentation.
+-> Projections onto terrain details are not supported. (Reported by makeshiftwings)
+- Bullet Examples.
+-> Enhanced Bullet Examples with random decal projector rotations.
+-> Added Bullet Example with vertex colors.
+-> Added Bullet Example that reuses the existing lightmaps.
+
+Version 1.1.1
+- Added BulletExample documentation to the code.
+- Workaround: Mesh data is modified by Unity as lightmaps are baked.
+
+Version 1.1
+- Resolved: Inverted face bug for game objects with negative scales. (Reported by dreamora)
+- Resolved: Gizmos not shown on Mac. (Reported by dreamora)
+- Added a UnityScript implementation for the BulletExample.
+
+Version 1.0
+- Initial release.

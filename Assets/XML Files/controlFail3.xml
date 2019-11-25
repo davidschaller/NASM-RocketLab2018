@@ -1,0 +1,10 @@
+<root>
+	<Text>
+		<English>Rocket Off Course!</English>	</Text>
+	
+	<Button>
+		<English>Destroy Rocket</English>
+	</Button>	
+	
+	<Style box="progress_box" button="sample_button" />
+</root>

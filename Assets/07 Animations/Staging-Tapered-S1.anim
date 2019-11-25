@@ -1,0 +1,923 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Staging-Tapered-S1
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 3.2584137e-07, w: -1}
+        inSlope: {x: .0464143865, y: -.897262216, z: -.723479569, w: .0110900393}
+        outSlope: {x: .0464143865, y: -.897262216, z: -.723479569, w: .0110900393}
+        tangentMode: -559038737
+      - time: .433333486
+        value: {x: -.0948539749, y: -.367384821, z: -.293970525, w: -.877275586}
+        inSlope: {x: -.478524923, y: -.7337901, z: -.569110632, w: .549754024}
+        outSlope: {x: -.478524923, y: -.7337901, z: -.569110632, w: .549754024}
+        tangentMode: -559038737
+      - time: .999999702
+        value: {x: -.489125162, y: -.608598292, z: -.445711821, w: -.437842131}
+        inSlope: {x: -.810966134, y: -.0607627332, z: .0900255665, w: .898794949}
+        outSlope: {x: -.810966134, y: -.0607627332, z: .0900255665, w: .898794949}
+        tangentMode: -559038737
+      - time: 1.49999928
+        value: {x: -.849295378, y: -.47113055, z: -.236230522, w: -.0304715782}
+        inSlope: {x: -.542047381, y: .577368379, z: .714426875, w: .642732739}
+        outSlope: {x: -.542047381, y: .577368379, z: .714426875, w: .642732739}
+        tangentMode: -559038737
+      - time: 1.51666665
+        value: {x: -.858186603, y: -.461367428, z: -.224187121, w: -.0198989213}
+        inSlope: {x: -.53345108, y: .585762739, z: .722573757, w: .634332776}
+        outSlope: {x: -.53345108, y: .585762739, z: .722573757, w: .634332776}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: -.0117670847, y: -.160011798, z: -.084450379, w: -.000275373459}
+        outSlope: {x: -.0117670847, y: -.160011798, z: -.084450379, w: -.000275373459}
+        tangentMode: -559038737
+      - time: .316666722
+        value: {x: -.0024376472, y: -.0507264212, z: -.0268871784, w: .99834764}
+        inSlope: {x: -.00338843744, y: -.160254598, z: -.0852748379, w: -.0104480889}
+        outSlope: {x: -.00338843744, y: -.160254598, z: -.0852748379, w: -.0104480889}
+        tangentMode: -559038737
+      - time: .483333528
+        value: {x: -.00159265008, y: -.114970714, z: -.0611823127, w: .991481721}
+        inSlope: {x: .0193862412, y: -.406671882, z: -.217568964, w: -.06055177}
+        outSlope: {x: .0193862412, y: -.406671882, z: -.217568964, w: -.06055177}
+        tangentMode: -559038737
+      - time: 1.31666613
+        value: {x: .0716932267, y: -.427368283, z: -.22479713, w: .872744381}
+        inSlope: {x: .151493326, y: -.334881276, z: -.165444627, w: -.21904549}
+        outSlope: {x: .151493326, y: -.334881276, z: -.165444627, w: -.21904549}
+        tangentMode: -559038737
+      - time: 2.14999866
+        value: {x: .242303953, y: -.659665108, z: -.321457416, w: .634661973}
+        inSlope: {x: .252087653, y: -.213747233, z: -.056769006, w: -.347171158}
+        outSlope: {x: .252087653, y: -.213747233, z: -.056769006, w: -.347171158}
+        tangentMode: -559038737
+      - time: 2.9833312
+        value: {x: .478132695, y: -.766151488, z: -.301269948, w: .306002498}
+        inSlope: {x: .301780999, y: -.0298047345, z: .117078535, w: -.430916965}
+        outSlope: {x: .301780999, y: -.0298047345, z: .117078535, w: -.430916965}
+        tangentMode: -559038737
+      - time: 3.31666422
+        value: {x: .578183174, y: -.760712445, z: -.247671962, w: .160247639}
+        inSlope: {x: .295061141, y: .0643587708, z: .206231669, w: -.44042182}
+        outSlope: {x: .295061141, y: .0643587708, z: .206231669, w: -.44042182}
+        tangentMode: -559038737
+      - time: 3.41666412
+        value: {x: .55703938, y: -.777939856, z: -.243842244, w: .158296213}
+        inSlope: {x: -.3163293, y: -.214718193, z: .00488967169, w: .0654540062}
+        outSlope: {x: -.3163293, y: -.214718193, z: .00488967169, w: .0654540062}
+        tangentMode: -559038737
+      - time: 4.23333311
+        value: {x: .275053918, y: -.907022178, z: -.233148798, w: .217480391}
+        inSlope: {x: -.36761865, y: -.0984876156, z: .0228874311, w: .0787226781}
+        outSlope: {x: -.36761865, y: -.0984876156, z: .0228874311, w: .0787226781}
+        tangentMode: -559038737
+      - time: 5.05001068
+        value: {x: -.031960845, y: -.935996234, z: -.204113334, w: .28500405}
+        inSlope: {x: -.377010733, y: .028017981, z: .0494342409, w: .0851446912}
+        outSlope: {x: -.377010733, y: .028017981, z: .0494342409, w: .0851446912}
+        tangentMode: -559038737
+      - time: 5.86668825
+        value: {x: -.329006881, y: -.862510562, z: -.150916263, w: .353630155}
+        inSlope: {x: -.34347105, y: .149935275, z: .0813976973, w: .0808818266}
+        outSlope: {x: -.34347105, y: .149935275, z: .0813976973, w: .0808818266}
+        tangentMode: -559038737
+      - time: 6.68336582
+        value: {x: -.582374096, y: -.696271539, z: -.0709278882, w: .413540244}
+        inSlope: {x: -.27115339, y: .252912819, z: .114191741, w: .0635594577}
+        outSlope: {x: -.27115339, y: .252912819, z: .114191741, w: .0635594577}
+        tangentMode: -559038737
+      - time: 6.85000038
+        value: {x: -.626009047, y: -.652647316, z: -.0513710231, w: .423704147}
+        inSlope: {x: -.253329188, y: .269605935, z: .12019258, w: .0586135723}
+        outSlope: {x: -.253329188, y: .269605935, z: .12019258, w: .0586135723}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.00652620243, y: .164556786, z: .894318759}
+        inSlope: {x: -7.0573783e-06, y: 6.533813, z: -9.08638191}
+        outSlope: {x: -7.0573783e-06, y: 6.533813, z: -9.08638191}
+        tangentMode: -559038737
+      - time: 1.51666665
+        value: {x: -.00653690612, y: 10.074173, z: -12.886694}
+        inSlope: {x: 1.4080214e-05, y: 35.2312164, z: -24.2384415}
+        outSlope: {x: 1.4080214e-05, y: 35.2312164, z: -24.2384415}
+        tangentMode: -559038737
+      - time: 6
+        value: {x: -.00637901295, y: 296.6875, z: -189.487457}
+        inSlope: {x: 3.52178067e-05, y: 63.9286232, z: -39.3905029}
+        outSlope: {x: 3.52178067e-05, y: 63.9286232, z: -39.3905029}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.00652620243, y: .164556786, z: .894318759}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 2.61686826, y: -1.37888646, z: -6.25445271}
+        tangentMode: -559038737
+      - time: .333333313
+        value: {x: .865763187, y: -.295072079, z: -1.19049907}
+        inSlope: {x: 2.61686826, y: -1.37888646, z: -6.25445271}
+        outSlope: {x: 4.06493807, y: 1.72232819, z: -5.79666615}
+        tangentMode: -559038737
+      - time: 3.33333349
+        value: {x: 29.6467819, y: -54.3684769, z: -47.5714798}
+        inSlope: {x: 25.124897, y: -20.5342026, z: -17.6130295}
+        outSlope: {x: 30.332407, y: -53.3484955, z: -16.4707775}
+        tangentMode: -559038737
+      - time: 6.85000038
+        value: {x: 136.31575, y: -241.977371, z: -105.493721}
+        inSlope: {x: 30.332407, y: -53.3484955, z: -16.4707775}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.00652620243
+        inSlope: -7.0573783e-06
+        outSlope: -7.0573783e-06
+        tangentMode: 10
+      - time: 1.51666665
+        value: -.00653690612
+        inSlope: 1.4080214e-05
+        outSlope: 1.4080214e-05
+        tangentMode: 10
+      - time: 6
+        value: -.00637901295
+        inSlope: 3.52178067e-05
+        outSlope: 3.52178067e-05
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .164556786
+        inSlope: 6.533813
+        outSlope: 6.533813
+        tangentMode: 10
+      - time: 1.51666665
+        value: 10.074173
+        inSlope: 35.2312164
+        outSlope: 35.2312164
+        tangentMode: 10
+      - time: 6
+        value: 296.6875
+        inSlope: 63.9286232
+        outSlope: 63.9286232
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .894318759
+        inSlope: -9.08638191
+        outSlope: -9.08638191
+        tangentMode: 10
+      - time: 1.51666665
+        value: -12.886694
+        inSlope: -24.2384415
+        outSlope: -24.2384415
+        tangentMode: 10
+      - time: 6
+        value: -189.487457
+        inSlope: -39.3905029
+        outSlope: -39.3905029
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: .0464143865
+        outSlope: .0464143865
+        tangentMode: 0
+      - time: .433333486
+        value: -.0948539749
+        inSlope: -.478524923
+        outSlope: -.478524923
+        tangentMode: 0
+      - time: .999999702
+        value: -.489125162
+        inSlope: -.810966134
+        outSlope: -.810966134
+        tangentMode: 0
+      - time: 1.49999928
+        value: -.849295378
+        inSlope: -.542047381
+        outSlope: -.542047381
+        tangentMode: 0
+      - time: 1.51666665
+        value: -.858186603
+        inSlope: -.53345108
+        outSlope: -.53345108
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -.897262216
+        outSlope: -.897262216
+        tangentMode: 0
+      - time: .433333486
+        value: -.367384821
+        inSlope: -.7337901
+        outSlope: -.7337901
+        tangentMode: 0
+      - time: .999999702
+        value: -.608598292
+        inSlope: -.0607627332
+        outSlope: -.0607627332
+        tangentMode: 0
+      - time: 1.49999928
+        value: -.47113055
+        inSlope: .577368379
+        outSlope: .577368379
+        tangentMode: 0
+      - time: 1.51666665
+        value: -.461367428
+        inSlope: .585762739
+        outSlope: .585762739
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.2584137e-07
+        inSlope: -.723479569
+        outSlope: -.723479569
+        tangentMode: 0
+      - time: .433333486
+        value: -.293970525
+        inSlope: -.569110632
+        outSlope: -.569110632
+        tangentMode: 0
+      - time: .999999702
+        value: -.445711821
+        inSlope: .0900255665
+        outSlope: .0900255665
+        tangentMode: 0
+      - time: 1.49999928
+        value: -.236230522
+        inSlope: .714426875
+        outSlope: .714426875
+        tangentMode: 0
+      - time: 1.51666665
+        value: -.224187121
+        inSlope: .722573757
+        outSlope: .722573757
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1
+        inSlope: .0110900393
+        outSlope: .0110900393
+        tangentMode: 0
+      - time: .433333486
+        value: -.877275586
+        inSlope: .549754024
+        outSlope: .549754024
+        tangentMode: 0
+      - time: .999999702
+        value: -.437842131
+        inSlope: .898794949
+        outSlope: .898794949
+        tangentMode: 0
+      - time: 1.49999928
+        value: -.0304715782
+        inSlope: .642732739
+        outSlope: .642732739
+        tangentMode: 0
+      - time: 1.51666665
+        value: -.0198989213
+        inSlope: .634332776
+        outSlope: .634332776
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.00652620243
+        inSlope: 0
+        outSlope: 2.61686826
+        tangentMode: 17
+      - time: .333333313
+        value: .865763187
+        inSlope: 2.61686826
+        outSlope: 4.06493807
+        tangentMode: 5
+      - time: 3.33333349
+        value: 29.6467819
+        inSlope: 25.124897
+        outSlope: 30.332407
+        tangentMode: 17
+      - time: 6.85000038
+        value: 136.31575
+        inSlope: 30.332407
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .164556786
+        inSlope: 0
+        outSlope: -1.37888646
+        tangentMode: 17
+      - time: .333333373
+        value: -.295072079
+        inSlope: -1.37888646
+        outSlope: 1.72232819
+        tangentMode: 5
+      - time: 3.33333349
+        value: -54.3684769
+        inSlope: -20.5342026
+        outSlope: -53.3484955
+        tangentMode: 17
+      - time: 6.85000038
+        value: -241.977371
+        inSlope: -53.3484955
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .894318759
+        inSlope: 0
+        outSlope: -6.25445271
+        tangentMode: 17
+      - time: .333333373
+        value: -1.19049907
+        inSlope: -6.25445271
+        outSlope: -5.79666615
+        tangentMode: 5
+      - time: 3.33333349
+        value: -47.5714798
+        inSlope: -17.6130295
+        outSlope: -16.4707775
+        tangentMode: 17
+      - time: 6.85000038
+        value: -105.493721
+        inSlope: -16.4707775
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -.0117670847
+        outSlope: -.0117670847
+        tangentMode: 0
+      - time: .316666722
+        value: -.0024376472
+        inSlope: -.00338843744
+        outSlope: -.00338843744
+        tangentMode: 0
+      - time: .483333528
+        value: -.00159265008
+        inSlope: .0193862412
+        outSlope: .0193862412
+        tangentMode: 0
+      - time: 1.31666613
+        value: .0716932267
+        inSlope: .151493326
+        outSlope: .151493326
+        tangentMode: 0
+      - time: 2.14999866
+        value: .242303953
+        inSlope: .252087653
+        outSlope: .252087653
+        tangentMode: 0
+      - time: 2.9833312
+        value: .478132695
+        inSlope: .301780999
+        outSlope: .301780999
+        tangentMode: 0
+      - time: 3.31666422
+        value: .578183174
+        inSlope: .295061141
+        outSlope: .295061141
+        tangentMode: 0
+      - time: 3.41666412
+        value: .55703938
+        inSlope: -.3163293
+        outSlope: -.3163293
+        tangentMode: 0
+      - time: 4.23333311
+        value: .275053918
+        inSlope: -.36761865
+        outSlope: -.36761865
+        tangentMode: 0
+      - time: 5.05001068
+        value: -.031960845
+        inSlope: -.377010733
+        outSlope: -.377010733
+        tangentMode: 0
+      - time: 5.86668825
+        value: -.329006881
+        inSlope: -.34347105
+        outSlope: -.34347105
+        tangentMode: 0
+      - time: 6.68336582
+        value: -.582374096
+        inSlope: -.27115339
+        outSlope: -.27115339
+        tangentMode: 0
+      - time: 6.85000038
+        value: -.626009047
+        inSlope: -.253329188
+        outSlope: -.253329188
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -.160011798
+        outSlope: -.160011798
+        tangentMode: 0
+      - time: .316666722
+        value: -.0507264212
+        inSlope: -.160254598
+        outSlope: -.160254598
+        tangentMode: 0
+      - time: .483333528
+        value: -.114970714
+        inSlope: -.406671882
+        outSlope: -.406671882
+        tangentMode: 0
+      - time: 1.31666613
+        value: -.427368283
+        inSlope: -.334881276
+        outSlope: -.334881276
+        tangentMode: 0
+      - time: 2.14999866
+        value: -.659665108
+        inSlope: -.213747233
+        outSlope: -.213747233
+        tangentMode: 0
+      - time: 2.9833312
+        value: -.766151488
+        inSlope: -.0298047345
+        outSlope: -.0298047345
+        tangentMode: 0
+      - time: 3.31666422
+        value: -.760712445
+        inSlope: .0643587708
+        outSlope: .0643587708
+        tangentMode: 0
+      - time: 3.41666412
+        value: -.777939856
+        inSlope: -.214718193
+        outSlope: -.214718193
+        tangentMode: 0
+      - time: 4.23333311
+        value: -.907022178
+        inSlope: -.0984876156
+        outSlope: -.0984876156
+        tangentMode: 0
+      - time: 5.05001068
+        value: -.935996234
+        inSlope: .028017981
+        outSlope: .028017981
+        tangentMode: 0
+      - time: 5.86668825
+        value: -.862510562
+        inSlope: .149935275
+        outSlope: .149935275
+        tangentMode: 0
+      - time: 6.68336582
+        value: -.696271539
+        inSlope: .252912819
+        outSlope: .252912819
+        tangentMode: 0
+      - time: 6.85000038
+        value: -.652647316
+        inSlope: .269605935
+        outSlope: .269605935
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -.084450379
+        outSlope: -.084450379
+        tangentMode: 0
+      - time: .316666722
+        value: -.0268871784
+        inSlope: -.0852748379
+        outSlope: -.0852748379
+        tangentMode: 0
+      - time: .483333528
+        value: -.0611823127
+        inSlope: -.217568964
+        outSlope: -.217568964
+        tangentMode: 0
+      - time: 1.31666613
+        value: -.22479713
+        inSlope: -.165444627
+        outSlope: -.165444627
+        tangentMode: 0
+      - time: 2.14999866
+        value: -.321457416
+        inSlope: -.056769006
+        outSlope: -.056769006
+        tangentMode: 0
+      - time: 2.9833312
+        value: -.301269948
+        inSlope: .117078535
+        outSlope: .117078535
+        tangentMode: 0
+      - time: 3.31666422
+        value: -.247671962
+        inSlope: .206231669
+        outSlope: .206231669
+        tangentMode: 0
+      - time: 3.41666412
+        value: -.243842244
+        inSlope: .00488967169
+        outSlope: .00488967169
+        tangentMode: 0
+      - time: 4.23333311
+        value: -.233148798
+        inSlope: .0228874311
+        outSlope: .0228874311
+        tangentMode: 0
+      - time: 5.05001068
+        value: -.204113334
+        inSlope: .0494342409
+        outSlope: .0494342409
+        tangentMode: 0
+      - time: 5.86668825
+        value: -.150916263
+        inSlope: .0813976973
+        outSlope: .0813976973
+        tangentMode: 0
+      - time: 6.68336582
+        value: -.0709278882
+        inSlope: .114191741
+        outSlope: .114191741
+        tangentMode: 0
+      - time: 6.85000038
+        value: -.0513710231
+        inSlope: .12019258
+        outSlope: .12019258
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -.000275373459
+        outSlope: -.000275373459
+        tangentMode: 0
+      - time: .316666722
+        value: .99834764
+        inSlope: -.0104480889
+        outSlope: -.0104480889
+        tangentMode: 0
+      - time: .483333528
+        value: .991481721
+        inSlope: -.06055177
+        outSlope: -.06055177
+        tangentMode: 0
+      - time: 1.31666613
+        value: .872744381
+        inSlope: -.21904549
+        outSlope: -.21904549
+        tangentMode: 0
+      - time: 2.14999866
+        value: .634661973
+        inSlope: -.347171158
+        outSlope: -.347171158
+        tangentMode: 0
+      - time: 2.9833312
+        value: .306002498
+        inSlope: -.430916965
+        outSlope: -.430916965
+        tangentMode: 0
+      - time: 3.31666422
+        value: .160247639
+        inSlope: -.44042182
+        outSlope: -.44042182
+        tangentMode: 0
+      - time: 3.41666412
+        value: .158296213
+        inSlope: .0654540062
+        outSlope: .0654540062
+        tangentMode: 0
+      - time: 4.23333311
+        value: .217480391
+        inSlope: .0787226781
+        outSlope: .0787226781
+        tangentMode: 0
+      - time: 5.05001068
+        value: .28500405
+        inSlope: .0851446912
+        outSlope: .0851446912
+        tangentMode: 0
+      - time: 5.86668825
+        value: .353630155
+        inSlope: .0808818266
+        outSlope: .0808818266
+        tangentMode: 0
+      - time: 6.68336582
+        value: .413540244
+        inSlope: .0635594577
+        outSlope: .0635594577
+        tangentMode: 0
+      - time: 6.85000038
+        value: .423704147
+        inSlope: .0586135723
+        outSlope: .0586135723
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -6.55746984
+        outSlope: -6.55746984
+        tangentMode: 10
+      - time: 1.51666665
+        value: -9.94549561
+        inSlope: -6.55746984
+        outSlope: -6.55746984
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 102.751022
+        outSlope: 102.751022
+        tangentMode: 10
+      - time: 1.51666665
+        value: 155.83905
+        inSlope: 102.751022
+        outSlope: 102.751022
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -360
+        inSlope: 82.8185349
+        outSlope: 82.8185349
+        tangentMode: 10
+      - time: 1.51666665
+        value: -234.391891
+        inSlope: 82.8185349
+        outSlope: 82.8185349
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: ssAll Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -1.37421036
+        tangentMode: 17
+      - time: .333333373
+        value: -.458070189
+        inSlope: -1.37421036
+        outSlope: -3.55004382
+        tangentMode: 21
+      - time: 3.33333302
+        value: -11.1082001
+        inSlope: -4.04435349
+        outSlope: -7.27554703
+        tangentMode: 17
+      - time: 6.85000038
+        value: -36.6938782
+        inSlope: -7.27554703
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -18.3341064
+        tangentMode: 17
+      - time: .333333373
+        value: -6.11136961
+        inSlope: -18.3341064
+        outSlope: -47.3631172
+        tangentMode: 21
+      - time: 3.33333302
+        value: -148.200699
+        inSlope: -53.9579811
+        outSlope: 1.63674557
+        tangentMode: 17
+      - time: 6.85000038
+        value: -142.444809
+        inSlope: 1.63674557
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -9.67367363
+        tangentMode: 17
+      - time: .333333373
+        value: -3.22455812
+        inSlope: -9.67367363
+        outSlope: -24.9903259
+        tangentMode: 21
+      - time: 3.33333302
+        value: -78.1955261
+        inSlope: -28.4699917
+        outSlope: 43.4907951
+        tangentMode: 17
+      - time: 6.85000038
+        value: 74.7471313
+        inSlope: 43.4907951
+        outSlope: 0
+        tangentMode: 5
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: All Rockets Prefab/Retro_Rocket_Stage2/RRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  m_Events: []

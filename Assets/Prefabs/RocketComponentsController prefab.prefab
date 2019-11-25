@@ -1,0 +1,744 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: 1 Propellant_Solid_Fuel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: 3 Control_Gimbaled_Engines
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 114: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: 2 Control_Exhaust_Vanes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  - 114: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: '3 Shape_Flared '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  - 114: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: 1 Stages_One_Stage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  - 114: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: 2 Propellant_Kerosene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  - 114: {fileID: 11400012}
+  m_Layer: 0
+  m_Name: 3 Propellant_Liquid_Hydrogen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  - 114: {fileID: 11400014}
+  m_Layer: 0
+  m_Name: RocketComponentsController prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400016}
+  - 114: {fileID: 11400016}
+  m_Layer: 0
+  m_Name: 2 Stages_Two_Stage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400018}
+  - 114: {fileID: 11400018}
+  m_Layer: 0
+  m_Name: 3 Stages_Three_Stage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  - 114: {fileID: 11400020}
+  m_Layer: 0
+  m_Name: 1 Shape_Tapered
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400022}
+  - 114: {fileID: 11400022}
+  m_Layer: 0
+  m_Name: 1 Control_Moveable_Fins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400024}
+  - 114: {fileID: 11400024}
+  m_Layer: 0
+  m_Name: 2 Shape_Cylindrical
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: .701939225, z: 0, w: .712236941}
+  m_LocalPosition: {x: 783.453369, y: 566.295715, z: 1252.17737}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400000}
+  - {fileID: 400012}
+  - {fileID: 400010}
+  - {fileID: 400022}
+  - {fileID: 400004}
+  - {fileID: 400020}
+  - {fileID: 400006}
+  - {fileID: 400008}
+  - {fileID: 400024}
+  - {fileID: 400002}
+  - {fileID: 400018}
+  - {fileID: 400016}
+  m_Father: {fileID: 0}
+--- !u!4 &400016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400024
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd8cb35d234fb44aa958723aece91e8, type: 3}
+  m_Name: 
+  componentType: 0
+  componentName: 0
+  previewPrefab: {fileID: 0}
+  cost: 6
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Propellant
+  xmlAttrName: Propellant/Solid_Fuel/Name
+  xmlAttrHeader: Propellant/Solid_Fuel/Header
+  xmlAttrComponentDescription: Propellant/Solid_Fuel/Description
+  xmlAttrCostHint: Propellant/Solid_Fuel/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  reliability: 10
+  thrust: 5
+  xmlAttrReliabilityHint: Propellant/Solid_Fuel/Reliability_Hint
+  xmlAttrThrustHint: Propellant/Solid_Fuel/Thrust_Hint
+  xmlAttrReliabilityName: Properties/Reliability_Name
+  xmlAttrThrustName: Properties/Thrust_Name
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72bbfde482788054aaecbe3f962a21e6, type: 3}
+  m_Name: 
+  componentType: 1
+  componentName: 5
+  previewPrefab: {fileID: 0}
+  cost: 8
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Control
+  xmlAttrName: Control/Gimbaled_Engines/Name
+  xmlAttrHeader: Control/Gimbaled_Engines/Header
+  xmlAttrComponentDescription: Control/Gimbaled_Engines/Description
+  xmlAttrCostHint: Control/Gimbaled_Engines/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  reliability: 3
+  control: 8
+  xmlAttrReliabilityHint: Control/Gimbaled_Engines/Reliability_Hint
+  xmlAttrControlHint: Control/Gimbaled_Engines/Control_Hint
+  xmlAttrReliabilityName: Properties/Reliability_Name
+  xmlAttrControlName: Properties/Control_Name
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72bbfde482788054aaecbe3f962a21e6, type: 3}
+  m_Name: 
+  componentType: 1
+  componentName: 4
+  previewPrefab: {fileID: 0}
+  cost: 5
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Control
+  xmlAttrName: Control/Exhaust_Vanes/Name
+  xmlAttrHeader: Control/Exhaust_Vanes/Header
+  xmlAttrComponentDescription: Control/Exhaust_Vanes/Description
+  xmlAttrCostHint: Control/Exhaust_Vanes/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  reliability: 0
+  control: 5
+  xmlAttrReliabilityHint: Control/Exhaust_Vanes/Reliability_Hint
+  xmlAttrControlHint: Control/Exhaust_Vanes/Control_Hint
+  xmlAttrReliabilityName: Properties/Reliability_Name
+  xmlAttrControlName: Properties/Control_Name
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c9fbb7bc6a46641baea0aabf93dbfb, type: 3}
+  m_Name: 
+  componentType: 3
+  componentName: 11
+  previewPrefab: {fileID: 0}
+  cost: 5
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Shape
+  xmlAttrName: Shape/Flared/Name
+  xmlAttrHeader: Shape/Cylindrical/Header
+  xmlAttrComponentDescription: Shape/Cylindrical/Description
+  xmlAttrCostHint: Shape/Cylindrical/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  aerodynamics: 5
+  xmlAttrAerodynamicsHint: Shape/Cylindrical/Aero_Hint
+  xmlAttrAerodynamicsName: Properties/Aero_Name
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c58bfc038625743af3ac4609be7c5d, type: 3}
+  m_Name: 
+  componentType: 2
+  componentName: 6
+  previewPrefab: {fileID: 0}
+  cost: 3
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Stages
+  xmlAttrName: Stages/One_Stage/Name
+  xmlAttrHeader: Stages/One_Stage/Header
+  xmlAttrComponentDescription: Stages/One_Stage/Description
+  xmlAttrCostHint: Stages/One_Stage/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  reliability: 10
+  liftoffWeight: 8
+  xmlAttrReliabilityHint: Stages/One_Stage/Reliability_Hint
+  xmlAttrLiftoffWeightHint: Stages/One_Stage/Liftoff_Hint
+  xmlAttrReliabilityName: Properties/Reliability_Name
+  xmlAttrLiftoffWeightName: Properties/Liftoff_Name
+  offsetOnStart: 0
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd8cb35d234fb44aa958723aece91e8, type: 3}
+  m_Name: 
+  componentType: 0
+  componentName: 1
+  previewPrefab: {fileID: 0}
+  cost: 4
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Propellant
+  xmlAttrName: Propellant/Kerosene/Name
+  xmlAttrHeader: Propellant/Kerosene/Header
+  xmlAttrComponentDescription: Propellant/Kerosene/Description
+  xmlAttrCostHint: Propellant/Kerosene/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  reliability: 7
+  thrust: 6
+  xmlAttrReliabilityHint: Propellant/Kerosene/Reliability_Hint
+  xmlAttrThrustHint: Propellant/Kerosene/Thrust_Hint
+  xmlAttrReliabilityName: Properties/Reliability_Name
+  xmlAttrThrustName: Properties/Thrust_Name
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd8cb35d234fb44aa958723aece91e8, type: 3}
+  m_Name: 
+  componentType: 0
+  componentName: 2
+  previewPrefab: {fileID: 0}
+  cost: 9
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Propellant
+  xmlAttrName: Propellant/Liquid_Hydrogen/Name
+  xmlAttrHeader: Propellant/Liquid_Hydrogen/Header
+  xmlAttrComponentDescription: Propellant/Liquid_Hydrogen/Description
+  xmlAttrCostHint: Propellant/Liquid_Hydrogen/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  reliability: 0
+  thrust: 9
+  xmlAttrReliabilityHint: Propellant/Liquid_Hydrogen/Reliability_Hint
+  xmlAttrThrustHint: Propellant/Liquid_Hydrogen/Thrust_Hint
+  xmlAttrReliabilityName: Properties/Reliability_Name
+  xmlAttrThrustName: Properties/Thrust_Name
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643d4f640082c98419f4fa859dbd223c, type: 3}
+  m_Name: 
+  RealRockets:
+  - pickedPropellant: 1
+    pickedControl: 3
+    pickedStage: 6
+    pickedShape: 9
+    rocketName: V-2
+    Img: {fileID: 2800000, guid: 95866fb1798ba4e85a741b154fa46f49, type: 3}
+    xml_tag: v2
+    inMuseum: 1
+  - pickedPropellant: 2
+    pickedControl: 4
+    pickedStage: 8
+    pickedShape: 10
+    rocketName: Jupiter-C
+    Img: {fileID: 2800000, guid: 544b37fecd4754215ad14cbe4f7b83e1, type: 3}
+    xml_tag: jupiter
+    inMuseum: 1
+  - pickedPropellant: 0
+    pickedControl: 5
+    pickedStage: 8
+    pickedShape: 10
+    rocketName: Minutemann III
+    Img: {fileID: 2800000, guid: 71d029104784941f49e576bd01629ed9, type: 3}
+    xml_tag: minuteman
+    inMuseum: 1
+  xml: {fileID: 4900000, guid: 54920a9357c700440830430b66271a67, type: 3}
+  allRocketsList: []
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c58bfc038625743af3ac4609be7c5d, type: 3}
+  m_Name: 
+  componentType: 2
+  componentName: 7
+  previewPrefab: {fileID: 0}
+  cost: 5
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Stages
+  xmlAttrName: Stages/Two_Stage/Name
+  xmlAttrHeader: Stages/Two_Stage/Header
+  xmlAttrComponentDescription: Stages/Two_Stage/Description
+  xmlAttrCostHint: Stages/Two_Stage/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  reliability: 10
+  liftoffWeight: 5
+  xmlAttrReliabilityHint: Stages/Two_Stage/Reliability_Hint
+  xmlAttrLiftoffWeightHint: Stages/Two_Stage/Liftoff_Hint
+  xmlAttrReliabilityName: Properties/Reliability_Name
+  xmlAttrLiftoffWeightName: Properties/Liftoff_Name
+  offsetOnStart: 1
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c58bfc038625743af3ac4609be7c5d, type: 3}
+  m_Name: 
+  componentType: 2
+  componentName: 8
+  previewPrefab: {fileID: 0}
+  cost: 7
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Stages
+  xmlAttrName: Stages/Three_Stage/Name
+  xmlAttrHeader: Stages/Three_Stage/Header
+  xmlAttrComponentDescription: Stages/Three_Stage/Description
+  xmlAttrCostHint: Stages/Three_Stage/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  reliability: 3
+  liftoffWeight: 3
+  xmlAttrReliabilityHint: Stages/Three_Stage/Reliability_Hint
+  xmlAttrLiftoffWeightHint: Stages/Three_Stage/Liftoff_Hint
+  xmlAttrReliabilityName: Properties/Reliability_Name
+  xmlAttrLiftoffWeightName: Properties/Liftoff_Name
+  offsetOnStart: 2
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c9fbb7bc6a46641baea0aabf93dbfb, type: 3}
+  m_Name: 
+  componentType: 3
+  componentName: 9
+  previewPrefab: {fileID: 0}
+  cost: 8
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Shape
+  xmlAttrName: Shape/Tapered/Name
+  xmlAttrHeader: Shape/Tapered/Header
+  xmlAttrComponentDescription: Shape/Tapered/Description
+  xmlAttrCostHint: Shape/Tapered/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  aerodynamics: 7
+  xmlAttrAerodynamicsHint: Shape/Tapered/Aero_Hint
+  xmlAttrAerodynamicsName: Properties/Aero_Name
+--- !u!114 &11400022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72bbfde482788054aaecbe3f962a21e6, type: 3}
+  m_Name: 
+  componentType: 1
+  componentName: 3
+  previewPrefab: {fileID: 0}
+  cost: 2
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Control
+  xmlAttrName: Control/Moveable_Fins/Name
+  xmlAttrHeader: Control/Moveable_Fins/Header
+  xmlAttrComponentDescription: Control/Moveable_Fins/Description
+  xmlAttrCostHint: Control/Moveable_Fins/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  reliability: 9
+  control: 2
+  xmlAttrReliabilityHint: Control/Moveable_Fins/Reliability_Hint
+  xmlAttrControlHint: Control/Moveable_Fins/Control_Hint
+  xmlAttrReliabilityName: Properties/Reliability_Name
+  xmlAttrControlName: Properties/Control_Name
+--- !u!114 &11400024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c9fbb7bc6a46641baea0aabf93dbfb, type: 3}
+  m_Name: 
+  componentType: 3
+  componentName: 10
+  previewPrefab: {fileID: 0}
+  cost: 3
+  xml: {fileID: 4900000, guid: b84bdd1e31e117843a2bf607db0a64d3, type: 3}
+  xmlAttrType: Tabs/Shape
+  xmlAttrName: Shape/Cylindrical/Name
+  xmlAttrHeader: Shape/Cylindrical/Header
+  xmlAttrComponentDescription: Shape/Cylindrical/Description
+  xmlAttrCostHint: Shape/Cylindrical/Cost_Hint
+  xmlAttrCostName: Properties/Cost_Name
+  meshPathArray: []
+  aerodynamics: 6
+  xmlAttrAerodynamicsHint: Shape/Cylindrical/Aero_Hint
+  xmlAttrAerodynamicsName: Properties/Aero_Name
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100014}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

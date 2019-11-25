@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: Rocket-Launch-Ballistic Good
+  subNames:
+  - rocket
+  - camera
+  - rocketContainer
+  - rocketpath1
+  - rocketpath2
+  - rocketpath3
+  - camerapath1
+  - camerapath2
+  - camerapath3
+  - camerapath4
+  - camerapath5
+  - object to disable
+  - wait time1
+  - wait time2
+  - exhaust
+  - prefab
+  - prefab position
+  - prefab euler
+  - exhaust timer
+  - activate liftoff smoke
+  - rocket audio
+  - audio source GO
+  - audio volume
+  - audio playX
+  - audio GO
+  - liftoff smoke
+  - rocketParent
+  - smoke position
+  - smoke parent
+  - camera3
+  - camera1
+  - camera2
+  - camera-edge of space
+  - exhaust path
+  - waittime-in space
+  - desert skybox
+  - space skybox
+  - skybox fade time
+  - skybox material
+  - camera-near earth
+  - wait-leaving atmosphere
+  - onboard cam2
+  - camera atmos into black
+  - land-sun
+  - space-sun
+  - exit EP scenario
+  subTypes:
+  - UnityEngine.Animation
+  - UnityEngine.Animation
+  - UnityEngine.Transform
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.GameObject
+  - System.Single
+  - System.Single
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - UnityEngine.Vector3
+  - UnityEngine.Vector3
+  - System.Single
+  - UnityEngine.GameObject
+  - UnityEngine.AudioClip
+  - UnityEngine.GameObject
+  - System.Single
+  - System.Int32
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - UnityEngine.Transform
+  - UnityEngine.Vector3
+  - UnityEngine.Transform
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - System.String
+  - System.Single
+  - System.Single
+  - System.Single
+  - System.Single
+  - UnityEngine.Material
+  - UnityEngine.GameObject
+  - System.Single
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  - EventPlayer
+  events:
+  - {fileID: 11400000, guid: da6c1f6c3d3514b569a7422989a9b8be, type: 2}
+  - {fileID: 11400000, guid: 8abba71ccef4a47e38016d59aeae8b5e, type: 2}
+  - {fileID: 11400000, guid: 6ac92995fc50a4d4bb42c573f92d5d1f, type: 2}
+  - {fileID: 11400000, guid: faefcb6f3a245457b8d3ebfc32475e51, type: 2}
+  - {fileID: 11400000, guid: cee3c772427e54aafa11c914dfc5c037, type: 2}
+  - {fileID: 11400000, guid: 757d303c45abc435e8b4d892e63e1e7a, type: 2}
+  - {fileID: 11400000, guid: 662b7b1adf5214eac8c5b3263c7ad4cd, type: 2}
+  - {fileID: 11400000, guid: 64c49aab0c985441fafe2444658bbeae, type: 2}
+  - {fileID: 11400000, guid: 9980e12eb64a14537995a38d4b1d5042, type: 2}
+  - {fileID: 11400000, guid: 1d25438f6cf53486191f8bf36ac43368, type: 2}
+  - {fileID: 11400000, guid: 878b6cf71cf934b3b97e0daa5ded7388, type: 2}
+  - {fileID: 11400000, guid: 2832d7d5163c740ab844745b6eebee3f, type: 2}
+  - {fileID: 11400000, guid: 3a5ffa840dfaf4a2ebf56f9f51eeb414, type: 2}
+  - {fileID: 11400000, guid: 4ab0ed6ff1872438085b57943fbb9a20, type: 2}
+  - {fileID: 11400000, guid: b934e3cb2a5cc48e088ec6cbb9f21e9d, type: 2}
+  - {fileID: 11400000, guid: 00621d414b5274f0b8560cb9759071fb, type: 2}
+  - {fileID: 11400000, guid: 8deaa8462cb7b4b70989738c9563ae8f, type: 2}
+  - {fileID: 11400000, guid: 0d9431f38d1654e16b75785b2c8833f3, type: 2}
+  - {fileID: 11400000, guid: 3d89676eb588c4843bdf2db330158d9a, type: 2}
+  - {fileID: 11400000, guid: 66ccdd262f1e447719ad141b5b65510b, type: 2}
+  - {fileID: 11400000, guid: ce1434dabc22e4acaa9e6e6bf427a954, type: 2}
+  - {fileID: 11400000, guid: 86469e4540c514690af749adda9a7351, type: 2}
+  - {fileID: 11400000, guid: 2b9433204b16c440288d653770ddc940, type: 2}
+  - {fileID: 11400000, guid: e34e2c39b1b23420b87f7b71b396575f, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: faefcb6f3a245457b8d3ebfc32475e51, type: 2}
+    eventVarName: animation
+    substitutionName: rocket
+  - theEvent: {fileID: 11400000, guid: 8abba71ccef4a47e38016d59aeae8b5e, type: 2}
+    eventVarName: animationContainer
+    substitutionName: rocketContainer
+  - theEvent: {fileID: 11400000, guid: 8abba71ccef4a47e38016d59aeae8b5e, type: 2}
+    eventVarName: animation
+    substitutionName: rocket
+  - theEvent: {fileID: 11400000, guid: 6ac92995fc50a4d4bb42c573f92d5d1f, type: 2}
+    eventVarName: animationContainer
+    substitutionName: rocketContainer
+  - theEvent: {fileID: 11400000, guid: 6ac92995fc50a4d4bb42c573f92d5d1f, type: 2}
+    eventVarName: animation
+    substitutionName: rocket
+  - theEvent: {fileID: 11400000, guid: faefcb6f3a245457b8d3ebfc32475e51, type: 2}
+    eventVarName: animationContainer
+    substitutionName: rocketContainer
+  - theEvent: {fileID: 11400000, guid: 8abba71ccef4a47e38016d59aeae8b5e, type: 2}
+    eventVarName: clip
+    substitutionName: rocketpath1
+  - theEvent: {fileID: 11400000, guid: 6ac92995fc50a4d4bb42c573f92d5d1f, type: 2}
+    eventVarName: clip
+    substitutionName: rocketpath2
+  - theEvent: {fileID: 11400000, guid: faefcb6f3a245457b8d3ebfc32475e51, type: 2}
+    eventVarName: clip
+    substitutionName: rocketpath3
+  - theEvent: {fileID: 11400000, guid: cee3c772427e54aafa11c914dfc5c037, type: 2}
+    eventVarName: clip
+    substitutionName: camerapath1
+  - theEvent: {fileID: 11400000, guid: 757d303c45abc435e8b4d892e63e1e7a, type: 2}
+    eventVarName: clip
+    substitutionName: camerapath2
+  - theEvent: {fileID: 11400000, guid: 662b7b1adf5214eac8c5b3263c7ad4cd, type: 2}
+    eventVarName: clip
+    substitutionName: camerapath3
+  - theEvent: {fileID: 11400000, guid: 7a6268971131b42ef9abbe7fb769b05c, type: 2}
+    eventVarName: clip
+    substitutionName: camerapath4
+  - theEvent: {fileID: 11400000, guid: c28bc4fe5f6c6493084f38a7adbec10f, type: 2}
+    eventVarName: clip
+    substitutionName: camerapath5
+  - theEvent: {fileID: 11400000, guid: 64c49aab0c985441fafe2444658bbeae, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera1
+  - theEvent: {fileID: 11400000, guid: 1d25438f6cf53486191f8bf36ac43368, type: 2}
+    eventVarName: targetObject
+    substitutionName: object to disable
+  - theEvent: {fileID: 11400000, guid: 9980e12eb64a14537995a38d4b1d5042, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera atmos into black
+  - theEvent: {fileID: 11400000, guid: 7a6268971131b42ef9abbe7fb769b05c, type: 2}
+    eventVarName: animation
+    substitutionName: camera
+  - theEvent: {fileID: 11400000, guid: c28bc4fe5f6c6493084f38a7adbec10f, type: 2}
+    eventVarName: animation
+    substitutionName: camera
+  - theEvent: {fileID: 11400000, guid: cee3c772427e54aafa11c914dfc5c037, type: 2}
+    eventVarName: animation
+    substitutionName: camera
+  - theEvent: {fileID: 11400000, guid: 878b6cf71cf934b3b97e0daa5ded7388, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera1
+  - theEvent: {fileID: 11400000, guid: 2832d7d5163c740ab844745b6eebee3f, type: 2}
+    eventVarName: waitTime
+    substitutionName: wait time1
+  - theEvent: {fileID: 11400000, guid: 3a5ffa840dfaf4a2ebf56f9f51eeb414, type: 2}
+    eventVarName: waitTime
+    substitutionName: wait time2
+  - theEvent: {fileID: 11400000, guid: 757d303c45abc435e8b4d892e63e1e7a, type: 2}
+    eventVarName: animation
+    substitutionName: camera
+  - theEvent: {fileID: 11400000, guid: 1c5109e345072454b819cb3163b93ba8, type: 2}
+    eventVarName: targetObject
+    substitutionName: exhaust
+  - theEvent: {fileID: 11400000, guid: 30932e8e4d1f643a4af4a74a47d2a64b, type: 2}
+    eventVarName: parent
+    substitutionName: rocketContainer
+  - theEvent: {fileID: 11400000, guid: 30932e8e4d1f643a4af4a74a47d2a64b, type: 2}
+    eventVarName: prefab
+    substitutionName: exhaust
+  - theEvent: {fileID: 11400000, guid: 30932e8e4d1f643a4af4a74a47d2a64b, type: 2}
+    eventVarName: localPosition
+    substitutionName: prefab position
+  - theEvent: {fileID: 11400000, guid: 30932e8e4d1f643a4af4a74a47d2a64b, type: 2}
+    eventVarName: localEuler
+    substitutionName: prefab euler
+  - theEvent: {fileID: 11400000, guid: 8e9a7d4854d3e4402885a9289efa0e9b, type: 2}
+    eventVarName: waitTime
+    substitutionName: exhaust timer
+  - theEvent: {fileID: 11400000, guid: 9c635f5857b6d4c889cd64759f662d64, type: 2}
+    eventVarName: targetObject
+    substitutionName: prefab
+  - theEvent: {fileID: 11400000, guid: 2834ae485cf844f4e98389862d5396f6, type: 2}
+    eventVarName: targetObject
+    substitutionName: exhaust
+  - theEvent: {fileID: 11400000, guid: 2834ae485cf844f4e98389862d5396f6, type: 2}
+    eventVarName: parentToDeactivate
+    substitutionName: rocketContainer
+  - theEvent: {fileID: 11400000, guid: 662b7b1adf5214eac8c5b3263c7ad4cd, type: 2}
+    eventVarName: animation
+    substitutionName: camera
+  - theEvent: {fileID: 11400000, guid: 274fb6603c9974ba2b63ee002bdadb38, type: 2}
+    eventVarName: targetObject
+    substitutionName: activate liftoff smoke
+  - theEvent: {fileID: 11400000, guid: 90207ff43e7e14a0fb24bab6008e0fd2, type: 2}
+    eventVarName: targetObject
+    substitutionName: activate liftoff smoke
+  - theEvent: {fileID: 11400000, guid: 4ab0ed6ff1872438085b57943fbb9a20, type: 2}
+    eventVarName: audioClip
+    substitutionName: rocket audio
+  - theEvent: {fileID: 11400000, guid: 4ab0ed6ff1872438085b57943fbb9a20, type: 2}
+    eventVarName: soundSource
+    substitutionName: audio source GO
+  - theEvent: {fileID: 11400000, guid: 4ab0ed6ff1872438085b57943fbb9a20, type: 2}
+    eventVarName: volume
+    substitutionName: audio volume
+  - theEvent: {fileID: 11400000, guid: 4ab0ed6ff1872438085b57943fbb9a20, type: 2}
+    eventVarName: timesToPlay
+    substitutionName: audio playX
+  - theEvent: {fileID: 11400000, guid: b934e3cb2a5cc48e088ec6cbb9f21e9d, type: 2}
+    eventVarName: targetObject
+    substitutionName: audio GO
+  - theEvent: {fileID: 11400000, guid: 00621d414b5274f0b8560cb9759071fb, type: 2}
+    eventVarName: prefab
+    substitutionName: liftoff smoke
+  - theEvent: {fileID: 11400000, guid: 00621d414b5274f0b8560cb9759071fb, type: 2}
+    eventVarName: parent
+    substitutionName: smoke parent
+  - theEvent: {fileID: 11400000, guid: 00621d414b5274f0b8560cb9759071fb, type: 2}
+    eventVarName: localPosition
+    substitutionName: smoke position
+  - theEvent: {fileID: 11400000, guid: 91c899b190ac042cdb3a2487f69b406a, type: 2}
+    eventVarName: camera1
+    substitutionName: camera1
+  - theEvent: {fileID: 11400000, guid: 91c899b190ac042cdb3a2487f69b406a, type: 2}
+    eventVarName: camera2
+    substitutionName: camera2
+  - theEvent: {fileID: 11400000, guid: 91c899b190ac042cdb3a2487f69b406a, type: 2}
+    eventVarName: cameraKeepRendering
+    substitutionName: camera-gui
+  - theEvent: {fileID: 11400000, guid: 91c899b190ac042cdb3a2487f69b406a, type: 2}
+    eventVarName: fadeTime
+    substitutionName: fade time
+  - theEvent: {fileID: 11400000, guid: 8deaa8462cb7b4b70989738c9563ae8f, type: 2}
+    eventVarName: targetObject
+    substitutionName: onboard cam2
+  - theEvent: {fileID: 11400000, guid: 0d9431f38d1654e16b75785b2c8833f3, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera atmos into black
+  - theEvent: {fileID: 11400000, guid: 2834ae485cf844f4e98389862d5396f6, type: 2}
+    eventVarName: pathToDeactivate
+    substitutionName: exhaust path
+  - theEvent: {fileID: 11400000, guid: 3d89676eb588c4843bdf2db330158d9a, type: 2}
+    eventVarName: waitTime
+    substitutionName: wait-leaving atmosphere
+  - theEvent: {fileID: 11400000, guid: ce1434dabc22e4acaa9e6e6bf427a954, type: 2}
+    eventVarName: targetObject
+    substitutionName: onboard cam2
+  - theEvent: {fileID: 11400000, guid: 66ccdd262f1e447719ad141b5b65510b, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera-near earth
+  - theEvent: {fileID: 11400000, guid: f2f0554193728425db7248f323b7db28, type: 2}
+    eventVarName: parentToDeactivate
+    substitutionName: rocketContainer
+  - theEvent: {fileID: 11400000, guid: f2f0554193728425db7248f323b7db28, type: 2}
+    eventVarName: pathToDeactivate
+    substitutionName: exhaust path
+  - theEvent: {fileID: 11400000, guid: 86469e4540c514690af749adda9a7351, type: 2}
+    eventVarName: blendFrom
+    substitutionName: desert skybox
+  - theEvent: {fileID: 11400000, guid: 86469e4540c514690af749adda9a7351, type: 2}
+    eventVarName: blendTo
+    substitutionName: space skybox
+  - theEvent: {fileID: 11400000, guid: 86469e4540c514690af749adda9a7351, type: 2}
+    eventVarName: time
+    substitutionName: skybox fade time
+  - theEvent: {fileID: 11400000, guid: 86469e4540c514690af749adda9a7351, type: 2}
+    eventVarName: skybox
+    substitutionName: skybox material
+  - theEvent: {fileID: 11400000, guid: a2bf605ca97c345eb9fb9d5d120b5e3a, type: 2}
+    eventVarName: waitTime
+    substitutionName: waittime-in space
+  - theEvent: {fileID: 11400000, guid: 85dc32610026a4c969e19360f69a41ff, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera3
+  - theEvent: {fileID: 11400000, guid: 6b811dea0078f490797c2c12a7abe2b9, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera-near earth
+  - theEvent: {fileID: 11400000, guid: 2b9433204b16c440288d653770ddc940, type: 2}
+    eventVarName: targetObject
+    substitutionName: space-sun
+  - theEvent: {fileID: 11400000, guid: 29cd12bec02304bc9a2377aab2694034, type: 2}
+    eventVarName: targetObject
+    substitutionName: land-sun
+  - theEvent: {fileID: 11400000, guid: 0d5e384508d6146b38153ae310b804e1, type: 2}
+    eventVarName: targetObject
+    substitutionName: camera-near earth
+  - theEvent: {fileID: 11400000, guid: e34e2c39b1b23420b87f7b71b396575f, type: 2}
+    eventVarName: player
+    substitutionName: exit EP scenario

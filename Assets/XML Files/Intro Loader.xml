@@ -1,0 +1,15 @@
+<root>
+	<Text>
+		<English>Loading RocketLab...</English>
+		<Spanish></Spanish>
+	</Text>
+	
+	<Progress>
+		<English>Building your rocket lab….
+		Purchasing equipment….
+		Hiring engineers….</English>
+		<Spanish></Spanish>
+	</Progress>	
+	
+	<Style box="progress_box" progressLabel="progress_label" progressBkg="progress_bkg" progressFrg="progress_frg"  />
+</root>

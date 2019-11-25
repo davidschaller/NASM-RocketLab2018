@@ -1,0 +1,15 @@
+<root>
+	<Text>
+		<English>
+1. Completes a suborbital flight
+2. Stays within budget
+
+Choose four rocket components, then launch your rocket. To improve your chances of success, watch the Risk and Budget meters. </English>
+	</Text>
+	
+	<Button>
+		<English>Start Designing!</English>
+	</Button>	
+	
+	<Style box="progress_box" button="sample_button" />
+</root>

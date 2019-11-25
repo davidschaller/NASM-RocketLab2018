@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: audio event
+  subNames:
+  - audio clip
+  - audio source
+  - playX
+  - volume
+  subTypes:
+  - UnityEngine.AudioClip
+  - UnityEngine.GameObject
+  - System.Int32
+  - System.Single
+  events:
+  - {fileID: 11400000, guid: 4f84f1203b8014a88ae1198828e1eb37, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: 4f84f1203b8014a88ae1198828e1eb37, type: 2}
+    eventVarName: audioClip
+    substitutionName: audio clip
+  - theEvent: {fileID: 11400000, guid: 4f84f1203b8014a88ae1198828e1eb37, type: 2}
+    eventVarName: soundSource
+    substitutionName: audio source
+  - theEvent: {fileID: 11400000, guid: 4f84f1203b8014a88ae1198828e1eb37, type: 2}
+    eventVarName: timesToPlay
+    substitutionName: playX
+  - theEvent: {fileID: 11400000, guid: 4f84f1203b8014a88ae1198828e1eb37, type: 2}
+    eventVarName: volume
+    substitutionName: volume

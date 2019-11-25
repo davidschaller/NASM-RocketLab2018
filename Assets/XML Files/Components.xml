@@ -1,0 +1,385 @@
+<root>
+  <Tabs>
+    <Control>
+      <English>Control</English>
+    </Control>
+    <Propellant>
+      <English>Propellant</English>
+    </Propellant>
+    <Shape>
+      <English>Shape</English>
+    </Shape>
+    <Stages>
+      <English>Stages</English>
+    </Stages>
+  </Tabs>
+  
+	<Control>
+    <Exhaust_Vanes>
+      <Name>
+        <English>Thrust Vanes</English>
+      </Name>
+      <Header>
+        <English>Vanes Deflect Rocket Exhaust</English>
+      </Header>
+      <Description>
+        <English>
+When placed in the rocket's exhaust, movable vanes deflect the thrust, which alters direction.
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Exhaust_Vanes
+        </English>
+      </Cost_Hint>
+      <Reliability_Hint>
+        <English>
+          Reliability Hint for Exhaust_Vanes
+        </English>
+      </Reliability_Hint>
+      <Control_Hint>
+        <English>
+          Control Hint for Exhaust_Vanes
+        </English>
+      </Control_Hint>
+    </Exhaust_Vanes>
+    
+    <Gimbaled_Engines>
+      <Name>
+        <English>Gimbaled Engines</English>
+      </Name>
+      <Header>
+        <English>Gimbals Pivot Rocket Thrust</English>
+      </Header>
+      <Description>
+        <English>
+In a gimbaled system, the exhaust nozzle can swivel, changing the direction of the thrust. 
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Gimbaled_Engines
+        </English>
+      </Cost_Hint>
+      <Reliability_Hint>
+        <English>
+          Reliability Hint for Gimbaled_Engines
+        </English>
+      </Reliability_Hint>
+      <Control_Hint>
+        <English>
+          Control Hint for Gimbaled_Engines
+        </English>
+      </Control_Hint>
+    </Gimbaled_Engines>
+    
+    <Moveable_Fins>
+      <Name>
+        <English>Moveable Fins</English>
+      </Name>
+      <Header>
+        <English>Fins Deflect the Airstream</English>
+      </Header>
+      <Description>
+        <English>
+Like an airplane rudder, moveable fins steer the rocket by deflecting the tail of the rocket one way or another.
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Moveable_Fins
+        </English>
+      </Cost_Hint>
+      <Reliability_Hint>
+        <English>
+          Reliability Hint for Moveable_Fins
+        </English>
+      </Reliability_Hint>
+      <Control_Hint>
+        <English>
+          Control Hint for Moveable_Fins
+        </English>
+      </Control_Hint>
+    </Moveable_Fins>
+  </Control>
+
+  <Properties>
+    <Cost_Name>
+      <English>Component Cost</English>
+    </Cost_Name>
+    <Reliability_Name>
+      <English>Risk</English>
+    </Reliability_Name>
+    <Control_Name>
+      <English>Control</English>
+    </Control_Name>
+    <Thrust_Name>
+      <English>Thrust</English>
+    </Thrust_Name>
+    <Liftoff_Name>
+      <English>Liftoff Weight</English>
+    </Liftoff_Name>
+    <Aero_Name>
+      <English>Aerodynamics</English>
+    </Aero_Name>
+  </Properties>
+
+  <Propellant>
+    <Kerosene>
+      <Name>
+        <English>Kerosene</English>
+      </Name>
+
+      <Header>
+        <English>Kerosene (with Oxygen)</English>
+      </Header>
+      <Description>
+        <English>
+A common propellant since the 1950s, kerosene is more powerful than solid fuel and cheaper and easier to handle than liquid hydrogen.
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Kerosene
+        </English>
+      </Cost_Hint>
+      <Reliability_Hint>
+        <English>
+          Reliability Hint for Kerosene
+        </English>
+      </Reliability_Hint>
+      <Thrust_Hint>
+        <English>
+          Thrust Hint for Kerosene
+        </English>
+      </Thrust_Hint>      
+    </Kerosene>
+    <Liquid_Hydrogen>
+      <Name>
+        <English>Liquid Hydrogen</English>
+      </Name>
+
+      <Header>
+        <English>Liquid Hydrogen (with Oxygen)</English>
+      </Header>
+      <Description>
+        <English>
+Liquid hydrogen is very powerful. But because it must be kept very cold, it requires complex and expensive equipment.
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Liquid_Hydrogen
+        </English>
+      </Cost_Hint>
+      <Reliability_Hint>
+        <English>
+          Reliability Hint for Liquid_Hydrogen
+        </English>
+      </Reliability_Hint>
+      <Thrust_Hint>
+        <English>
+          Thrust Hint for Liquid_Hydrogen
+        </English>
+      </Thrust_Hint>
+    </Liquid_Hydrogen>
+    <Solid_Fuel>
+      <Name>
+        <English>Solid Fuel</English>
+      </Name>
+
+      <Header>
+        <English>Solid Fuel (with Solid Oxidizer)</English>
+      </Header>
+      <Description>
+        <English>
+Rockets have used solid fuels for thousands of years. While they create less thrust than liquid fuels, they are more reliable and often cheaper.
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Solid_Fuel
+        </English>
+      </Cost_Hint>
+      <Reliability_Hint>
+        <English>
+          Reliability Hint for Solid_Fuel
+        </English>
+      </Reliability_Hint>
+      <Thrust_Hint>
+        <English>
+          Thrust Hint for Solid_Fuel
+        </English>
+      </Thrust_Hint>
+    </Solid_Fuel>   
+  </Propellant>
+
+  <Shape>
+    <Cylindrical>
+      <Name>
+        <English>Cylindrical</English>
+      </Name>
+
+      <Header>
+        <English>Cylinder for Cost and Capability</English>
+      </Header>
+      <Description>
+        <English>
+A cylinder is the cheapest shape to build and provides good performance during launch.
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Cylindrical
+        </English>
+      </Cost_Hint>
+      <Aero_Hint>
+        <English>
+          Aerodynamics Hint for Cylindrical
+        </English>
+      </Aero_Hint>
+    </Cylindrical>
+    
+     <Tapered>
+      <Name>
+        <English>Tapered</English>
+      </Name>
+
+      <Header>
+        <English>Tapered Shape for Streamlining</English>
+      </Header>
+      <Description>
+        <English>
+A classic shape from popular culture, streamlining reduces air resistance as the rocket ascends through the atmosphere.
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Tapered
+        </English>
+      </Cost_Hint>
+      <Aero_Hint>
+        <English>
+          Aerodynamics Hint for Tapered
+        </English>
+      </Aero_Hint>
+    </Tapered>
+    
+      <Flared>
+      <Name>
+        <English>Flared</English>
+      </Name>
+      <Header>
+        <English>Flared to Fit More Engines</English>
+      </Header>
+      <Description>
+        <English>
+The Russian-inspired shape adds a streamlined cowling over the engines. 
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Flared
+        </English>
+      </Cost_Hint>
+      <Aero_Hint>
+        <English>
+          Aerodynamics Hint for Flared
+        </English>
+      </Aero_Hint>
+    </Flared>
+
+    
+    
+  </Shape>
+
+  <Stages>
+    <One_Stage>
+      <Name>
+        <English>One Stage</English>
+      </Name>
+
+      <Header>
+        <English>One Rocket, One Simple Stage</English>
+      </Header>
+      <Description>
+        <English>
+Propellent is carried inside a single rocket body. It is cheap and reliable, but increasingly heavy as altitude increases.
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for One_Stage
+        </English>
+      </Cost_Hint>
+      <Reliability_Hint>
+        <English>
+          Reliability Hint for One_Stage
+        </English>
+      </Reliability_Hint>
+      <Liftoff_Hint>
+        <English>
+          Liftoff Hint for One_Stage
+        </English>
+      </Liftoff_Hint>
+    </One_Stage>
+    <Three_Stage>
+      <Name>
+        <English>Three Stage</English>
+      </Name>
+
+      <Header>
+        <English>Three Stages for Max Altitude</English>
+      </Header>
+      <Description>
+        <English>
+More stages help the rocket travel farther. Weight decreases as each stage is released.
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Three_Stage
+        </English>
+      </Cost_Hint>
+      <Reliability_Hint>
+        <English>
+          Reliability Hint for Three_Stage
+        </English>
+      </Reliability_Hint>
+      <Liftoff_Hint>
+        <English>
+          Liftoff Hint for Three_Stage
+        </English>
+      </Liftoff_Hint>
+    </Three_Stage>
+    <Two_Stage>
+      <Name>
+        <English>Two Stage</English>
+      </Name>
+
+      <Header>
+        <English>Two Stages Save Weight</English>
+      </Header>
+      <Description>
+        <English>
+The rocket is divided into two stages: the first stage is dropped after using all its fuel, and the second stage carries the rocket into space.
+        </English>
+      </Description>
+      <Cost_Hint>
+        <English>
+          Cost hint for Two_Stage
+        </English>
+      </Cost_Hint>
+      <Reliability_Hint>
+        <English>
+          Reliability Hint for Two_Stage
+        </English>
+      </Reliability_Hint>
+      <Liftoff_Hint>
+        <English>
+          Liftoff Hint for Two_Stage
+        </English>
+      </Liftoff_Hint>
+    </Two_Stage>  
+  </Stages>
+</root>

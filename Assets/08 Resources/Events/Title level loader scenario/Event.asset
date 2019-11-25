@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9d58049e30c410597ad63ab71d45b2, type: 3}
+  m_Name: Event
+  startEvent: 0
+  nickname: event
+  exitEvents: []
+  editorPosition:
+    serializedVersion: 2
+    x: 170
+    y: 379
+    width: 50
+    height: 50
+  selectedEventRect:
+    serializedVersion: 2
+    x: 165
+    y: 374
+    width: 60
+    height: 60
+  connectorRect:
+    serializedVersion: 2
+    x: 210
+    y: 419
+    width: 10
+    height: 10
+  dragging: 0
+  draggingConnector: 0
+  isDirty: 0
+  sceneName: 
+  addScene: 0
+  showProgress: 0
+  trloadLevelDialog: {fileID: 0}
+  xmlFile: {fileID: 0}

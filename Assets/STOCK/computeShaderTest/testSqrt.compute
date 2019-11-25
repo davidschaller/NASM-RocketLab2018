@@ -1,0 +1,10 @@
+#pragma kernel main
+
+StructuredBuffer<float> myInput;
+RWStructuredBuffer<float> myOutput;
+
+[numthreads (1,1,1)]
+void main(uint3 DTid :SV_DispatchThreadID)
+{
+   myOutput [DTid .x] = sqrt(myInput [DTid .x]);
+}

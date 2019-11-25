@@ -1,0 +1,92 @@
+fileFormatVersion: 2
+guid: d2ae8b172ca731049942a9b0cfa0f785
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: crayonsponer2:crayons1:group9
+    100004: crayonsponer2:crayons1:pCylinder21
+    100006: crayonsponer2:crayons:group9
+    100008: crayonsponer2:crayons:pCylinder10
+    100010: crayonsponer2:crayons:pCylinder31
+    100012: crayonsponer2:crayons:pCylinder34
+    100014: crayonsponer2:crayons:pCylinder40
+    100016: crayonsponer2:crayons:pCylinder46
+    400000: //RootNode
+    400002: crayonsponer2:crayons1:group9
+    400004: crayonsponer2:crayons1:pCylinder21
+    400006: crayonsponer2:crayons:group9
+    400008: crayonsponer2:crayons:pCylinder10
+    400010: crayonsponer2:crayons:pCylinder31
+    400012: crayonsponer2:crayons:pCylinder34
+    400014: crayonsponer2:crayons:pCylinder40
+    400016: crayonsponer2:crayons:pCylinder46
+    2300000: crayonsponer2:crayons1:pCylinder21
+    2300002: crayonsponer2:crayons:pCylinder10
+    2300004: crayonsponer2:crayons:pCylinder31
+    2300006: crayonsponer2:crayons:pCylinder34
+    2300008: crayonsponer2:crayons:pCylinder40
+    2300010: crayonsponer2:crayons:pCylinder46
+    3300000: crayonsponer2:crayons1:pCylinder21
+    3300002: crayonsponer2:crayons:pCylinder10
+    3300004: crayonsponer2:crayons:pCylinder31
+    3300006: crayonsponer2:crayons:pCylinder34
+    3300008: crayonsponer2:crayons:pCylinder40
+    3300010: crayonsponer2:crayons:pCylinder46
+    4300000: crayonsponer2:crayons:pCylinder10
+    4300002: crayonsponer2:crayons:pCylinder31
+    4300004: crayonsponer2:crayons:pCylinder34
+    4300006: crayonsponer2:crayons:pCylinder40
+    4300008: crayonsponer2:crayons:pCylinder46
+    4300010: crayonsponer2:crayons1:pCylinder21
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 

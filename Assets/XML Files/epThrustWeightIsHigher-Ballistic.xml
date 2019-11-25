@@ -1,0 +1,11 @@
+<root>
+	<Text>
+		<English>Success! You've reached an altitude of 104 kilometers! Well done!</English>
+	</Text>
+	
+	<Button>
+		<English>Start New Mission</English>
+	</Button>	
+	
+	<Style box="progress_box" button="sample_button" />
+</root>

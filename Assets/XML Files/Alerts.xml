@@ -1,0 +1,63 @@
+<root>
+
+  <one_button>
+    <not_enough_money>
+      <English>You don't have enough money for {0}.</English>
+    </not_enough_money>
+    <control_is_too_low>
+      <English>Your control method did not provide enough control for this mission. Choose another control component.</English>
+    </control_is_too_low>
+    <thrust-weight_is_too_low>
+      <English>Your rocket doesn't have enough thrust for this mission. Try increasing the number of stages.</English>
+    </thrust-weight_is_too_low>
+    <success>
+      <English>Successful launch on {0} attempt{1}! Congratulations! </English>
+    </success>
+    <control-low>
+      <English>Insufficient cntrol. You should use components with control at least {0} rating. </English>
+    </control-low>
+    <failed-component-is-fixed>
+      <English>Your engineers think they have found the cause of the '{0}' failure and fixed it. It should now be more reliable.</English>
+    </failed-component-is-fixed>
+    <too-many-components-failed>
+      <English>More than one component failed, so your team cannot identify the cause of the failure. Try again with fewer risky components!</English>
+    </too-many-components-failed>
+  </one_button>
+
+  <two_buttons>
+    <thrust_weight_ratio>
+      <English>Your rocket doesn't have enough thrust for this mission. Try another propellent or more stages.</English>
+    </thrust_weight_ratio>
+    <he-spent-all-money>
+      <English>You have spent your entire budget for this mission!</English>
+    </he-spent-all-money>
+  </two_buttons>
+
+  <buttons>
+    <whatever_start>
+      <English>Launch Rocket Anyways</English>
+    </whatever_start>
+    <cancel_start>
+      <English>Change Design</English>
+    </cancel_start>
+    <continue>
+      <English>Continue</English>
+    </continue>
+    <choose_different_control>
+      <English>Return to Lab</English>
+    </choose_different_control>
+    <next-mission>
+      <English>Next mission</English>
+    </next-mission>
+    <redesign-rocket>
+      <English>Return to Lab</English>
+    </redesign-rocket>
+    <restart-game>
+      <English>Restart Game</English>
+    </restart-game>
+    <restart-round>
+      <English>Restart Round</English>
+    </restart-round>
+  </buttons>
+	
+</root>

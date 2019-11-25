@@ -1,0 +1,14 @@
+<root>
+	<Text>
+		<English>Congratulations! 
+		
+You're now a master rocket designer. Now go see real rockets in the National Air and Space Museum.</English>
+	</Text>
+	
+	<Button>
+		<English>Back to 
+How Things Fly</English>
+	</Button>	
+	
+	<Style box="progress_box" button="sample_button" />
+</root>

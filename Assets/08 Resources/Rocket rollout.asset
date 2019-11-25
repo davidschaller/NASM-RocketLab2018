@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: Rocket rollout
+  subNames:
+  - doorleft
+  - doorright
+  - 'rocket '
+  - rocket rollout
+  - door left open
+  - door right open
+  - audio clip
+  - volume
+  - sound source
+  - playx
+  - camera
+  - camera move
+  subTypes:
+  - UnityEngine.Animation
+  - UnityEngine.Animation
+  - UnityEngine.Animation
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AnimationClip
+  - UnityEngine.AudioClip
+  - System.Single
+  - UnityEngine.GameObject
+  - System.Int32
+  - UnityEngine.Animation
+  - UnityEngine.AnimationClip
+  events:
+  - {fileID: 11400000, guid: 44c14d58bbe5e4c148466441a234b1dc, type: 2}
+  - {fileID: 11400000, guid: 4ada7e0be49ae41b2bd6e0e035d9c98d, type: 2}
+  - {fileID: 11400000, guid: 5b62beb40f22b489181bf1cae3d5e133, type: 2}
+  - {fileID: 11400000, guid: 548e6d26768494fad85b0169d2874aa1, type: 2}
+  - {fileID: 11400000, guid: 26fe3f7cf634e443e858e85e247de9e3, type: 2}
+  - {fileID: 11400000, guid: 1db435f5e81604749b50bf8d462b1b1f, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: 4ada7e0be49ae41b2bd6e0e035d9c98d, type: 2}
+    eventVarName: animation
+    substitutionName: doorleft
+  - theEvent: {fileID: 11400000, guid: 4ada7e0be49ae41b2bd6e0e035d9c98d, type: 2}
+    eventVarName: clip
+    substitutionName: door left open
+  - theEvent: {fileID: 11400000, guid: 5b62beb40f22b489181bf1cae3d5e133, type: 2}
+    eventVarName: clip
+    substitutionName: door right open
+  - theEvent: {fileID: 11400000, guid: 5b62beb40f22b489181bf1cae3d5e133, type: 2}
+    eventVarName: animation
+    substitutionName: doorright
+  - theEvent: {fileID: 11400000, guid: 548e6d26768494fad85b0169d2874aa1, type: 2}
+    eventVarName: clip
+    substitutionName: rocket rollout
+  - theEvent: {fileID: 11400000, guid: 548e6d26768494fad85b0169d2874aa1, type: 2}
+    eventVarName: animation
+    substitutionName: 'rocket '
+  - theEvent: {fileID: 11400000, guid: 26fe3f7cf634e443e858e85e247de9e3, type: 2}
+    eventVarName: audioClip
+    substitutionName: audio clip
+  - theEvent: {fileID: 11400000, guid: 26fe3f7cf634e443e858e85e247de9e3, type: 2}
+    eventVarName: volume
+    substitutionName: volume
+  - theEvent: {fileID: 11400000, guid: 26fe3f7cf634e443e858e85e247de9e3, type: 2}
+    eventVarName: soundSource
+    substitutionName: sound source
+  - theEvent: {fileID: 11400000, guid: 26fe3f7cf634e443e858e85e247de9e3, type: 2}
+    eventVarName: timesToPlay
+    substitutionName: playx
+  - theEvent: {fileID: 11400000, guid: 1db435f5e81604749b50bf8d462b1b1f, type: 2}
+    eventVarName: clip
+    substitutionName: camera move
+  - theEvent: {fileID: 11400000, guid: 1db435f5e81604749b50bf8d462b1b1f, type: 2}
+    eventVarName: animation
+    substitutionName: camera

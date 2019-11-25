@@ -1,0 +1,11 @@
+<root>
+	<Text>
+		<English>Rocket Destroyed</English>
+	</Text>
+	
+	<Button>
+		<English></English>
+	</Button>	
+	
+	<Style box="progress_box" button="sample_button" />
+</root>

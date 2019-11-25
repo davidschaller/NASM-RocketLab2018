@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04b32a6b9e30245dd9b7b8807c0a59a4, type: 3}
+  m_Name: Event
+  m_EditorClassIdentifier: 
+  startEvent: 0
+  nickname: event
+  exitEvents:
+  - {fileID: 11400000, guid: 809054b01bae444cd9977a325d043fd7, type: 2}
+  - {fileID: 11400000, guid: 5281f0aad73bf4200a50ed6444de352d, type: 2}
+  - {fileID: 11400000, guid: 79d029733b9a0429cbc1f9fc7fd45e86, type: 2}
+  - {fileID: 11400000, guid: 2cfffccb1968f472bb403b4422ccebac, type: 2}
+  editorPosition:
+    serializedVersion: 2
+    x: 264
+    y: 336
+    width: 50
+    height: 50
+  selectedEventRect:
+    serializedVersion: 2
+    x: 259
+    y: 331
+    width: 60
+    height: 60
+  connectorRect:
+    serializedVersion: 2
+    x: 304
+    y: 376
+    width: 10
+    height: 10
+  dragging: 0
+  draggingConnector: 0
+  isDirty: 0
+  animation: {fileID: 0}
+  clip: {fileID: 7400000, guid: fccd00fe41c414a3bb50b585eeccfa02, type: 2}
+  mixingTransformPath: 
+  additive: 0
+  layer: 0

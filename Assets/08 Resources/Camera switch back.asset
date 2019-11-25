@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: Camera switch back
+  subNames:
+  - object activate
+  - object deactivate
+  subTypes:
+  - UnityEngine.GameObject
+  - UnityEngine.GameObject
+  events:
+  - {fileID: 11400000, guid: 724dd356c946743d7b62b8f73b82b344, type: 2}
+  - {fileID: 11400000, guid: 3500d2f536bba428e95f38f3c8d0c38a, type: 2}
+  - {fileID: 11400000, guid: 8989e47db2ceb4110b0a3c4ec7e71e33, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: 3500d2f536bba428e95f38f3c8d0c38a, type: 2}
+    eventVarName: targetObject
+    substitutionName: object activate
+  - theEvent: {fileID: 11400000, guid: 8989e47db2ceb4110b0a3c4ec7e71e33, type: 2}
+    eventVarName: targetObject
+    substitutionName: object deactivate

@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  - 33: {fileID: 3300000}
+  - 23: {fileID: 2300000}
+  m_Layer: 0
+  m_Name: Cloud 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!23 &2300000
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: ba2ee4a278ee67646b92a0df3c64d763, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca75edd7891541a41b55d7f84fc39060, type: 3}
+  m_Name: 
+  useParticleColor: 0
+  m_MeshFilter: {fileID: 3300000}
+  m_MeshRenderer: {fileID: 2300000}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4524121f897b7ee4995ac0132d2dfd83, type: 3}
+  m_Name: 
+  m_ParticleData: {fileID: 11400006}
+  m_CreatorData: {fileID: 11400004}
+  m_CloudRendererType: 0
+  m_ParticleMaterial: {fileID: 2100000, guid: ba2ee4a278ee67646b92a0df3c64d763, type: 2}
+  m_XTile: 4
+  m_YTile: 4
+  m_Tint: {r: 1, g: 1, b: 1, a: 1}
+  m_VerticalShadingInfluence: .5
+  m_ShadingGroupInfluence: .5
+  m_Scale: 1
+  m_Fading: 1
+  verticalColors:
+  - isPermanent: 1
+    verticalFactor: 0
+    color: {r: .5, g: .5, b: .5, a: 1}
+  - isPermanent: 1
+    verticalFactor: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sun: {fileID: 0}
+  shadingGroups:
+  - name: Shading Group
+    center: {x: 0, y: 0, z: 0}
+    shapeColor: {r: 0, g: 1, b: 0, a: 1}
+  shadingColors:
+  - isPermanent: 1
+    shadingFactor: -1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - isPermanent: 1
+    shadingFactor: 1
+    color: {r: .5, g: .5, b: .5, a: 1}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a13b28b4e0ae3b4bb7b8b766e37023d, type: 3}
+  m_Name: CreatorData
+  density: 1
+  boxShapes:
+  - particleCount: 5
+    position: {x: -1.04884577, y: 11.2306376, z: 6.80707026}
+    rotation: {x: -0, y: 0, z: 0}
+    scale: {x: 28.6750164, y: 5, z: 25}
+    particleGroupIndex: 0
+    shadingGroupIndex: 0
+  particleGroups:
+  - name: Particle Group
+    shapeColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    particleTypes:
+    - uvIndex: 1
+      minimumRotation: -180
+      maximumRotation: 180
+      squared: 1
+      minimumXSize: 1
+      maximumXSize: 1
+      minimumYSize: 1
+      maximumYSize: 1
+      creationProbability: 1
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93846c0928bbe4241b42f8f22a7e8758, type: 3}
+  m_Name: ParticleData
+  m_Positions:
+  - {x: 4.95713711, y: 35.6623001, z: 13.1032715}
+  - {x: 5.75005484, y: 35.0595512, z: 9.60259533}
+  - {x: 7.35911989, y: 32.1894875, z: 10.224102}
+  - {x: 3.55585122, y: 32.6711121, z: 9.79733562}
+  - {x: 11.9907894, y: 34.9969177, z: 16.083889}
+  m_Rotations:
+  - -140.860001
+  - 44.1542511
+  - 4.55085754
+  - -58.7357178
+  - 129.794708
+  m_Sizes:
+  - {x: 6.01000023, y: 6.01000023}
+  - {x: 6, y: 6}
+  - {x: 4, y: 4}
+  - {x: 4, y: 4}
+  - {x: 7, y: 7}
+  m_UVIndices: 0100000005000000010000000100000001000000
+  m_IsSquareds: 0101010101
+  m_IsCoreParticles: 0000000000
+  m_ShadingGroupIndices: 0000000000000000000000000000000000000000
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

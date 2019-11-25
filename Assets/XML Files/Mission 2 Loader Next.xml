@@ -1,0 +1,13 @@
+<root>
+	<Text>
+		<English>Preparing for new mission...</English>
+		<Spanish></Spanish>
+	</Text>
+	
+	<Progress>
+		<English>Mission 3. Escape Velocity</English>
+		<Spanish></Spanish>
+	</Progress>	
+	
+	<Style box="progress_box" progressLabel="progress_label" progressBkg="progress_bkg" progressFrg="progress_frg"  />
+</root>

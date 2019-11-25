@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: Disable then enable object
+  subNames:
+  - wait time
+  - objec to dis-enable
+  - new object to animate
+  - new animation clip
+  subTypes:
+  - System.Single
+  - UnityEngine.GameObject
+  - UnityEngine.Animation
+  - UnityEngine.AnimationClip
+  events:
+  - {fileID: 11400000, guid: 670ee831a7cbf4fb6a883ded8af79eba, type: 2}
+  - {fileID: 11400000, guid: 76d87ac89671943ef9b0e5cdb4fa2e1c, type: 2}
+  - {fileID: 11400000, guid: 0d138d98b887f40b0a1635bda38ebe22, type: 2}
+  - {fileID: 11400000, guid: 78344ee6e060245718f513c921905757, type: 2}
+  - {fileID: 11400000, guid: e981ebff0d06244a4ad1c347be779ae0, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: 78344ee6e060245718f513c921905757, type: 2}
+    eventVarName: waitTime
+    substitutionName: wait time
+  - theEvent: {fileID: 11400000, guid: 76d87ac89671943ef9b0e5cdb4fa2e1c, type: 2}
+    eventVarName: targetObject
+    substitutionName: objec to dis-enable
+  - theEvent: {fileID: 11400000, guid: 0d138d98b887f40b0a1635bda38ebe22, type: 2}
+    eventVarName: targetObject
+    substitutionName: objec to dis-enable
+  - theEvent: {fileID: 11400000, guid: e981ebff0d06244a4ad1c347be779ae0, type: 2}
+    eventVarName: animation
+    substitutionName: new object to animate
+  - theEvent: {fileID: 11400000, guid: e981ebff0d06244a4ad1c347be779ae0, type: 2}
+    eventVarName: clip
+    substitutionName: new animation clip

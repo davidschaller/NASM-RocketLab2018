@@ -1,0 +1,13 @@
+<root>
+	<component_name>
+		<English>Loading...</English>
+		<Spanish></Spanish>
+	</component_name>
+	
+	<Progress>
+		<English>Mission 1. Ballistic Trajectory</English>
+		<Spanish></Spanish>
+	</Progress>	
+	
+	<Style box="progress_box" progressLabel="progress_label" progressBkg="progress_bkg" progressFrg="progress_frg"  />
+</root>

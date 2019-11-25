@@ -1,0 +1,634 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Ipad Extra Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: GUI controllers with Resolution Detector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 114: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: NGUIGeneralController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  - 114: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: In-Flight Dialog Renderer NGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  - 114: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: NGUIAlerter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  - 114: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: NGUIConsoleController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  - 114: {fileID: 11400012}
+  m_Layer: 0
+  m_Name: NGUILoadLevelRenderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  - 114: {fileID: 11400014}
+  m_Layer: 0
+  m_Name: NGUIHeaderController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400016}
+  - 114: {fileID: 11400016}
+  m_Layer: 0
+  m_Name: NGUILaunchController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400018}
+  - 114: {fileID: 11400018}
+  m_Layer: 0
+  m_Name: Intro Dialog Renderer NGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  - 114: {fileID: 11400020}
+  m_Layer: 0
+  m_Name: Flight Summary Dialog Renderer NGUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.526587427, y: -4.44260931, z: -49.693203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.000565588474, y: .229554653, z: .771015167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400000}
+  - {fileID: 400008}
+  - {fileID: 400018}
+  - {fileID: 400020}
+  - {fileID: 400016}
+  - {fileID: 400004}
+  - {fileID: 400010}
+  - {fileID: 400014}
+  - {fileID: 400006}
+  - {fileID: 400012}
+  m_Father: {fileID: 0}
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .000565588474, y: -.229554653, z: -.771015167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .000565588474, y: -.229554653, z: -.771015167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .000565588474, y: -.229554653, z: -.771015167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.56815434, y: .121236354, z: -1.32691312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.12443447, y: .557112038, z: -.771015167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 938.362671, y: 563.218262, z: 1249.06738}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .000565588474, y: -.229554653, z: -.771015167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .000565588474, y: -.229554653, z: -.771015167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c305dbabe15794481c7c337f57ca26, type: 3}
+  m_Name: 
+  takePictureAudioClip: {fileID: 8300000, guid: b5083cfe83bb875479bd797c61594131,
+    type: 3}
+  realSpaceportAudioClip: {fileID: 8300000, guid: b5083cfe83bb875479bd797c61594131,
+    type: 3}
+  clickAudioClip: {fileID: 8300000, guid: b5083cfe83bb875479bd797c61594131, type: 3}
+  screenshotEffectTime: 1
+  targetScreenshotCorrection: {x: -5, y: 10}
+  webCameraCam: {fileID: 0}
+  otherCameras:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  screenAngleRot: 2
+  emailDefaultRecipient: 
+  emailDefaultSubject: My Rocket
+  emailDefaultBody: 
+  facebookMessage: Check out my Rocket on Facebook
+  twitterMessage: Check out my Rocket on Twitter
+  shareButtonText: Share
+  hideShareButtonText: Hide
+  webiteForPictures: http://somewebite.com
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c87675416d373479b26363b69b1b75, type: 3}
+  m_Name: 
+  ipadDefault2D: {fileID: 0}
+  ipadDefault3D: {fileID: 0}
+  ipadRetina2D: {fileID: 0}
+  ipadRetina3D: {fileID: 0}
+  web2D: {fileID: 0}
+  web3D: {fileID: 0}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4325d20af0d70474aad18236cbefa33b, type: 3}
+  m_Name: 
+  xml: {fileID: 4900000, guid: 68a7432712b1c744184fe9cd0b29c03b, type: 3}
+  enterButtonSection: enter
+  compareButtonSection: compare_button
+  compareTitleSection: compare_title
+  closecompareButtonSection: close_compare_button
+  prepareForLaunchButtonSection: launch_button
+  completeButtonSection: complete_rocket_button
+  buttonAudioClip: {fileID: 8300000, guid: b5083cfe83bb875479bd797c61594131, type: 3}
+  compareCamera: {fileID: 0}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca701de60c7eb34285e0ff275487d30, type: 3}
+  m_Name: 
+  dialogPath: Camera/Anchor-General/Flight Panel/In-Flight Status Box
+  buttonPath: 'Camera/Anchor-General/Flight Panel/In-Flight Status Box/Button: Destroy
+    Rocket'
+  dialogTextPath: 'Camera/Anchor-General/Flight Panel/In-Flight Status Box/Button:
+    Destroy Rocket/Button Text'
+  buttonTextPath: Camera/Anchor-General/Flight Panel/In-Flight Status Box/Flight Status
+    Readout
+  propertySettings:
+    text: Text
+    buttonText: Button
+    boxStyle: /root/Style/@box
+    buttonStyle: /root/Style/@button
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065f1035800c35c4ca519aa17b01d72e, type: 3}
+  m_Name: 
+  xml: {fileID: 4900000, guid: 927738eaf25baeb4d8613c0081c1b8b1, type: 3}
+  oneButtonDetailsArray:
+  - alertType: 0
+    textSection: one_button/not_enough_money
+    buttonSection: buttons/continue
+    alternativeRenderer:
+      panelPath: 
+      buttonPath: 
+      buttonTextPath: 
+      textPath: 
+  - alertType: 1
+    textSection: one_button/control_is_too_low
+    buttonSection: buttons/choose_different_control
+    alternativeRenderer:
+      panelPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup
+      buttonPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button
+      buttonTextPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button/Button
+        Text
+      textPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Failure Summary
+        Text
+  - alertType: 2
+    textSection: one_button/thrust-weight_is_too_low
+    buttonSection: buttons/redesign-rocket
+    alternativeRenderer:
+      panelPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup
+      buttonPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button
+      buttonTextPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button/Button
+        Text
+      textPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Failure Summary
+        Text
+  - alertType: 3
+    textSection: one_button/success
+    buttonSection: buttons/next-mission
+    alternativeRenderer:
+      panelPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup
+      buttonPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button
+      buttonTextPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button/Button
+        Text
+      textPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Failure Summary
+        Text
+  - alertType: 4
+    textSection: one_button/failed-component-is-fixed
+    buttonSection: buttons/redesign-rocket
+    alternativeRenderer:
+      panelPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup
+      buttonPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button
+      buttonTextPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button/Button
+        Text
+      textPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Failure Summary
+        Text
+  - alertType: 5
+    textSection: one_button/too-many-components-failed
+    buttonSection: buttons/redesign-rocket
+    alternativeRenderer:
+      panelPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup
+      buttonPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button
+      buttonTextPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button/Button
+        Text
+      textPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Failure Summary
+        Text
+  twoButtonDetailsArray:
+  - alertType: 0
+    textSection: two_buttons/thrust_weight_ratio
+    button1Section: buttons/whatever_start
+    button2Section: buttons/cancel_start
+  - alertType: 1
+    textSection: two_buttons/he-spent-all-money
+    button1Section: buttons/restart-game
+    button2Section: buttons/restart-round
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48f8a066a40c2347aa6b5c1fa97d7e5, type: 3}
+  m_Name: 
+  xml: {fileID: 4900000, guid: 68a7432712b1c744184fe9cd0b29c03b, type: 3}
+  chooseButtonSection: choose_component_button
+  nextTabButtonSection: to_next_tab
+  enterButtonSection: enter
+  compareButtonSection: compare_button
+  compareTitleSection: compare_title
+  closecompareButtonSection: close_compare_button
+  prepareForLaunchButtonSection: launch_button
+  completeButtonSection: complete_rocket_button
+  tabClickAudio: {fileID: 8300000, guid: b5083cfe83bb875479bd797c61594131, type: 3}
+  buttonAudioClip: {fileID: 8300000, guid: cab912f3009b43843b0a48ac3120c6ad, type: 3}
+  componentCamera: {fileID: 0}
+  flyCameraDelay: 2
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63034cd41f464244a25af7bc3cd7448, type: 3}
+  m_Name: 
+  dialog: {fileID: 0}
+  propertySettings:
+    text: Text
+    progress: Progress
+    boxStyle: /root/Style/@box
+    progressBkgStyle: /root/Style/@progressBkg
+    progressFrgStyle: /root/Style/@progressFrg
+    progressLabelStyle: /root/Style/@progressLabel
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e242436482d8c404fbeaeb9b94167e86, type: 3}
+  m_Name: 
+  xml: {fileID: 4900000, guid: 68a7432712b1c744184fe9cd0b29c03b, type: 3}
+  startDesignSection: start_design_button
+  missionsSection: missions
+  successSection: success_rate
+  missionTitleSection: mission1_title
+  missionDescriptionSection: mission1_description
+  riskSection: risk
+  thrustSection: thrust
+  weightSection: weight
+  rationSection: ratio
+  costSection: cost
+  budgetSection: budget
+  galleryButtonSection: gallery-button
+  homeButtonSection: home-button
+  rocketNameSection: rocket-name
+  budgetToTextArray: []
+  buttonClickClip: {fileID: 8300000, guid: b5083cfe83bb875479bd797c61594131, type: 3}
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 038441405d882b34b8d4612c568ffb87, type: 3}
+  m_Name: 
+  xml: {fileID: 4900000, guid: 68a7432712b1c744184fe9cd0b29c03b, type: 3}
+  launchButtonSection: start-launch-button
+  virtualSpaceButtonSection: virtual-space-button
+  pauseCountdownButtonSection: pause-countdown-button
+  takePictureSection: take-picture-button
+  inflightHeaderSection: inflight-header
+  summaryHeaderSuccessSection: summary-header-success
+  summaryHeaderFailureSection: summary-header-failure
+  pauseAudioClip: {fileID: 8300000, guid: 4ecb26c462ed72b4dbfba168ff91e2fa, type: 3}
+  buttonAudioClip: {fileID: 8300000, guid: b5083cfe83bb875479bd797c61594131, type: 3}
+  takePictureAudioClip: {fileID: 8300000, guid: cab912f3009b43843b0a48ac3120c6ad,
+    type: 3}
+  launchAudioClip: {fileID: 8300000, guid: ab4b41aa0a43dcc48a386073b6a1a0d9, type: 3}
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca701de60c7eb34285e0ff275487d30, type: 3}
+  m_Name: 
+  dialogPath: Camera/Anchor-General/Custom Panel/Intro
+  buttonPath: Camera/Anchor-General/Custom Panel/Intro/Button
+  dialogTextPath: Camera/Anchor-General/Custom Panel/Intro/Text
+  buttonTextPath: Camera/Anchor-General/Custom Panel/Intro/Button/Button Text
+  propertySettings:
+    text: Text
+    buttonText: Button
+    boxStyle: /root/Style/@box
+    buttonStyle: /root/Style/@button
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca701de60c7eb34285e0ff275487d30, type: 3}
+  m_Name: 
+  dialogPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup
+  buttonPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button
+  dialogTextPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Button/Button
+    Text
+  buttonTextPath: Camera/Anchor-General/Flight Panel/Flight Summary Popup/Failure
+    Summary Text
+  propertySettings:
+    text: Text
+    buttonText: Button
+    boxStyle: /root/Style/@box
+    buttonStyle: /root/Style/@button
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100002}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

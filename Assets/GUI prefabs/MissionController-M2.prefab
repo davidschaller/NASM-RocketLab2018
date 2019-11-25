@@ -1,0 +1,476 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: MissionController-M2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: .701939225, z: 0, w: .712236941}
+  m_LocalPosition: {x: 783.453369, y: 564.538635, z: 1252.17737}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e129cdcfdde14de4185e29e60c5e2648, type: 3}
+  m_Name: 
+  missionNumber: 1
+  rocketParentPrefab: {fileID: 100704, guid: b7fb3713dc2724c88a08c5feb71e7aaa, type: 2}
+  rocketPlaceholder: {fileID: 0}
+  rocketLaunchPlaceholder: {fileID: 0}
+  rocketCopyToLaunchName: All Rockets Prefab
+  rocketEulerCorrection: {x: 0, y: 93, z: 269}
+  rocketPosCorrection: {x: -.144999996, y: -9.31999969, z: -1.01999998}
+  rocketEulerLaunchCorrection: {x: 0, y: 122, z: 270}
+  rocketPosLaunchCorrection: {x: 0, y: -2.70000005, z: 0}
+  introPair:
+    epFirst: {fileID: 0}
+    epLast: {fileID: 0}
+  CompareComponentType: 01000000
+  resetBudgetAfterLaunch: 1
+  moneyAtStart: 25
+  thrustConversionFactor: 100
+  weightConverionFactor: 100
+  aerodynamicsEffectOnThrust: 10
+  thrustWeightTooLowRatioThreshold: .5
+  increaseReliabilityForAll: -2
+  increaseReliabilityOfOne: -6
+  countDownTime: 3
+  spaceportGalleryURL: http://howthingsfly.si.edu
+  epNextMissionLoader: {fileID: 0}
+  epHomeLoader: {fileID: 0}
+  missionRequirements:
+    thrustWeightRatio: .5
+    controlRating: 2
+  prepareRocketEventsPair:
+    epFirst: {fileID: 0}
+    epLast: {fileID: 0}
+  epLaunchStart: {fileID: 0}
+  epReturnToDesigning: {fileID: 0}
+  reliabilityFailures:
+  - componentType: 0
+    epFailures:
+    - epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 0
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/propel1
+      isSuccess: 0
+    - epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 0
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/propel2
+      isSuccess: 0
+    - epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 0
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/propel3
+      isSuccess: 0
+  - componentType: 1
+    epFailures:
+    - epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 0
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/control3
+      isSuccess: 0
+    - epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 0
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/control1
+      isSuccess: 0
+    - epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 0
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/control2
+      isSuccess: 0
+  - componentType: 2
+    epFailures:
+    - epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 0
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/stages1
+      isSuccess: 0
+    - epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 0
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/stages2
+      isSuccess: 0
+    - epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 0
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 0
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/stages3
+      isSuccess: 0
+  epThrustWeightIsHigher:
+    epFirst: {fileID: 0}
+    epLast: {fileID: 0}
+    extraEvents:
+    - stage: 1
+      control: 0
+      shape: 1
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 1
+      control: 0
+      shape: 2
+      propellant: 1
+      eventPlayer: {fileID: 0}
+    - stage: 1
+      control: 0
+      shape: 3
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 2
+      control: 0
+      shape: 2
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 2
+      control: 0
+      shape: 1
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 2
+      control: 0
+      shape: 3
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 3
+      control: 0
+      shape: 3
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 3
+      control: 0
+      shape: 2
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 1
+      control: 0
+      shape: 2
+      propellant: 3
+      eventPlayer: {fileID: 0}
+    - stage: 1
+      control: 0
+      shape: 2
+      propellant: 2
+      eventPlayer: {fileID: 0}
+    - stage: 3
+      control: 0
+      shape: 1
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    summary_section: flight_summary/success
+    isSuccess: 1
+  epThrustWeightIsMarginal:
+    epFirst: {fileID: 0}
+    epLast: {fileID: 0}
+    extraEvents:
+    - stage: 1
+      control: 0
+      shape: 1
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 1
+      control: 0
+      shape: 2
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 1
+      control: 0
+      shape: 3
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    summary_section: flight_summary/weight1
+    isSuccess: 0
+  epThrustWeightIsClearlyTooLow:
+    epFirst: {fileID: 0}
+    epLast: {fileID: 0}
+    extraEvents:
+    - stage: 1
+      control: 0
+      shape: 1
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 1
+      control: 0
+      shape: 2
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    - stage: 1
+      control: 0
+      shape: 3
+      propellant: 0
+      eventPlayer: {fileID: 0}
+    summary_section: flight_summary/weight2
+    isSuccess: 0
+  controlFailure:
+    epLossOfControl1:
+      epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 1
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 1
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 1
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/control1
+      isSuccess: 0
+    epLossOfControl2:
+      epFirst: {fileID: 0}
+      epLast: {fileID: 0}
+      extraEvents:
+      - stage: 1
+        control: 0
+        shape: 1
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 1
+        control: 0
+        shape: 2
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      - stage: 1
+        control: 0
+        shape: 3
+        propellant: 0
+        eventPlayer: {fileID: 0}
+      summary_section: flight_summary/control2
+      isSuccess: 0
+  emailData:
+    recipient: david@eduweb.com
+    sender: david@eduweb.com
+    subject: Screenshot
+    body: 
+  objectsToReset:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  debugPair:
+    epFirst: {fileID: 0}
+    epLast: {fileID: 0}
+    extraEvents: []
+    summary_section: 
+    isSuccess: 0
+  rocketNameViewers:
+  - stage: 1
+    shape: 1
+    cameraPlaceholder: {fileID: 0}
+  - stage: 1
+    shape: 2
+    cameraPlaceholder: {fileID: 0}
+  - stage: 1
+    shape: 3
+    cameraPlaceholder: {fileID: 0}
+  - stage: 2
+    shape: 1
+    cameraPlaceholder: {fileID: 0}
+  - stage: 2
+    shape: 2
+    cameraPlaceholder: {fileID: 0}
+  - stage: 2
+    shape: 3
+    cameraPlaceholder: {fileID: 0}
+  - stage: 3
+    shape: 1
+    cameraPlaceholder: {fileID: 0}
+  - stage: 3
+    shape: 2
+    cameraPlaceholder: {fileID: 0}
+  - stage: 3
+    shape: 3
+    cameraPlaceholder: {fileID: 0}
+  - stage: 0
+    shape: 0
+    cameraPlaceholder: {fileID: 0}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ef0836b21a43549ad10f17d1038161, type: 3}
+  m_Name: 
+  InactivitySecond: 10
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

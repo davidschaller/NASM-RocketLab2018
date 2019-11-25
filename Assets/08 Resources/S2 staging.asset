@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4779f3db83ae248aeb42dac7f8230233, type: 3}
+  m_Name: S2 staging
+  subNames:
+  - S2 exhaust
+  - rocketParent
+  - S2 location
+  - S1 stage dropoff
+  - timer
+  - wait to end stage2
+  - exhaust path
+  - mixing path
+  - animation
+  - layer
+  - wait to disable stage
+  subTypes:
+  - UnityEngine.GameObject
+  - UnityEngine.Transform
+  - UnityEngine.Vector3
+  - UnityEngine.AnimationClip
+  - System.Single
+  - System.Single
+  - System.String
+  - System.String
+  - UnityEngine.Animation
+  - System.Int32
+  - System.Single
+  events:
+  - {fileID: 11400000, guid: 1e92b029ac5ee478bb1ca33b78daade9, type: 2}
+  - {fileID: 11400000, guid: 3c64af31fd2e044c19806996156cd807, type: 2}
+  - {fileID: 11400000, guid: 1c38de9b3707b44b39ddb29bf3588911, type: 2}
+  - {fileID: 11400000, guid: d44d8cc44f41d4cba9da43e8dfbb689f, type: 2}
+  - {fileID: 11400000, guid: fb39e4f00c6c64ea7ba9798f5555c862, type: 2}
+  - {fileID: 11400000, guid: c7af8e19500fd420f85ef217dd99d33a, type: 2}
+  - {fileID: 11400000, guid: 1862ccb840b1a40fa86949b76428a215, type: 2}
+  - {fileID: 11400000, guid: dfe72164ab7b14097be54fd2e2024b7b, type: 2}
+  substitutions:
+  - theEvent: {fileID: 11400000, guid: 3c64af31fd2e044c19806996156cd807, type: 2}
+    eventVarName: prefab
+    substitutionName: S2 exhaust
+  - theEvent: {fileID: 11400000, guid: 3c64af31fd2e044c19806996156cd807, type: 2}
+    eventVarName: parent
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: 3c64af31fd2e044c19806996156cd807, type: 2}
+    eventVarName: localPosition
+    substitutionName: S2 location
+  - theEvent: {fileID: 11400000, guid: abde65c60323f48e3b42d83ad33fad4c, type: 2}
+    eventVarName: clip
+    substitutionName: S1 stage dropoff
+  - theEvent: {fileID: 11400000, guid: abde65c60323f48e3b42d83ad33fad4c, type: 2}
+    eventVarName: animation
+    substitutionName: S1 stage
+  - theEvent: {fileID: 11400000, guid: 1c38de9b3707b44b39ddb29bf3588911, type: 2}
+    eventVarName: waitTime
+    substitutionName: timer
+  - theEvent: {fileID: 11400000, guid: abde65c60323f48e3b42d83ad33fad4c, type: 2}
+    eventVarName: animationContainer
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: d44d8cc44f41d4cba9da43e8dfbb689f, type: 2}
+    eventVarName: animationContainer
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: d44d8cc44f41d4cba9da43e8dfbb689f, type: 2}
+    eventVarName: animationPath
+    substitutionName: stage1 path
+  - theEvent: {fileID: 11400000, guid: d44d8cc44f41d4cba9da43e8dfbb689f, type: 2}
+    eventVarName: clip
+    substitutionName: S1 stage dropoff
+  - theEvent: {fileID: 11400000, guid: fb39e4f00c6c64ea7ba9798f5555c862, type: 2}
+    eventVarName: waitTime
+    substitutionName: wait to end stage2
+  - theEvent: {fileID: 11400000, guid: c7af8e19500fd420f85ef217dd99d33a, type: 2}
+    eventVarName: parentToDeactivate
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: c7af8e19500fd420f85ef217dd99d33a, type: 2}
+    eventVarName: pathToDeactivate
+    substitutionName: exhaust path
+  - theEvent: {fileID: 11400000, guid: d44d8cc44f41d4cba9da43e8dfbb689f, type: 2}
+    eventVarName: mixingTransformPath
+    substitutionName: mixing path
+  - theEvent: {fileID: 11400000, guid: d44d8cc44f41d4cba9da43e8dfbb689f, type: 2}
+    eventVarName: animation
+    substitutionName: animation
+  - theEvent: {fileID: 11400000, guid: d44d8cc44f41d4cba9da43e8dfbb689f, type: 2}
+    eventVarName: layer
+    substitutionName: layer
+  - theEvent: {fileID: 11400000, guid: 6d5697ff8c4834ced828b1d94d54d5ac, type: 2}
+    eventVarName: parentToDeactivate
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: 6d5697ff8c4834ced828b1d94d54d5ac, type: 2}
+    eventVarName: pathToDeactivate
+    substitutionName: mixing path
+  - theEvent: {fileID: 11400000, guid: 1862ccb840b1a40fa86949b76428a215, type: 2}
+    eventVarName: parentToDeactivate
+    substitutionName: rocketParent
+  - theEvent: {fileID: 11400000, guid: 1862ccb840b1a40fa86949b76428a215, type: 2}
+    eventVarName: pathToDeactivate
+    substitutionName: mixing path
+  - theEvent: {fileID: 11400000, guid: dfe72164ab7b14097be54fd2e2024b7b, type: 2}
+    eventVarName: waitTime
+    substitutionName: wait to disable stage

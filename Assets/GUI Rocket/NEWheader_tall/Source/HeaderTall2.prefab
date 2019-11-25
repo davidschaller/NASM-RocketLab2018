@@ -1,0 +1,1605 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: HeaderTall2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 149d370060bfa42409a50cd7feb8fc2b, type: 2}
+  sprites:
+  - name: redesign_idle
+    outer:
+      serializedVersion: 2
+      x: 842
+      y: 242
+      width: 130
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 842
+      y: 242
+      width: 130
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: virtualreal_idle
+    outer:
+      serializedVersion: 2
+      x: 731
+      y: 158
+      width: 121
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 731
+      y: 158
+      width: 121
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: virtualreal_hover
+    outer:
+      serializedVersion: 2
+      x: 853
+      y: 158
+      width: 121
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 853
+      y: 158
+      width: 121
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: flight_bg
+    outer:
+      serializedVersion: 2
+      x: 822
+      y: 824
+      width: 150
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 822
+      y: 824
+      width: 150
+      height: 200
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: status_bg
+    outer:
+      serializedVersion: 2
+      x: 401
+      y: 369
+      width: 151
+      height: 151
+    inner:
+      serializedVersion: 2
+      x: 401
+      y: 369
+      width: 151
+      height: 151
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_idle
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 155
+      width: 25
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 470
+      y: 162
+      width: 9
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: success_fg
+    outer:
+      serializedVersion: 2
+      x: 979
+      y: 15
+      width: 42
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 979
+      y: 15
+      width: 42
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: prepare_idle
+    outer:
+      serializedVersion: 2
+      x: 842
+      y: 289
+      width: 151
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 842
+      y: 289
+      width: 151
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: home_idle
+    outer:
+      serializedVersion: 2
+      x: 973
+      y: 263
+      width: 25
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 981
+      y: 270
+      width: 9
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Rocket Lab
+    outer:
+      serializedVersion: 2
+      x: 842
+      y: 336
+      width: 167
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 842
+      y: 336
+      width: 167
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: missions_bg
+    outer:
+      serializedVersion: 2
+      x: 138
+      y: 35
+      width: 121
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 138
+      y: 35
+      width: 121
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: redesign_hover
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 425
+      width: 130
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 891
+      y: 425
+      width: 130
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Rocket Comparison
+    outer:
+      serializedVersion: 2
+      x: 499
+      y: 194
+      width: 231
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 499
+      y: 194
+      width: 231
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission_hover
+    outer:
+      serializedVersion: 2
+      x: 720
+      y: 265
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 720
+      y: 265
+      width: 30
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Missions
+    outer:
+      serializedVersion: 2
+      x: 138
+      y: 59
+      width: 61
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 138
+      y: 59
+      width: 61
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission1_tall
+    outer:
+      serializedVersion: 2
+      x: 128
+      y: 132
+      width: 64
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 128
+      y: 132
+      width: 64
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gallery_hover
+    outer:
+      serializedVersion: 2
+      x: 878
+      y: 52
+      width: 100
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 878
+      y: 52
+      width: 100
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tooltip2_bg
+    outer:
+      serializedVersion: 2
+      x: 803
+      y: 472
+      width: 180
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 803
+      y: 472
+      width: 180
+      height: 48
+    rotated: 0
+    paddingLeft: .00555555569
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: solidfuel_idle
+    outer:
+      serializedVersion: 2
+      x: 499
+      y: 232
+      width: 220
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 499
+      y: 232
+      width: 220
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup1_bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 379
+      width: 400
+      height: 141
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 379
+      width: 400
+      height: 141
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission_idle
+    outer:
+      serializedVersion: 2
+      x: 805
+      y: 358
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 805
+      y: 358
+      width: 30
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_hover
+    outer:
+      serializedVersion: 2
+      x: 636
+      y: 121
+      width: 25
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 644
+      y: 130
+      width: 9
+      height: 7
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup2_bg
+    outer:
+      serializedVersion: 2
+      x: 391
+      y: 794
+      width: 430
+      height: 230
+    inner:
+      serializedVersion: 2
+      x: 391
+      y: 794
+      width: 430
+      height: 230
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission1
+    outer:
+      serializedVersion: 2
+      x: 325
+      y: 35
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 325
+      y: 35
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: solidfuel_hover
+    outer:
+      serializedVersion: 2
+      x: 499
+      y: 259
+      width: 220
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 499
+      y: 259
+      width: 220
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: home_hover
+    outer:
+      serializedVersion: 2
+      x: 51
+      y: 33
+      width: 25
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 59
+      y: 40
+      width: 9
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: textfield_bg
+    outer:
+      serializedVersion: 2
+      x: 847
+      y: 89
+      width: 161
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 847
+      y: 89
+      width: 161
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: flight2_path
+    outer:
+      serializedVersion: 2
+      x: 805
+      y: 379
+      width: 85
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 805
+      y: 379
+      width: 85
+      height: 92
+    rotated: 0
+    paddingLeft: .211764708
+    paddingRight: .211764708
+    paddingTop: .152173907
+    paddingBottom: .141304344
+  - name: flight1_paths
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 179
+      width: 121
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 179
+      width: 121
+      height: 119
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: camera
+    outer:
+      serializedVersion: 2
+      x: 673
+      y: 158
+      width: 51
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 673
+      y: 158
+      width: 51
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: camera_idle
+    outer:
+      serializedVersion: 2
+      x: 549
+      y: 100
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 549
+      y: 100
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: camera_hover
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 59
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 59
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: compare_hover
+    outer:
+      serializedVersion: 2
+      x: 391
+      y: 747
+      width: 161
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 391
+      y: 747
+      width: 161
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: compare_idle
+    outer:
+      serializedVersion: 2
+      x: 553
+      y: 747
+      width: 161
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 553
+      y: 747
+      width: 161
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: purple
+    outer:
+      serializedVersion: 2
+      x: 834
+      y: 103
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 834
+      y: 103
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: flight_arrow
+    outer:
+      serializedVersion: 2
+      x: 998
+      y: 394
+      width: 25
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 998
+      y: 394
+      width: 25
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cost_fg
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 163
+      width: 48
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 163
+      width: 48
+      height: 15
+    rotated: 0
+    paddingLeft: .020833334
+    paddingRight: .020833334
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cost_bg
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 179
+      width: 48
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 179
+      width: 48
+      height: 15
+    rotated: 0
+    paddingLeft: .020833334
+    paddingRight: .020833334
+    paddingTop: 0
+    paddingBottom: 0
+  - name: risk_fg_big
+    outer:
+      serializedVersion: 2
+      x: 636
+      y: 86
+      width: 120
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 636
+      y: 86
+      width: 120
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .25
+  - name: risk_bg_big
+    outer:
+      serializedVersion: 2
+      x: 757
+      y: 58
+      width: 120
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 757
+      y: 58
+      width: 120
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission3
+    outer:
+      serializedVersion: 2
+      x: 87
+      y: 34
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 87
+      y: 34
+      width: 50
+      height: 50
+    rotated: 0
+    paddingLeft: .0199999996
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0199999996
+  - name: mission2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 8
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 8
+      width: 50
+      height: 50
+    rotated: 0
+    paddingLeft: .0199999996
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0199999996
+  - name: 3
+    outer:
+      serializedVersion: 2
+      x: 193
+      y: 133
+      width: 10
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 193
+      y: 133
+      width: 10
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2
+    outer:
+      serializedVersion: 2
+      x: 200
+      y: 60
+      width: 9
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 200
+      y: 60
+      width: 9
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 1
+    outer:
+      serializedVersion: 2
+      x: 834
+      y: 93
+      width: 6
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 834
+      y: 93
+      width: 6
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission_bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 521
+      width: 950
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 521
+      width: 950
+      height: 97
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .288659781
+  - name: cost_fg_big1
+    outer:
+      serializedVersion: 2
+      x: 381
+      y: 69
+      width: 109
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 381
+      y: 69
+      width: 109
+      height: 30
+    rotated: 0
+    paddingLeft: .00917431153
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cost_bg_big1
+    outer:
+      serializedVersion: 2
+      x: 215
+      y: 56
+      width: 109
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 215
+      y: 56
+      width: 109
+      height: 30
+    rotated: 0
+    paddingLeft: .00917431153
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Verdana-Bold-14
+    outer:
+      serializedVersion: 2
+      x: 822
+      y: 736
+      width: 128
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 822
+      y: 736
+      width: 128
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .471264362
+  - name: Verdana-Bold-12
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 106
+      width: 127
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 106
+      width: 127
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00787401572
+    paddingTop: 0
+    paddingBottom: .882352948
+  - name: Panache-Black-14
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 181
+      width: 123
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 181
+      width: 123
+      height: 117
+    rotated: 0
+    paddingLeft: .016260162
+    paddingRight: .024390243
+    paddingTop: .0170940179
+    paddingBottom: .0769230798
+  - name: panache-18b
+    outer:
+      serializedVersion: 2
+      x: 553
+      y: 435
+      width: 249
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 553
+      y: 435
+      width: 249
+      height: 85
+    rotated: 0
+    paddingLeft: .00803212821
+    paddingRight: .0200803205
+    paddingTop: .0235294122
+    paddingBottom: .482352942
+  - name: Billy-Bold-18
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 175
+      width: 128
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 175
+      width: 128
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .142857149
+  - name: Blox-18-25spacing
+    outer:
+      serializedVersion: 2
+      x: 553
+      y: 356
+      width: 251
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 553
+      y: 356
+      width: 251
+      height: 78
+    rotated: 0
+    paddingLeft: .00398406386
+    paddingRight: .0159362555
+    paddingTop: .012820513
+    paddingBottom: .628205121
+  - name: panache-black-15
+    outer:
+      serializedVersion: 2
+      x: 505
+      y: 286
+      width: 250
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 505
+      y: 286
+      width: 250
+      height: 69
+    rotated: 0
+    paddingLeft: .00800000038
+    paddingRight: .0160000008
+    paddingTop: .0289855078
+    paddingBottom: .826086938
+  - name: Blox-18-50spacing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 252
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 288
+      width: 252
+      height: 90
+    rotated: 0
+    paddingLeft: .00793650839
+    paddingRight: .00793650839
+    paddingTop: .0222222228
+    paddingBottom: .400000006
+  - name: flight3_paths
+    outer:
+      serializedVersion: 2
+      x: 129
+      y: 173
+      width: 77
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 129
+      y: 173
+      width: 77
+      height: 114
+    rotated: 0
+    paddingLeft: .285714298
+    paddingRight: .285714298
+    paddingTop: .0263157897
+    paddingBottom: .0175438598
+  - name: flight2_paths
+    outer:
+      serializedVersion: 2
+      x: 756
+      y: 263
+      width: 85
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 756
+      y: 263
+      width: 85
+      height: 92
+    rotated: 0
+    paddingLeft: .211764708
+    paddingRight: .211764708
+    paddingTop: .152173907
+    paddingBottom: .141304344
+  - name: intro_bgG
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 734
+      width: 390
+      height: 290
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 734
+      width: 390
+      height: 290
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: verdana-16
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 299
+      width: 251
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 299
+      width: 251
+      height: 69
+    rotated: 0
+    paddingLeft: .00796812773
+    paddingRight: .0119521916
+    paddingTop: .0289855078
+    paddingBottom: .826086938
+  - name: header_bg2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 619
+      width: 950
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 619
+      width: 950
+      height: 114
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0964912251
+  - name: propellant_idle
+    outer:
+      serializedVersion: 2
+      x: 827
+      y: 195
+      width: 106
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 827
+      y: 195
+      width: 106
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: propellant_hover
+    outer:
+      serializedVersion: 2
+      x: 720
+      y: 216
+      width: 106
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 720
+      y: 216
+      width: 106
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: propellant_done
+    outer:
+      serializedVersion: 2
+      x: 715
+      y: 747
+      width: 106
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 715
+      y: 747
+      width: 106
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: propellant_pressed
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 380
+      width: 106
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 891
+      y: 380
+      width: 106
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0454545468
+    paddingBottom: 0
+  - name: shape_done
+    outer:
+      serializedVersion: 2
+      x: 128
+      y: 85
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 128
+      y: 85
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: control_hover
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 87
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 87
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: stages_hover
+    outer:
+      serializedVersion: 2
+      x: 207
+      y: 132
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 207
+      y: 132
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shape_idle
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 100
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 100
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shape_hover
+    outer:
+      serializedVersion: 2
+      x: 673
+      y: 111
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 673
+      y: 111
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: control_pressed
+    outer:
+      serializedVersion: 2
+      x: 847
+      y: 113
+      width: 86
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 847
+      y: 113
+      width: 86
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0454545468
+    paddingBottom: 0
+  - name: shape_pressed
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 113
+      width: 86
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 934
+      y: 113
+      width: 86
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0454545468
+    paddingBottom: 0
+  - name: control_done
+    outer:
+      serializedVersion: 2
+      x: 499
+      y: 147
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 499
+      y: 147
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: stages_done
+    outer:
+      serializedVersion: 2
+      x: 586
+      y: 147
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 586
+      y: 147
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: stages_pressed
+    outer:
+      serializedVersion: 2
+      x: 760
+      y: 112
+      width: 86
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 760
+      y: 112
+      width: 86
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0222222228
+    paddingBottom: 0
+  - name: stages_idle
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 195
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 934
+      y: 195
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: control_idle
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 134
+      width: 86
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 134
+      width: 86
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cost_bg2
+    outer:
+      serializedVersion: 2
+      x: 731
+      y: 197
+      width: 76
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 731
+      y: 197
+      width: 76
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: risk_fg2
+    outer:
+      serializedVersion: 2
+      x: 381
+      y: 119
+      width: 76
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 381
+      y: 119
+      width: 76
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .142857149
+    paddingBottom: .142857149
+  - name: risk_bg2
+    outer:
+      serializedVersion: 2
+      x: 138
+      y: 70
+      width: 76
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 138
+      y: 70
+      width: 76
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .142857149
+    paddingBottom: .142857149
+  - name: cost_fg2
+    outer:
+      serializedVersion: 2
+      x: 757
+      y: 92
+      width: 76
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 757
+      y: 92
+      width: 76
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: thrust_bg2
+    outer:
+      serializedVersion: 2
+      x: 128
+      y: 143
+      width: 76
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 128
+      y: 143
+      width: 76
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .142857149
+    paddingBottom: .142857149
+  - name: thrust_fg2
+    outer:
+      serializedVersion: 2
+      x: 381
+      y: 104
+      width: 76
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 381
+      y: 104
+      width: 76
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .142857149
+    paddingBottom: .142857149
+  - name: thrust_bg2a
+    outer:
+      serializedVersion: 2
+      x: 128
+      y: 158
+      width: 76
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 128
+      y: 158
+      width: 76
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .142857149
+    paddingBottom: .142857149
+  - name: risk_bg3
+    outer:
+      serializedVersion: 2
+      x: 592
+      y: 69
+      width: 100
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 592
+      y: 69
+      width: 100
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .125
+    paddingBottom: 0
+  - name: risk_fg3
+    outer:
+      serializedVersion: 2
+      x: 491
+      y: 83
+      width: 100
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 491
+      y: 83
+      width: 100
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .125
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

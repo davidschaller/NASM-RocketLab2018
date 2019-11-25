@@ -1,0 +1,149 @@
+<root>
+<v2>
+    <name>
+      <English>V-2</English>
+    </name>
+    <description_title>
+      <English>V-2</English>
+    </description_title>
+    <description>
+      <English>The German V-2 rocket was the world's first large liquid-propellant rocket, the first long-range ballistic missile, and the ancestor of today's large rockets. The V-2 had a maximum range of about 320 km (200 miles).</English>
+    </description>
+    <tooltip>
+      <English>See a V-2 in the "Space Race" exhibit!</English>
+    </tooltip>
+</v2> 
+<jupiter>
+    <name>
+      <English>Jupiter-C</English>
+    </name>
+    <description_title>
+      <English>Jupiter-C</English>
+    </description_title>
+    <description>
+      <English>The Jupiter-C launched the Explorer I, the U.S.'s first artificial satellite, on January 31, 1958. The Jupiter-C is a modified Army Redstone liquid-fuel rocket with solid-fuel upper stages and a slightly more powerful first stage engine.</English>
+    </description>
+  <tooltip>
+    <English>See a Jupiter-C in the "Space Race" exhibit!</English>
+  </tooltip>
+</jupiter>
+<minuteman>
+    <name>
+      <English>Minuteman III</English>
+    </name>
+    <description_title>
+      <English>Minuteman III</English>
+    </description_title>
+    <description>
+      <English>The Minuteman III is an intercontinental-range ballistic missile (ICBM) deployed by the U.S. Air Force in 1970. It is a three-stage, solid-fuel missile with a maximum range of 13,000 km (8,000 miles).</English>
+    </description>
+  <tooltip>
+    <English>See a Minuteman III in the "Space Race" exhibit!</English>
+  </tooltip>
+</minuteman>
+
+<scout>
+    <name>
+      <English>Scout  D</English>
+    </name>
+    <description_title>
+      <English>Scout  D</English>
+    </description_title>
+    <description>
+      <English>The Scout D was a low-cost, all-solid fuel, four-stage U.S. launch vehicle for boosting small payloads into low-Earth orbit. The U.S. launched the first Scout in 1960 and last launched it in 1994.</English>
+    </description>
+  <tooltip>
+    <English>See a Scout D in the "Space Race" exhibit!</English>
+  </tooltip>
+</scout>
+
+<N1-L3>
+    <name>
+      <English>Soviet N1-L3</English>
+    </name>
+    <description_title>
+      <English>Soviet N1-L3</English>
+    </description_title>
+    <description>
+      <English>The Soviet Union developed the N1-L3 or Moon missions. The USSR tested it between 1969 and 1972, but never made it to the Moon. The N1-L3 first stage was notable for being the most powerful rocket stage built, producing 11.3 million pounds of thrust with 30 engines.</English>
+    </description>
+  <tooltip>
+    <English> </English>
+  </tooltip>
+</N1-L3>
+
+<saturn1b>
+    <name>
+      <English>Saturn IB</English>
+    </name>
+    <description_title>
+      <English>Saturn IB</English>
+    </description_title>
+    <description>
+      <English>The U.S. used the Saturn 1B between 1966 and 1975. It was designed to launch unmanned Apollo hardware and the first manned Apollo mission into orbit. Five Saturn 1Bs supported project Apollo, three orbited Skylab crews, and one boosted the Apollo/Soyuz Test Project mission.</English>
+    </description>
+  <tooltip>
+    <English></English>
+  </tooltip>
+</saturn1b>
+
+<ssme>
+    <name>
+      <English>Space Shuttle Main Engines</English>
+    </name>
+    <description_title>
+      <English>Space Shuttle Main Engines</English>
+    </description_title>
+    <description>
+      <English>The space shuttle was the world's first reusable spacecraft and made 135 flights over 30 years. The space shuttle used three liquid-fueled main engines (SSMEs) and two solid rocket boosters (SRBs) to reach low-Earth orbit. The SSMEs produced 1.4 million pounds of thrust and the SRBs generated 3.3 million pounds of thrust.</English>
+    </description>
+  <tooltip>
+    <English>See Space Shuttle Engines in the "Moving Beyond Earth" exhibit!</English>
+  </tooltip>
+</ssme>
+
+<none>
+    <name>
+      <English>No Such Rocket</English>
+    </name>
+    <description_title>
+      <English>No Such Rocket</English>
+    </description_title>
+    <description>
+      <English>Rockets designed to escape Earth's gravity have always been multistage (more than one rocket stage). Staging is used to improve rocket performance by getting rid of dead weight. Staging rockets also helps control the amount of thrust generated. The amount needed at lift-off isn't needed later in flight, so smaller engines are used in upper stages.</English>
+    </description>
+  <tooltip>
+    <English> </English>
+  </tooltip>
+</none>
+
+
+<atlasV>
+    <name>
+      <English>Atlas V</English>
+    </name>
+    <description_title>
+      <English>Atlas V</English>
+    </description_title>
+    <description>
+      <English>The U.S. has used the Atlas V rocket since 2002. The main engine generates 860,000 pounds of thrust. When needed, up to five solid rocket boosters can be added for an additional 380,000 pounds of thrust each. It is capable of carrying a payload of more than 10,000 pounds into Earth orbit and beyond.</English>
+    </description>
+  <tooltip>
+    <English> </English>
+  </tooltip>
+</atlasV>
+<saturnV>
+    <name>
+      <English>Saturn V</English>
+    </name>
+    <description_title>
+      <English>Saturn V</English>
+    </description_title>
+    <description>
+      <English>The U.S. first launched the Saturn V rocket in 1967 and it carried six crews of astronauts to the Moon between 1969 and 1972. It remains one of the most powerful rockets ever designed, generating more than 7.5 million pounds of thrust. It could lift 130 tons into orbit or 50 tons to the Moon. </English>
+    </description>
+  <tooltip>
+    <English>See Saturn V engines in the "Apollo to the Moon" exhibit!</English>
+  </tooltip>
+</saturnV>
+</root>

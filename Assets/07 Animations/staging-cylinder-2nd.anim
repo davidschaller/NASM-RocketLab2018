@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: staging-cylinder-2nd
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: .0357497185, y: -.119709805, z: -.07684879, w: -.00017881392}
+        outSlope: {x: .0357497185, y: -.119709805, z: -.07684879, w: -.00017881392}
+        tangentMode: -559038737
+      - time: .833333194
+        value: {x: .0358302072, y: -.0974920318, z: -.0607604757, w: .992733538}
+        inSlope: {x: .050099466, y: -.113755949, z: -.0684647933, w: -.0171715189}
+        outSlope: {x: .050099466, y: -.113755949, z: -.0684647933, w: -.0171715189}
+        tangentMode: -559038737
+      - time: 1.66666579
+        value: {x: .0829423666, y: -.188867062, z: -.113431074, w: .971896708}
+        inSlope: {x: .0626005828, y: -.105143137, z: -.0575734489, w: -.0324940979}
+        outSlope: {x: .0626005828, y: -.105143137, z: -.0575734489, w: -.0324940979}
+        tangentMode: -559038737
+      - time: 2.49999833
+        value: {x: .139498919, y: -.272124738, z: -.156164065, w: .939202309}
+        inSlope: {x: .0727080479, y: -.0943512619, z: -.0446954779, w: -.0455707759}
+        outSlope: {x: .0727080479, y: -.0943512619, z: -.0446954779, w: -.0455707759}
+        tangentMode: -559038737
+      - time: 3.33333087
+        value: {x: .203376532, y: -.345658571, z: -.1875135, w: .896658659}
+        inSlope: {x: .0801310688, y: -.0818923861, z: -.0303429663, w: -.0560904071}
+        outSlope: {x: .0801310688, y: -.0818923861, z: -.0303429663, w: -.0560904071}
+        tangentMode: -559038737
+      - time: 4.14999866
+        value: {x: .270840317, y: -.407158375, z: -.206223622, w: .847549081}
+        inSlope: {x: .0846163034, y: -.068582274, z: -.0153737701, w: -.0637284368}
+        outSlope: {x: .0846163034, y: -.068582274, z: -.0153737701, w: -.0637284368}
+        tangentMode: -559038737
+      - time: 4.96667624
+        value: {x: .340812385, y: -.457524002, z: -.212529957, w: .79331553}
+        inSlope: {x: .0862676278, y: -.0547154397, z: -5.54315775e-05, w: -.0686296597}
+        outSlope: {x: .0862676278, y: -.0547154397, z: -5.54315775e-05, w: -.0686296597}
+        tangentMode: -559038737
+      - time: 5.78335381
+        value: {x: .410981476, y: -.496516943, z: -.206363261, w: .736192405}
+        inSlope: {x: .0851125121, y: -.040818207, z: .0150827542, w: -.0708147362}
+        outSlope: {x: .0851125121, y: -.040818207, z: .0150827542, w: -.0708147362}
+        tangentMode: -559038737
+      - time: 6.60003138
+        value: {x: .479100585, y: -.524322867, z: -.188082978, w: .678360522}
+        inSlope: {x: .0812769979, y: -.0273975059, z: .0295271501, w: -.0703927428}
+        outSlope: {x: .0812769979, y: -.0273975059, z: .0295271501, w: -.0703927428}
+        tangentMode: -559038737
+      - time: 7.41670895
+        value: {x: .543064892, y: -.541526794, z: -.1584519, w: .621869802}
+        inSlope: {x: .0749810487, y: -.0149271879, z: .042805247, w: -.0675728843}
+        outSlope: {x: .0749810487, y: -.0149271879, z: .042805247, w: -.0675728843}
+        tangentMode: -559038737
+      - time: 8.23337936
+        value: {x: .600982785, y: -.549075305, z: -.118597448, w: .568568945}
+        inSlope: {x: .0665269494, y: -.00381773571, z: .0545028746, w: -.0626394749}
+        outSlope: {x: .0665269494, y: -.00381773571, z: .0545028746, w: -.0626394749}
+        tangentMode: -559038737
+      - time: 9.06669998
+        value: {x: .652174532, y: -.548130274, z: -.0688872486, w: .519110918}
+        inSlope: {x: .0560626015, y: .00576504925, z: .0644423962, w: -.055792585}
+        outSlope: {x: .0560626015, y: .00576504925, z: .0644423962, w: -.055792585}
+        tangentMode: -559038737
+      - time: 9.9000206
+        value: {x: .694024801, y: -.54004252, z: -.0118294954, w: .475966156}
+        inSlope: {x: .0441873819, y: .0132914428, z: .0720953047, w: -.0475598648}
+        outSlope: {x: .0441873819, y: .0132914428, z: .0720953047, w: -.0475598648}
+        tangentMode: -559038737
+      - time: 10.7333412
+        value: {x: .725562811, y: -.526606381, z: .0505841672, w: .440097272}
+        inSlope: {x: .031391263, y: .0185772628, z: .0772778541, w: -.0384160802}
+        outSlope: {x: .031391263, y: .0185772628, z: .0772778541, w: -.0384160802}
+        tangentMode: -559038737
+      - time: 11
+        value: {x: .733375013, y: -.52148664, z: .0713451803, w: .430258632}
+        inSlope: {x: .0273222867, y: .0197566114, z: .0783476755, w: -.0354567319}
+        outSlope: {x: .0273222867, y: .0197566114, z: .0783476755, w: -.0354567319}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 467.891602, y: 62.7108154, z: 749.8927}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: 
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.15303339e-14, y: 1.11022302e-16, z: .654215991}
+        inSlope: {x: -.0298054162, y: .741372466, z: -11.0956306}
+        outSlope: {x: -.0298054162, y: .741372466, z: -11.0956306}
+        tangentMode: -559038737
+      - time: 1
+        value: {x: -.0298054162, y: .741372466, z: -10.4414148}
+        inSlope: {x: -.0284170154, y: 3.69363999, z: -10.5778351}
+        outSlope: {x: -.0284170154, y: 3.69363999, z: -10.5778351}
+        tangentMode: -559038737
+      - time: 11
+        value: {x: -.300091565, y: 67.2004471, z: -111.041801}
+        inSlope: {x: -.0270286147, y: 6.6459074, z: -10.0600386}
+        outSlope: {x: -.0270286147, y: 6.6459074, z: -10.0600386}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 467.891602
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 62.7108154
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 749.8927
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -3.15303339e-14
+        inSlope: -.0298054162
+        outSlope: -.0298054162
+        tangentMode: 10
+      - time: 1
+        value: -.0298054162
+        inSlope: -.0284170154
+        outSlope: -.0284170154
+        tangentMode: 10
+      - time: 11
+        value: -.300091565
+        inSlope: -.0270286147
+        outSlope: -.0270286147
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.11022302e-16
+        inSlope: .741372466
+        outSlope: .741372466
+        tangentMode: 10
+      - time: 1
+        value: .741372466
+        inSlope: 3.69363999
+        outSlope: 3.69363999
+        tangentMode: 10
+      - time: 11
+        value: 67.2004471
+        inSlope: 6.6459074
+        outSlope: 6.6459074
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .654215991
+        inSlope: -11.0956306
+        outSlope: -11.0956306
+        tangentMode: 10
+      - time: 1
+        value: -10.4414148
+        inSlope: -10.5778351
+        outSlope: -10.5778351
+        tangentMode: 10
+      - time: 11
+        value: -111.041801
+        inSlope: -10.0600386
+        outSlope: -10.0600386
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: .0357497185
+        outSlope: .0357497185
+        tangentMode: 0
+      - time: .833333194
+        value: .0358302072
+        inSlope: .050099466
+        outSlope: .050099466
+        tangentMode: 0
+      - time: 1.66666579
+        value: .0829423666
+        inSlope: .0626005828
+        outSlope: .0626005828
+        tangentMode: 0
+      - time: 2.49999833
+        value: .139498919
+        inSlope: .0727080479
+        outSlope: .0727080479
+        tangentMode: 0
+      - time: 3.33333087
+        value: .203376532
+        inSlope: .0801310688
+        outSlope: .0801310688
+        tangentMode: 0
+      - time: 4.14999866
+        value: .270840317
+        inSlope: .0846163034
+        outSlope: .0846163034
+        tangentMode: 0
+      - time: 4.96667624
+        value: .340812385
+        inSlope: .0862676278
+        outSlope: .0862676278
+        tangentMode: 0
+      - time: 5.78335381
+        value: .410981476
+        inSlope: .0851125121
+        outSlope: .0851125121
+        tangentMode: 0
+      - time: 6.60003138
+        value: .479100585
+        inSlope: .0812769979
+        outSlope: .0812769979
+        tangentMode: 0
+      - time: 7.41670895
+        value: .543064892
+        inSlope: .0749810487
+        outSlope: .0749810487
+        tangentMode: 0
+      - time: 8.23337936
+        value: .600982785
+        inSlope: .0665269494
+        outSlope: .0665269494
+        tangentMode: 0
+      - time: 9.06669998
+        value: .652174532
+        inSlope: .0560626015
+        outSlope: .0560626015
+        tangentMode: 0
+      - time: 9.9000206
+        value: .694024801
+        inSlope: .0441873819
+        outSlope: .0441873819
+        tangentMode: 0
+      - time: 10.7333412
+        value: .725562811
+        inSlope: .031391263
+        outSlope: .031391263
+        tangentMode: 0
+      - time: 11
+        value: .733375013
+        inSlope: .0273222867
+        outSlope: .0273222867
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -.119709805
+        outSlope: -.119709805
+        tangentMode: 0
+      - time: .833333194
+        value: -.0974920318
+        inSlope: -.113755949
+        outSlope: -.113755949
+        tangentMode: 0
+      - time: 1.66666579
+        value: -.188867062
+        inSlope: -.105143137
+        outSlope: -.105143137
+        tangentMode: 0
+      - time: 2.49999833
+        value: -.272124738
+        inSlope: -.0943512619
+        outSlope: -.0943512619
+        tangentMode: 0
+      - time: 3.33333087
+        value: -.345658571
+        inSlope: -.0818923861
+        outSlope: -.0818923861
+        tangentMode: 0
+      - time: 4.14999866
+        value: -.407158375
+        inSlope: -.068582274
+        outSlope: -.068582274
+        tangentMode: 0
+      - time: 4.96667624
+        value: -.457524002
+        inSlope: -.0547154397
+        outSlope: -.0547154397
+        tangentMode: 0
+      - time: 5.78335381
+        value: -.496516943
+        inSlope: -.040818207
+        outSlope: -.040818207
+        tangentMode: 0
+      - time: 6.60003138
+        value: -.524322867
+        inSlope: -.0273975059
+        outSlope: -.0273975059
+        tangentMode: 0
+      - time: 7.41670895
+        value: -.541526794
+        inSlope: -.0149271879
+        outSlope: -.0149271879
+        tangentMode: 0
+      - time: 8.23337936
+        value: -.549075305
+        inSlope: -.00381773571
+        outSlope: -.00381773571
+        tangentMode: 0
+      - time: 9.06669998
+        value: -.548130274
+        inSlope: .00576504925
+        outSlope: .00576504925
+        tangentMode: 0
+      - time: 9.9000206
+        value: -.54004252
+        inSlope: .0132914428
+        outSlope: .0132914428
+        tangentMode: 0
+      - time: 10.7333412
+        value: -.526606381
+        inSlope: .0185772628
+        outSlope: .0185772628
+        tangentMode: 0
+      - time: 11
+        value: -.52148664
+        inSlope: .0197566114
+        outSlope: .0197566114
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -.07684879
+        outSlope: -.07684879
+        tangentMode: 0
+      - time: .833333194
+        value: -.0607604757
+        inSlope: -.0684647933
+        outSlope: -.0684647933
+        tangentMode: 0
+      - time: 1.66666579
+        value: -.113431074
+        inSlope: -.0575734489
+        outSlope: -.0575734489
+        tangentMode: 0
+      - time: 2.49999833
+        value: -.156164065
+        inSlope: -.0446954779
+        outSlope: -.0446954779
+        tangentMode: 0
+      - time: 3.33333087
+        value: -.1875135
+        inSlope: -.0303429663
+        outSlope: -.0303429663
+        tangentMode: 0
+      - time: 4.14999866
+        value: -.206223622
+        inSlope: -.0153737701
+        outSlope: -.0153737701
+        tangentMode: 0
+      - time: 4.96667624
+        value: -.212529957
+        inSlope: -5.54315775e-05
+        outSlope: -5.54315775e-05
+        tangentMode: 0
+      - time: 5.78335381
+        value: -.206363261
+        inSlope: .0150827542
+        outSlope: .0150827542
+        tangentMode: 0
+      - time: 6.60003138
+        value: -.188082978
+        inSlope: .0295271501
+        outSlope: .0295271501
+        tangentMode: 0
+      - time: 7.41670895
+        value: -.1584519
+        inSlope: .042805247
+        outSlope: .042805247
+        tangentMode: 0
+      - time: 8.23337936
+        value: -.118597448
+        inSlope: .0545028746
+        outSlope: .0545028746
+        tangentMode: 0
+      - time: 9.06669998
+        value: -.0688872486
+        inSlope: .0644423962
+        outSlope: .0644423962
+        tangentMode: 0
+      - time: 9.9000206
+        value: -.0118294954
+        inSlope: .0720953047
+        outSlope: .0720953047
+        tangentMode: 0
+      - time: 10.7333412
+        value: .0505841672
+        inSlope: .0772778541
+        outSlope: .0772778541
+        tangentMode: 0
+      - time: 11
+        value: .0713451803
+        inSlope: .0783476755
+        outSlope: .0783476755
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -.00017881392
+        outSlope: -.00017881392
+        tangentMode: 0
+      - time: .833333194
+        value: .992733538
+        inSlope: -.0171715189
+        outSlope: -.0171715189
+        tangentMode: 0
+      - time: 1.66666579
+        value: .971896708
+        inSlope: -.0324940979
+        outSlope: -.0324940979
+        tangentMode: 0
+      - time: 2.49999833
+        value: .939202309
+        inSlope: -.0455707759
+        outSlope: -.0455707759
+        tangentMode: 0
+      - time: 3.33333087
+        value: .896658659
+        inSlope: -.0560904071
+        outSlope: -.0560904071
+        tangentMode: 0
+      - time: 4.14999866
+        value: .847549081
+        inSlope: -.0637284368
+        outSlope: -.0637284368
+        tangentMode: 0
+      - time: 4.96667624
+        value: .79331553
+        inSlope: -.0686296597
+        outSlope: -.0686296597
+        tangentMode: 0
+      - time: 5.78335381
+        value: .736192405
+        inSlope: -.0708147362
+        outSlope: -.0708147362
+        tangentMode: 0
+      - time: 6.60003138
+        value: .678360522
+        inSlope: -.0703927428
+        outSlope: -.0703927428
+        tangentMode: 0
+      - time: 7.41670895
+        value: .621869802
+        inSlope: -.0675728843
+        outSlope: -.0675728843
+        tangentMode: 0
+      - time: 8.23337936
+        value: .568568945
+        inSlope: -.0626394749
+        outSlope: -.0626394749
+        tangentMode: 0
+      - time: 9.06669998
+        value: .519110918
+        inSlope: -.055792585
+        outSlope: -.055792585
+        tangentMode: 0
+      - time: 9.9000206
+        value: .475966156
+        inSlope: -.0475598648
+        outSlope: -.0475598648
+        tangentMode: 0
+      - time: 10.7333412
+        value: .440097272
+        inSlope: -.0384160802
+        outSlope: -.0384160802
+        tangentMode: 0
+      - time: 11
+        value: .430258632
+        inSlope: -.0354567319
+        outSlope: -.0354567319
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 4.07903481
+        outSlope: 4.07903481
+        tangentMode: 10
+      - time: 11
+        value: 44.8693848
+        inSlope: 4.07903481
+        outSlope: 4.07903481
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -13.7229853
+        outSlope: -13.7229853
+        tangentMode: 10
+      - time: 11
+        value: -150.952835
+        inSlope: -13.7229853
+        outSlope: -13.7229853
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -8.81438541
+        outSlope: -8.81438541
+        tangentMode: 10
+      - time: 11
+        value: -96.9582443
+        inSlope: -8.81438541
+        outSlope: -8.81438541
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: All Rockets Prefab/Cylinder_Rocket_Stage2/CRS_2_B
+    classID: 4
+    script: {fileID: 0}
+  m_Events: []

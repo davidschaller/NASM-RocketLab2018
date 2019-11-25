@@ -1,0 +1,686 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: header_shortBU
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: 0abfb79a88fb94ea2a0e9bee2d182212, type: 2}
+  sprites:
+  - name: short_bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 928
+      width: 950
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 928
+      width: 950
+      height: 96
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: home_idle
+    outer:
+      serializedVersion: 2
+      x: 661
+      y: 907
+      width: 70
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 661
+      y: 907
+      width: 70
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Home
+    outer:
+      serializedVersion: 2
+      x: 732
+      y: 887
+      width: 41
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 732
+      y: 887
+      width: 41
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: home_hover
+    outer:
+      serializedVersion: 2
+      x: 463
+      y: 886
+      width: 70
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 463
+      y: 886
+      width: 70
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gallery_idle
+    outer:
+      serializedVersion: 2
+      x: 269
+      y: 891
+      width: 100
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 269
+      y: 891
+      width: 100
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Spaceport Gallery
+    outer:
+      serializedVersion: 2
+      x: 585
+      y: 901
+      width: 75
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 585
+      y: 901
+      width: 75
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gallery_hover
+    outer:
+      serializedVersion: 2
+      x: 168
+      y: 891
+      width: 100
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 168
+      y: 891
+      width: 100
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: budget_bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 811
+      width: 43
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 811
+      width: 43
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: budget_fg
+    outer:
+      serializedVersion: 2
+      x: 951
+      y: 951
+      width: 43
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 951
+      y: 951
+      width: 43
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WAY OVER
+    outer:
+      serializedVersion: 2
+      x: 732
+      y: 897
+      width: 45
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 732
+      y: 897
+      width: 45
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Budget
+    outer:
+      serializedVersion: 2
+      x: 778
+      y: 892
+      width: 50
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 778
+      y: 892
+      width: 50
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cost_short_bg
+    outer:
+      serializedVersion: 2
+      x: 835
+      y: 894
+      width: 50
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 835
+      y: 894
+      width: 50
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cost_short_fg
+    outer:
+      serializedVersion: 2
+      x: 835
+      y: 906
+      width: 50
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 835
+      y: 906
+      width: 50
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Cost
+    outer:
+      serializedVersion: 2
+      x: 961
+      y: 918
+      width: 34
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 961
+      y: 918
+      width: 34
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TW
+    outer:
+      serializedVersion: 2
+      x: 886
+      y: 891
+      width: 34
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 886
+      y: 891
+      width: 34
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 5.3 Ratio
+    outer:
+      serializedVersion: 2
+      x: 661
+      y: 885
+      width: 61
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 661
+      y: 885
+      width: 61
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: risk_short_bg
+    outer:
+      serializedVersion: 2
+      x: 585
+      y: 886
+      width: 59
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 585
+      y: 886
+      width: 59
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: risk_short_fg
+    outer:
+      serializedVersion: 2
+      x: 370
+      y: 885
+      width: 57
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 885
+      width: 57
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Risk
+    outer:
+      serializedVersion: 2
+      x: 927
+      y: 907
+      width: 33
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 927
+      y: 907
+      width: 33
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: altitude_short
+    outer:
+      serializedVersion: 2
+      x: 835
+      y: 918
+      width: 125
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 835
+      y: 918
+      width: 125
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ballistic_short
+    outer:
+      serializedVersion: 2
+      x: 370
+      y: 894
+      width: 92
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 894
+      width: 92
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission1
+    outer:
+      serializedVersion: 2
+      x: 44
+      y: 833
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 44
+      y: 833
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: success_bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 663
+      width: 42
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 663
+      width: 42
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: success_fg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 737
+      width: 42
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 737
+      width: 42
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 60
+    outer:
+      serializedVersion: 2
+      x: 886
+      y: 904
+      width: 40
+      height: 13
+    inner:
+      serializedVersion: 2
+      x: 886
+      y: 904
+      width: 40
+      height: 13
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Success Rate
+    outer:
+      serializedVersion: 2
+      x: 778
+      y: 905
+      width: 56
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 778
+      y: 905
+      width: 56
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: missions_bg
+    outer:
+      serializedVersion: 2
+      x: 463
+      y: 907
+      width: 121
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 463
+      y: 907
+      width: 121
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission_idle
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 886
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 886
+      width: 30
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission_hover
+    outer:
+      serializedVersion: 2
+      x: 951
+      y: 930
+      width: 30
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 951
+      y: 930
+      width: 30
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Missions
+    outer:
+      serializedVersion: 2
+      x: 661
+      y: 896
+      width: 61
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 661
+      y: 896
+      width: 61
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 1
+    outer:
+      serializedVersion: 2
+      x: 1005
+      y: 1015
+      width: 6
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 1005
+      y: 1015
+      width: 6
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 1015
+      width: 9
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 1015
+      width: 9
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3
+    outer:
+      serializedVersion: 2
+      x: 982
+      y: 931
+      width: 10
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 982
+      y: 931
+      width: 10
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4
+    outer:
+      serializedVersion: 2
+      x: 982
+      y: 941
+      width: 11
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 982
+      y: 941
+      width: 11
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Rocket Lab
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 885
+      width: 167
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 885
+      width: 167
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

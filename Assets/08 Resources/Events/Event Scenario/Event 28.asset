@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35497bbdee304283bf732a9bec9ffaf, type: 3}
+  m_Name: Event 28
+  startEvent: 0
+  nickname: event
+  exitEvents:
+  - {fileID: 11400000, guid: 2646ba33ddb714b56ba57c8379795fe1, type: 2}
+  - {fileID: 11400000, guid: bc6c103fc78814ccbbfc6ff68c490c45, type: 2}
+  - {fileID: 11400000, guid: 18cae7787f7f6410c80db610997f723d, type: 2}
+  - {fileID: 11400000, guid: 4317fa119afc54a3eb0e9063fb826cc0, type: 2}
+  editorPosition:
+    serializedVersion: 2
+    x: 37
+    y: 343
+    width: 50
+    height: 50
+  selectedEventRect:
+    serializedVersion: 2
+    x: 32
+    y: 338
+    width: 60
+    height: 60
+  connectorRect:
+    serializedVersion: 2
+    x: 77
+    y: 383
+    width: 10
+    height: 10
+  dragging: 0
+  draggingConnector: 0
+  isDirty: 0
