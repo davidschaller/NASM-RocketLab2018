@@ -1,0 +1,1464 @@
+fileFormatVersion: 2
+guid: 1aeb28ec59f24493ab0cd01c08611ac4
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Base_RocketCone
+    100004: Base_RocketCone 1
+    100006: Base_RocketCone 2
+    100008: Base_RocketCone 3
+    100010: Base_RocketCone 4
+    100012: Base_RocketCone 5
+    100014: Base_RocketCone 6
+    100016: Base_RocketCone 7
+    100018: Base_RocketCone 8
+    100020: Control_Fin_TypeA_1
+    100022: Control_Fin_TypeA_10
+    100024: Control_Fin_TypeA_11
+    100026: Control_Fin_TypeA_12
+    100028: Control_Fin_TypeA_13
+    100030: Control_Fin_TypeA_14
+    100032: Control_Fin_TypeA_15
+    100034: Control_Fin_TypeA_16
+    100036: Control_Fin_TypeA_17
+    100038: Control_Fin_TypeA_18
+    100040: Control_Fin_TypeA_19
+    100042: Control_Fin_TypeA_2
+    100044: Control_Fin_TypeA_20
+    100046: Control_Fin_TypeA_21
+    100048: Control_Fin_TypeA_22
+    100050: Control_Fin_TypeA_23
+    100052: Control_Fin_TypeA_24
+    100054: Control_Fin_TypeA_3
+    100056: Control_Fin_TypeA_4
+    100058: Control_Fin_TypeA_5
+    100060: Control_Fin_TypeA_6
+    100062: Control_Fin_TypeA_7
+    100064: Control_Fin_TypeA_8
+    100066: Control_Fin_TypeA_9
+    100068: Control_Fin_TypeB_1
+    100070: Control_Fin_TypeB_2
+    100072: Control_Fin_TypeB_3
+    100074: Control_Fin_TypeB_4
+    100076: Control_Fin_TypeB_5
+    100078: Control_Fin_TypeB_6
+    100080: Control_Fin_TypeB_7
+    100082: Control_Fin_TypeB_8
+    100084: Control_Fin_TypeB_9
+    100086: Control_Systems
+    100088: Control_Systems 1
+    100090: Control_Systems 2
+    100092: Control_Systems 3
+    100094: Control_Systems 4
+    100096: Control_Systems 5
+    100098: Control_Systems 6
+    100100: Control_Systems 7
+    100102: Control_Systems 8
+    100104: Control_Vane_TypeA_1
+    100106: Control_Vane_TypeA_10
+    100108: Control_Vane_TypeA_11
+    100110: Control_Vane_TypeA_12
+    100112: Control_Vane_TypeA_13
+    100114: Control_Vane_TypeA_14
+    100116: Control_Vane_TypeA_15
+    100118: Control_Vane_TypeA_16
+    100120: Control_Vane_TypeA_18
+    100122: Control_Vane_TypeA_2
+    100124: Control_Vane_TypeA_21
+    100126: Control_Vane_TypeA_22
+    100128: Control_Vane_TypeA_23
+    100130: Control_Vane_TypeA_24
+    100132: Control_Vane_TypeA_3
+    100134: Control_Vane_TypeA_4
+    100136: Control_Vane_TypeA_5
+    100138: Control_Vane_TypeA_6
+    100140: Control_Vane_TypeA_7
+    100142: Control_Vane_TypeA_8
+    100144: Control_Vane_TypeA_9
+    100146: Control_Vane_TypeB_1
+    100148: Control_Vane_TypeB_10
+    100150: Control_Vane_TypeB_11
+    100152: Control_Vane_TypeB_12
+    100154: Control_Vane_TypeB_13
+    100156: Control_Vane_TypeB_3
+    100158: Control_Vane_TypeB_4
+    100160: Control_Vane_TypeB_5
+    100162: Control_Vane_TypeB_6
+    100164: Control_Vane_TypeB_7
+    100166: Control_Vane_TypeB_8
+    100168: Control_Vane_TypeB_9
+    100170: ControlvaneA_1
+    100172: ControlvaneA_1 1
+    100174: ControlvaneA_1 10
+    100176: ControlvaneA_1 11
+    100178: ControlvaneA_1 12
+    100180: ControlvaneA_1 13
+    100182: ControlvaneA_1 14
+    100184: ControlvaneA_1 15
+    100186: ControlvaneA_1 16
+    100188: ControlvaneA_1 17
+    100190: ControlvaneA_1 18
+    100192: ControlvaneA_1 19
+    100194: ControlvaneA_1 2
+    100196: ControlvaneA_1 20
+    100198: ControlvaneA_1 3
+    100200: ControlvaneA_1 4
+    100202: ControlvaneA_1 5
+    100204: ControlvaneA_1 6
+    100206: ControlvaneA_1 7
+    100208: ControlvaneA_1 8
+    100210: ControlvaneA_1 9
+    100212: ControlvaneB_1
+    100214: ControlvaneB_1 1
+    100216: ControlvaneB_1 10
+    100218: ControlvaneB_1 11
+    100220: ControlvaneB_1 2
+    100222: ControlvaneB_1 3
+    100224: ControlvaneB_1 4
+    100226: ControlvaneB_1 5
+    100228: ControlvaneB_1 6
+    100230: ControlvaneB_1 7
+    100232: ControlvaneB_1 8
+    100234: ControlvaneB_1 9
+    100236: ControlvanemountA_1
+    100238: ControlvanemountA_1 1
+    100240: ControlvanemountA_1 10
+    100242: ControlvanemountA_1 11
+    100244: ControlvanemountA_1 12
+    100246: ControlvanemountA_1 13
+    100248: ControlvanemountA_1 14
+    100250: ControlvanemountA_1 15
+    100252: ControlvanemountA_1 16
+    100254: ControlvanemountA_1 17
+    100256: ControlvanemountA_1 18
+    100258: ControlvanemountA_1 19
+    100260: ControlvanemountA_1 2
+    100262: ControlvanemountA_1 20
+    100264: ControlvanemountA_1 3
+    100266: ControlvanemountA_1 4
+    100268: ControlvanemountA_1 5
+    100270: ControlvanemountA_1 6
+    100272: ControlvanemountA_1 7
+    100274: ControlvanemountA_1 8
+    100276: ControlvanemountA_1 9
+    100278: ControlvanemountB_1
+    100280: ControlvanemountB_1 1
+    100282: ControlvanemountB_1 10
+    100284: ControlvanemountB_1 11
+    100286: ControlvanemountB_1 2
+    100288: ControlvanemountB_1 3
+    100290: ControlvanemountB_1 4
+    100292: ControlvanemountB_1 5
+    100294: ControlvanemountB_1 6
+    100296: ControlvanemountB_1 7
+    100298: ControlvanemountB_1 8
+    100300: ControlvanemountB_1 9
+    100302: CRS_1
+    100304: CRS_2_A
+    100306: CRS_2_B
+    100308: CRS_3_A
+    100310: CRS_3_B
+    100312: CRS_3_C
+    100314: Cylinder_Rocket_Stage1
+    100316: Cylinder_Rocket_Stage2
+    100318: Cylinder_Rocket_Stage3
+    100320: Fins
+    100322: Fins 1
+    100324: Fins 2
+    100326: Fins 3
+    100328: Fins 4
+    100330: Fins 5
+    100332: Fins 6
+    100334: Fins 7
+    100336: Flared_Rocket_Stage1
+    100338: Flared_Rocket_Stage2
+    100340: Flared_Rocket_Stage3
+    100342: FRS_1
+    100344: FRS_2_A
+    100346: FRS_2_B
+    100348: FRS_3_A
+    100350: FRS_3_B
+    100352: FRS_3_C
+    100354: Gimbal_Rocket
+    100356: Gimbal_Rocket1
+    100358: Gimbal_Rocket10
+    100360: Gimbal_Rocket11
+    100362: Gimbal_Rocket12
+    100364: Gimbal_Rocket13
+    100366: Gimbal_Rocket14
+    100368: Gimbal_Rocket15
+    100370: Gimbal_Rocket18
+    100372: Gimbal_Rocket19
+    100374: Gimbal_Rocket2
+    100376: Gimbal_Rocket20
+    100378: Gimbal_Rocket21
+    100380: Gimbal_Rocket22
+    100382: Gimbal_Rocket23
+    100384: Gimbal_Rocket24
+    100386: Gimbal_Rocket25
+    100388: Gimbal_Rocket26
+    100390: Gimbal_Rocket27
+    100392: Gimbal_Rocket28
+    100394: Gimbal_Rocket29
+    100396: Gimbal_Rocket3
+    100398: Gimbal_Rocket30
+    100400: Gimbal_Rocket31
+    100402: Gimbal_Rocket32
+    100404: Gimbal_Rocket4
+    100406: Gimbal_Rocket5
+    100408: Gimbal_Rocket6
+    100410: Gimbal_Rocket7
+    100412: Gimbal_Rocket8
+    100414: Gimbal_Rocket9
+    100416: Gimbals
+    100418: Gimbals 1
+    100420: Gimbals 2
+    100422: Gimbals 3
+    100424: Gimbals 4
+    100426: Gimbals 5
+    100428: Gimbals 6
+    100430: Gimbals 7
+    100432: Interior_Geo
+    100434: Interior_Geo 1
+    100436: Interior_Geo 2
+    100438: Interior_Geo 3
+    100440: Interior_Geo 4
+    100442: Interior_Geo 5
+    100444: Interior_Geo 6
+    100446: Interior_Geo 7
+    100448: Interior_Hull
+    100450: Interior_Hull 1
+    100452: Interior_Hull 2
+    100454: Interior_Hull 3
+    100456: Interior_Hull 4
+    100458: Interior_Hull 5
+    100460: Interior_Hull 6
+    100462: Interior_Hull 7
+    100464: Interior_Hull 8
+    100466: Internal_Geo
+    100468: LiquidFuel_System
+    100470: LiquidFuel_System 1
+    100472: LiquidFuel_System 2
+    100474: LiquidFuel_System 3
+    100476: LiquidFuel_System 4
+    100478: LiquidFuel_System 5
+    100480: LiquidFuel_System 6
+    100482: LiquidFuel_System 7
+    100484: LiquidFuel_System 8
+    100486: pCube4
+    100488: pCube4 1
+    100490: pCube4 2
+    100492: pCube4 3
+    100494: pCube4 4
+    100496: pCube4 5
+    100498: pCube4 6
+    100500: pCube4 7
+    100502: pCube4 8
+    100504: pCylinder78
+    100506: pCylinder79
+    100508: pCylinder80
+    100510: pCylinder81
+    100512: polySurface1001
+    100514: polySurface1001 1
+    100516: polySurface1001 2
+    100518: polySurface1001 3
+    100520: polySurface1001 4
+    100522: polySurface1001 5
+    100524: polySurface1001 6
+    100526: polySurface1001 7
+    100528: polySurface1001 8
+    100530: polySurface1029
+    100532: polySurface1030
+    100534: polySurface1031
+    100536: polySurface866
+    100538: polySurface868
+    100540: polySurface996
+    100542: polySurface996 1
+    100544: polySurface996 10
+    100546: polySurface996 11
+    100548: polySurface996 12
+    100550: polySurface996 13
+    100552: polySurface996 14
+    100554: polySurface996 15
+    100556: polySurface996 16
+    100558: polySurface996 17
+    100560: polySurface996 18
+    100562: polySurface996 19
+    100564: polySurface996 2
+    100566: polySurface996 20
+    100568: polySurface996 21
+    100570: polySurface996 22
+    100572: polySurface996 23
+    100574: polySurface996 3
+    100576: polySurface996 4
+    100578: polySurface996 5
+    100580: polySurface996 6
+    100582: polySurface996 7
+    100584: polySurface996 8
+    100586: polySurface996 9
+    100588: polySurface998
+    100590: polySurface998 1
+    100592: polySurface998 10
+    100594: polySurface998 11
+    100596: polySurface998 12
+    100598: polySurface998 13
+    100600: polySurface998 14
+    100602: polySurface998 15
+    100604: polySurface998 16
+    100606: polySurface998 17
+    100608: polySurface998 18
+    100610: polySurface998 19
+    100612: polySurface998 2
+    100614: polySurface998 20
+    100616: polySurface998 21
+    100618: polySurface998 22
+    100620: polySurface998 23
+    100622: polySurface998 3
+    100624: polySurface998 4
+    100626: polySurface998 5
+    100628: polySurface998 6
+    100630: polySurface998 7
+    100632: polySurface998 8
+    100634: polySurface998 9
+    100636: Remove_OuterPanel
+    100638: Remove_Outerpanel
+    100640: Remove_Outerpanel 1
+    100642: Remove_Outerpanel 2
+    100644: Remove_Outerpanel 3
+    100646: Remove_Outerpanel 4
+    100648: Remove_Outerpanel 5
+    100650: Remove_Outerpanel 6
+    100652: Remove_Outerpanel 7
+    100654: Retro_Rocket_Stage1
+    100656: Retro_Rocket_Stage2
+    100658: Retro_Rocket_Stage3
+    100660: RRS_1
+    100662: RRS_2_A
+    100664: RRS_2_B
+    100666: RRS_3_A
+    100668: RRS_3_B
+    100670: RRS_3_C
+    100672: SolidFuel_System
+    100674: SolidFuel_System 1
+    100676: SolidFuel_System 2
+    100678: SolidFuel_System 3
+    100680: SolidFuel_System 4
+    100682: SolidFuel_System 5
+    100684: SolidFuel_System 6
+    100686: SolidFuel_System 7
+    100688: SolidFuel_System 8
+    100690: Vanes
+    100692: Vanes 1
+    100694: Vanes 2
+    100696: Vanes 3
+    100698: Vanes 4
+    100700: Vanes 5
+    100702: Vanes 6
+    100704: Vanes 7
+    400000: //RootNode
+    400002: Base_RocketCone
+    400004: Base_RocketCone 1
+    400006: Base_RocketCone 2
+    400008: Base_RocketCone 3
+    400010: Base_RocketCone 4
+    400012: Base_RocketCone 5
+    400014: Base_RocketCone 6
+    400016: Base_RocketCone 7
+    400018: Base_RocketCone 8
+    400020: Control_Fin_TypeA_1
+    400022: Control_Fin_TypeA_10
+    400024: Control_Fin_TypeA_11
+    400026: Control_Fin_TypeA_12
+    400028: Control_Fin_TypeA_13
+    400030: Control_Fin_TypeA_14
+    400032: Control_Fin_TypeA_15
+    400034: Control_Fin_TypeA_16
+    400036: Control_Fin_TypeA_17
+    400038: Control_Fin_TypeA_18
+    400040: Control_Fin_TypeA_19
+    400042: Control_Fin_TypeA_2
+    400044: Control_Fin_TypeA_20
+    400046: Control_Fin_TypeA_21
+    400048: Control_Fin_TypeA_22
+    400050: Control_Fin_TypeA_23
+    400052: Control_Fin_TypeA_24
+    400054: Control_Fin_TypeA_3
+    400056: Control_Fin_TypeA_4
+    400058: Control_Fin_TypeA_5
+    400060: Control_Fin_TypeA_6
+    400062: Control_Fin_TypeA_7
+    400064: Control_Fin_TypeA_8
+    400066: Control_Fin_TypeA_9
+    400068: Control_Fin_TypeB_1
+    400070: Control_Fin_TypeB_2
+    400072: Control_Fin_TypeB_3
+    400074: Control_Fin_TypeB_4
+    400076: Control_Fin_TypeB_5
+    400078: Control_Fin_TypeB_6
+    400080: Control_Fin_TypeB_7
+    400082: Control_Fin_TypeB_8
+    400084: Control_Fin_TypeB_9
+    400086: Control_Systems
+    400088: Control_Systems 1
+    400090: Control_Systems 2
+    400092: Control_Systems 3
+    400094: Control_Systems 4
+    400096: Control_Systems 5
+    400098: Control_Systems 6
+    400100: Control_Systems 7
+    400102: Control_Systems 8
+    400104: Control_Vane_TypeA_1
+    400106: Control_Vane_TypeA_10
+    400108: Control_Vane_TypeA_11
+    400110: Control_Vane_TypeA_12
+    400112: Control_Vane_TypeA_13
+    400114: Control_Vane_TypeA_14
+    400116: Control_Vane_TypeA_15
+    400118: Control_Vane_TypeA_16
+    400120: Control_Vane_TypeA_18
+    400122: Control_Vane_TypeA_2
+    400124: Control_Vane_TypeA_21
+    400126: Control_Vane_TypeA_22
+    400128: Control_Vane_TypeA_23
+    400130: Control_Vane_TypeA_24
+    400132: Control_Vane_TypeA_3
+    400134: Control_Vane_TypeA_4
+    400136: Control_Vane_TypeA_5
+    400138: Control_Vane_TypeA_6
+    400140: Control_Vane_TypeA_7
+    400142: Control_Vane_TypeA_8
+    400144: Control_Vane_TypeA_9
+    400146: Control_Vane_TypeB_1
+    400148: Control_Vane_TypeB_10
+    400150: Control_Vane_TypeB_11
+    400152: Control_Vane_TypeB_12
+    400154: Control_Vane_TypeB_13
+    400156: Control_Vane_TypeB_3
+    400158: Control_Vane_TypeB_4
+    400160: Control_Vane_TypeB_5
+    400162: Control_Vane_TypeB_6
+    400164: Control_Vane_TypeB_7
+    400166: Control_Vane_TypeB_8
+    400168: Control_Vane_TypeB_9
+    400170: ControlvaneA_1
+    400172: ControlvaneA_1 1
+    400174: ControlvaneA_1 10
+    400176: ControlvaneA_1 11
+    400178: ControlvaneA_1 12
+    400180: ControlvaneA_1 13
+    400182: ControlvaneA_1 14
+    400184: ControlvaneA_1 15
+    400186: ControlvaneA_1 16
+    400188: ControlvaneA_1 17
+    400190: ControlvaneA_1 18
+    400192: ControlvaneA_1 19
+    400194: ControlvaneA_1 2
+    400196: ControlvaneA_1 20
+    400198: ControlvaneA_1 3
+    400200: ControlvaneA_1 4
+    400202: ControlvaneA_1 5
+    400204: ControlvaneA_1 6
+    400206: ControlvaneA_1 7
+    400208: ControlvaneA_1 8
+    400210: ControlvaneA_1 9
+    400212: ControlvaneB_1
+    400214: ControlvaneB_1 1
+    400216: ControlvaneB_1 10
+    400218: ControlvaneB_1 11
+    400220: ControlvaneB_1 2
+    400222: ControlvaneB_1 3
+    400224: ControlvaneB_1 4
+    400226: ControlvaneB_1 5
+    400228: ControlvaneB_1 6
+    400230: ControlvaneB_1 7
+    400232: ControlvaneB_1 8
+    400234: ControlvaneB_1 9
+    400236: ControlvanemountA_1
+    400238: ControlvanemountA_1 1
+    400240: ControlvanemountA_1 10
+    400242: ControlvanemountA_1 11
+    400244: ControlvanemountA_1 12
+    400246: ControlvanemountA_1 13
+    400248: ControlvanemountA_1 14
+    400250: ControlvanemountA_1 15
+    400252: ControlvanemountA_1 16
+    400254: ControlvanemountA_1 17
+    400256: ControlvanemountA_1 18
+    400258: ControlvanemountA_1 19
+    400260: ControlvanemountA_1 2
+    400262: ControlvanemountA_1 20
+    400264: ControlvanemountA_1 3
+    400266: ControlvanemountA_1 4
+    400268: ControlvanemountA_1 5
+    400270: ControlvanemountA_1 6
+    400272: ControlvanemountA_1 7
+    400274: ControlvanemountA_1 8
+    400276: ControlvanemountA_1 9
+    400278: ControlvanemountB_1
+    400280: ControlvanemountB_1 1
+    400282: ControlvanemountB_1 10
+    400284: ControlvanemountB_1 11
+    400286: ControlvanemountB_1 2
+    400288: ControlvanemountB_1 3
+    400290: ControlvanemountB_1 4
+    400292: ControlvanemountB_1 5
+    400294: ControlvanemountB_1 6
+    400296: ControlvanemountB_1 7
+    400298: ControlvanemountB_1 8
+    400300: ControlvanemountB_1 9
+    400302: CRS_1
+    400304: CRS_2_A
+    400306: CRS_2_B
+    400308: CRS_3_A
+    400310: CRS_3_B
+    400312: CRS_3_C
+    400314: Cylinder_Rocket_Stage1
+    400316: Cylinder_Rocket_Stage2
+    400318: Cylinder_Rocket_Stage3
+    400320: Fins
+    400322: Fins 1
+    400324: Fins 2
+    400326: Fins 3
+    400328: Fins 4
+    400330: Fins 5
+    400332: Fins 6
+    400334: Fins 7
+    400336: Flared_Rocket_Stage1
+    400338: Flared_Rocket_Stage2
+    400340: Flared_Rocket_Stage3
+    400342: FRS_1
+    400344: FRS_2_A
+    400346: FRS_2_B
+    400348: FRS_3_A
+    400350: FRS_3_B
+    400352: FRS_3_C
+    400354: Gimbal_Rocket
+    400356: Gimbal_Rocket1
+    400358: Gimbal_Rocket10
+    400360: Gimbal_Rocket11
+    400362: Gimbal_Rocket12
+    400364: Gimbal_Rocket13
+    400366: Gimbal_Rocket14
+    400368: Gimbal_Rocket15
+    400370: Gimbal_Rocket18
+    400372: Gimbal_Rocket19
+    400374: Gimbal_Rocket2
+    400376: Gimbal_Rocket20
+    400378: Gimbal_Rocket21
+    400380: Gimbal_Rocket22
+    400382: Gimbal_Rocket23
+    400384: Gimbal_Rocket24
+    400386: Gimbal_Rocket25
+    400388: Gimbal_Rocket26
+    400390: Gimbal_Rocket27
+    400392: Gimbal_Rocket28
+    400394: Gimbal_Rocket29
+    400396: Gimbal_Rocket3
+    400398: Gimbal_Rocket30
+    400400: Gimbal_Rocket31
+    400402: Gimbal_Rocket32
+    400404: Gimbal_Rocket4
+    400406: Gimbal_Rocket5
+    400408: Gimbal_Rocket6
+    400410: Gimbal_Rocket7
+    400412: Gimbal_Rocket8
+    400414: Gimbal_Rocket9
+    400416: Gimbals
+    400418: Gimbals 1
+    400420: Gimbals 2
+    400422: Gimbals 3
+    400424: Gimbals 4
+    400426: Gimbals 5
+    400428: Gimbals 6
+    400430: Gimbals 7
+    400432: Interior_Geo
+    400434: Interior_Geo 1
+    400436: Interior_Geo 2
+    400438: Interior_Geo 3
+    400440: Interior_Geo 4
+    400442: Interior_Geo 5
+    400444: Interior_Geo 6
+    400446: Interior_Geo 7
+    400448: Interior_Hull
+    400450: Interior_Hull 1
+    400452: Interior_Hull 2
+    400454: Interior_Hull 3
+    400456: Interior_Hull 4
+    400458: Interior_Hull 5
+    400460: Interior_Hull 6
+    400462: Interior_Hull 7
+    400464: Interior_Hull 8
+    400466: Internal_Geo
+    400468: LiquidFuel_System
+    400470: LiquidFuel_System 1
+    400472: LiquidFuel_System 2
+    400474: LiquidFuel_System 3
+    400476: LiquidFuel_System 4
+    400478: LiquidFuel_System 5
+    400480: LiquidFuel_System 6
+    400482: LiquidFuel_System 7
+    400484: LiquidFuel_System 8
+    400486: pCube4
+    400488: pCube4 1
+    400490: pCube4 2
+    400492: pCube4 3
+    400494: pCube4 4
+    400496: pCube4 5
+    400498: pCube4 6
+    400500: pCube4 7
+    400502: pCube4 8
+    400504: pCylinder78
+    400506: pCylinder79
+    400508: pCylinder80
+    400510: pCylinder81
+    400512: polySurface1001
+    400514: polySurface1001 1
+    400516: polySurface1001 2
+    400518: polySurface1001 3
+    400520: polySurface1001 4
+    400522: polySurface1001 5
+    400524: polySurface1001 6
+    400526: polySurface1001 7
+    400528: polySurface1001 8
+    400530: polySurface1029
+    400532: polySurface1030
+    400534: polySurface1031
+    400536: polySurface866
+    400538: polySurface868
+    400540: polySurface996
+    400542: polySurface996 1
+    400544: polySurface996 10
+    400546: polySurface996 11
+    400548: polySurface996 12
+    400550: polySurface996 13
+    400552: polySurface996 14
+    400554: polySurface996 15
+    400556: polySurface996 16
+    400558: polySurface996 17
+    400560: polySurface996 18
+    400562: polySurface996 19
+    400564: polySurface996 2
+    400566: polySurface996 20
+    400568: polySurface996 21
+    400570: polySurface996 22
+    400572: polySurface996 23
+    400574: polySurface996 3
+    400576: polySurface996 4
+    400578: polySurface996 5
+    400580: polySurface996 6
+    400582: polySurface996 7
+    400584: polySurface996 8
+    400586: polySurface996 9
+    400588: polySurface998
+    400590: polySurface998 1
+    400592: polySurface998 10
+    400594: polySurface998 11
+    400596: polySurface998 12
+    400598: polySurface998 13
+    400600: polySurface998 14
+    400602: polySurface998 15
+    400604: polySurface998 16
+    400606: polySurface998 17
+    400608: polySurface998 18
+    400610: polySurface998 19
+    400612: polySurface998 2
+    400614: polySurface998 20
+    400616: polySurface998 21
+    400618: polySurface998 22
+    400620: polySurface998 23
+    400622: polySurface998 3
+    400624: polySurface998 4
+    400626: polySurface998 5
+    400628: polySurface998 6
+    400630: polySurface998 7
+    400632: polySurface998 8
+    400634: polySurface998 9
+    400636: Remove_OuterPanel
+    400638: Remove_Outerpanel
+    400640: Remove_Outerpanel 1
+    400642: Remove_Outerpanel 2
+    400644: Remove_Outerpanel 3
+    400646: Remove_Outerpanel 4
+    400648: Remove_Outerpanel 5
+    400650: Remove_Outerpanel 6
+    400652: Remove_Outerpanel 7
+    400654: Retro_Rocket_Stage1
+    400656: Retro_Rocket_Stage2
+    400658: Retro_Rocket_Stage3
+    400660: RRS_1
+    400662: RRS_2_A
+    400664: RRS_2_B
+    400666: RRS_3_A
+    400668: RRS_3_B
+    400670: RRS_3_C
+    400672: SolidFuel_System
+    400674: SolidFuel_System 1
+    400676: SolidFuel_System 2
+    400678: SolidFuel_System 3
+    400680: SolidFuel_System 4
+    400682: SolidFuel_System 5
+    400684: SolidFuel_System 6
+    400686: SolidFuel_System 7
+    400688: SolidFuel_System 8
+    400690: Vanes
+    400692: Vanes 1
+    400694: Vanes 2
+    400696: Vanes 3
+    400698: Vanes 4
+    400700: Vanes 5
+    400702: Vanes 6
+    400704: Vanes 7
+    2300000: Base_RocketCone
+    2300002: Base_RocketCone 1
+    2300004: Base_RocketCone 2
+    2300006: Base_RocketCone 3
+    2300008: Base_RocketCone 4
+    2300010: Base_RocketCone 5
+    2300012: Base_RocketCone 6
+    2300014: Base_RocketCone 7
+    2300016: Base_RocketCone 8
+    2300018: ControlvaneA_1
+    2300020: ControlvaneA_1 1
+    2300022: ControlvaneA_1 10
+    2300024: ControlvaneA_1 11
+    2300026: ControlvaneA_1 12
+    2300028: ControlvaneA_1 13
+    2300030: ControlvaneA_1 14
+    2300032: ControlvaneA_1 15
+    2300034: ControlvaneA_1 16
+    2300036: ControlvaneA_1 17
+    2300038: ControlvaneA_1 18
+    2300040: ControlvaneA_1 19
+    2300042: ControlvaneA_1 2
+    2300044: ControlvaneA_1 20
+    2300046: ControlvaneA_1 3
+    2300048: ControlvaneA_1 4
+    2300050: ControlvaneA_1 5
+    2300052: ControlvaneA_1 6
+    2300054: ControlvaneA_1 7
+    2300056: ControlvaneA_1 8
+    2300058: ControlvaneA_1 9
+    2300060: ControlvaneB_1
+    2300062: ControlvaneB_1 1
+    2300064: ControlvaneB_1 10
+    2300066: ControlvaneB_1 11
+    2300068: ControlvaneB_1 2
+    2300070: ControlvaneB_1 3
+    2300072: ControlvaneB_1 4
+    2300074: ControlvaneB_1 5
+    2300076: ControlvaneB_1 6
+    2300078: ControlvaneB_1 7
+    2300080: ControlvaneB_1 8
+    2300082: ControlvaneB_1 9
+    2300084: ControlvanemountA_1
+    2300086: ControlvanemountA_1 1
+    2300088: ControlvanemountA_1 10
+    2300090: ControlvanemountA_1 11
+    2300092: ControlvanemountA_1 12
+    2300094: ControlvanemountA_1 13
+    2300096: ControlvanemountA_1 14
+    2300098: ControlvanemountA_1 15
+    2300100: ControlvanemountA_1 16
+    2300102: ControlvanemountA_1 17
+    2300104: ControlvanemountA_1 18
+    2300106: ControlvanemountA_1 19
+    2300108: ControlvanemountA_1 2
+    2300110: ControlvanemountA_1 20
+    2300112: ControlvanemountA_1 3
+    2300114: ControlvanemountA_1 4
+    2300116: ControlvanemountA_1 5
+    2300118: ControlvanemountA_1 6
+    2300120: ControlvanemountA_1 7
+    2300122: ControlvanemountA_1 8
+    2300124: ControlvanemountA_1 9
+    2300126: ControlvanemountB_1
+    2300128: ControlvanemountB_1 1
+    2300130: ControlvanemountB_1 10
+    2300132: ControlvanemountB_1 11
+    2300134: ControlvanemountB_1 2
+    2300136: ControlvanemountB_1 3
+    2300138: ControlvanemountB_1 4
+    2300140: ControlvanemountB_1 5
+    2300142: ControlvanemountB_1 6
+    2300144: ControlvanemountB_1 7
+    2300146: ControlvanemountB_1 8
+    2300148: ControlvanemountB_1 9
+    2300150: CRS_1
+    2300152: CRS_2_A
+    2300154: CRS_2_B
+    2300156: CRS_3_A
+    2300158: CRS_3_B
+    2300160: CRS_3_C
+    2300162: FRS_1
+    2300164: FRS_2_A
+    2300166: FRS_2_B
+    2300168: FRS_3_A
+    2300170: FRS_3_B
+    2300172: FRS_3_C
+    2300174: Gimbal_Rocket
+    2300176: Gimbal_Rocket1
+    2300178: Gimbal_Rocket10
+    2300180: Gimbal_Rocket11
+    2300182: Gimbal_Rocket12
+    2300184: Gimbal_Rocket13
+    2300186: Gimbal_Rocket14
+    2300188: Gimbal_Rocket15
+    2300190: Gimbal_Rocket18
+    2300192: Gimbal_Rocket19
+    2300194: Gimbal_Rocket2
+    2300196: Gimbal_Rocket20
+    2300198: Gimbal_Rocket21
+    2300200: Gimbal_Rocket22
+    2300202: Gimbal_Rocket23
+    2300204: Gimbal_Rocket24
+    2300206: Gimbal_Rocket25
+    2300208: Gimbal_Rocket26
+    2300210: Gimbal_Rocket27
+    2300212: Gimbal_Rocket28
+    2300214: Gimbal_Rocket29
+    2300216: Gimbal_Rocket3
+    2300218: Gimbal_Rocket30
+    2300220: Gimbal_Rocket31
+    2300222: Gimbal_Rocket32
+    2300224: Gimbal_Rocket4
+    2300226: Gimbal_Rocket5
+    2300228: Gimbal_Rocket6
+    2300230: Gimbal_Rocket7
+    2300232: Gimbal_Rocket8
+    2300234: Gimbal_Rocket9
+    2300236: Gimbals 6
+    2300238: Gimbals 7
+    2300240: Interior_Hull
+    2300242: Interior_Hull 1
+    2300244: Interior_Hull 2
+    2300246: Interior_Hull 3
+    2300248: Interior_Hull 4
+    2300250: Interior_Hull 5
+    2300252: Interior_Hull 6
+    2300254: Interior_Hull 7
+    2300256: Interior_Hull 8
+    2300258: LiquidFuel_System
+    2300260: LiquidFuel_System 1
+    2300262: LiquidFuel_System 2
+    2300264: LiquidFuel_System 3
+    2300266: LiquidFuel_System 4
+    2300268: LiquidFuel_System 5
+    2300270: LiquidFuel_System 6
+    2300272: LiquidFuel_System 7
+    2300274: LiquidFuel_System 8
+    2300276: pCube4
+    2300278: pCube4 1
+    2300280: pCube4 2
+    2300282: pCube4 3
+    2300284: pCube4 4
+    2300286: pCube4 5
+    2300288: pCube4 6
+    2300290: pCube4 7
+    2300292: pCube4 8
+    2300294: pCylinder78
+    2300296: pCylinder79
+    2300298: pCylinder80
+    2300300: pCylinder81
+    2300302: polySurface1001
+    2300304: polySurface1001 1
+    2300306: polySurface1001 2
+    2300308: polySurface1001 3
+    2300310: polySurface1001 4
+    2300312: polySurface1001 5
+    2300314: polySurface1001 6
+    2300316: polySurface1001 7
+    2300318: polySurface1001 8
+    2300320: polySurface1029
+    2300322: polySurface1030
+    2300324: polySurface1031
+    2300326: polySurface866
+    2300328: polySurface868
+    2300330: polySurface996
+    2300332: polySurface996 1
+    2300334: polySurface996 10
+    2300336: polySurface996 11
+    2300338: polySurface996 12
+    2300340: polySurface996 13
+    2300342: polySurface996 14
+    2300344: polySurface996 15
+    2300346: polySurface996 16
+    2300348: polySurface996 17
+    2300350: polySurface996 18
+    2300352: polySurface996 19
+    2300354: polySurface996 2
+    2300356: polySurface996 20
+    2300358: polySurface996 21
+    2300360: polySurface996 22
+    2300362: polySurface996 23
+    2300364: polySurface996 3
+    2300366: polySurface996 4
+    2300368: polySurface996 5
+    2300370: polySurface996 6
+    2300372: polySurface996 7
+    2300374: polySurface996 8
+    2300376: polySurface996 9
+    2300378: polySurface998
+    2300380: polySurface998 1
+    2300382: polySurface998 10
+    2300384: polySurface998 11
+    2300386: polySurface998 12
+    2300388: polySurface998 13
+    2300390: polySurface998 14
+    2300392: polySurface998 15
+    2300394: polySurface998 16
+    2300396: polySurface998 17
+    2300398: polySurface998 18
+    2300400: polySurface998 19
+    2300402: polySurface998 2
+    2300404: polySurface998 20
+    2300406: polySurface998 21
+    2300408: polySurface998 22
+    2300410: polySurface998 23
+    2300412: polySurface998 3
+    2300414: polySurface998 4
+    2300416: polySurface998 5
+    2300418: polySurface998 6
+    2300420: polySurface998 7
+    2300422: polySurface998 8
+    2300424: polySurface998 9
+    2300426: Remove_Outerpanel
+    2300428: Remove_Outerpanel 1
+    2300430: Remove_Outerpanel 2
+    2300432: Remove_Outerpanel 5
+    2300434: Remove_Outerpanel 6
+    2300436: Remove_Outerpanel 7
+    2300438: RRS_1
+    2300440: RRS_2_A
+    2300442: RRS_2_B
+    2300444: RRS_3_A
+    2300446: RRS_3_B
+    2300448: RRS_3_C
+    2300450: SolidFuel_System
+    2300452: SolidFuel_System 1
+    2300454: SolidFuel_System 2
+    2300456: SolidFuel_System 3
+    2300458: SolidFuel_System 4
+    2300460: SolidFuel_System 5
+    2300462: SolidFuel_System 6
+    2300464: SolidFuel_System 7
+    2300466: SolidFuel_System 8
+    3300000: Base_RocketCone
+    3300002: Base_RocketCone 1
+    3300004: Base_RocketCone 2
+    3300006: Base_RocketCone 3
+    3300008: Base_RocketCone 4
+    3300010: Base_RocketCone 5
+    3300012: Base_RocketCone 6
+    3300014: Base_RocketCone 7
+    3300016: Base_RocketCone 8
+    3300018: ControlvaneA_1
+    3300020: ControlvaneA_1 1
+    3300022: ControlvaneA_1 10
+    3300024: ControlvaneA_1 11
+    3300026: ControlvaneA_1 12
+    3300028: ControlvaneA_1 13
+    3300030: ControlvaneA_1 14
+    3300032: ControlvaneA_1 15
+    3300034: ControlvaneA_1 16
+    3300036: ControlvaneA_1 17
+    3300038: ControlvaneA_1 18
+    3300040: ControlvaneA_1 19
+    3300042: ControlvaneA_1 2
+    3300044: ControlvaneA_1 20
+    3300046: ControlvaneA_1 3
+    3300048: ControlvaneA_1 4
+    3300050: ControlvaneA_1 5
+    3300052: ControlvaneA_1 6
+    3300054: ControlvaneA_1 7
+    3300056: ControlvaneA_1 8
+    3300058: ControlvaneA_1 9
+    3300060: ControlvaneB_1
+    3300062: ControlvaneB_1 1
+    3300064: ControlvaneB_1 10
+    3300066: ControlvaneB_1 11
+    3300068: ControlvaneB_1 2
+    3300070: ControlvaneB_1 3
+    3300072: ControlvaneB_1 4
+    3300074: ControlvaneB_1 5
+    3300076: ControlvaneB_1 6
+    3300078: ControlvaneB_1 7
+    3300080: ControlvaneB_1 8
+    3300082: ControlvaneB_1 9
+    3300084: ControlvanemountA_1
+    3300086: ControlvanemountA_1 1
+    3300088: ControlvanemountA_1 10
+    3300090: ControlvanemountA_1 11
+    3300092: ControlvanemountA_1 12
+    3300094: ControlvanemountA_1 13
+    3300096: ControlvanemountA_1 14
+    3300098: ControlvanemountA_1 15
+    3300100: ControlvanemountA_1 16
+    3300102: ControlvanemountA_1 17
+    3300104: ControlvanemountA_1 18
+    3300106: ControlvanemountA_1 19
+    3300108: ControlvanemountA_1 2
+    3300110: ControlvanemountA_1 20
+    3300112: ControlvanemountA_1 3
+    3300114: ControlvanemountA_1 4
+    3300116: ControlvanemountA_1 5
+    3300118: ControlvanemountA_1 6
+    3300120: ControlvanemountA_1 7
+    3300122: ControlvanemountA_1 8
+    3300124: ControlvanemountA_1 9
+    3300126: ControlvanemountB_1
+    3300128: ControlvanemountB_1 1
+    3300130: ControlvanemountB_1 10
+    3300132: ControlvanemountB_1 11
+    3300134: ControlvanemountB_1 2
+    3300136: ControlvanemountB_1 3
+    3300138: ControlvanemountB_1 4
+    3300140: ControlvanemountB_1 5
+    3300142: ControlvanemountB_1 6
+    3300144: ControlvanemountB_1 7
+    3300146: ControlvanemountB_1 8
+    3300148: ControlvanemountB_1 9
+    3300150: CRS_1
+    3300152: CRS_2_A
+    3300154: CRS_2_B
+    3300156: CRS_3_A
+    3300158: CRS_3_B
+    3300160: CRS_3_C
+    3300162: FRS_1
+    3300164: FRS_2_A
+    3300166: FRS_2_B
+    3300168: FRS_3_A
+    3300170: FRS_3_B
+    3300172: FRS_3_C
+    3300174: Gimbal_Rocket
+    3300176: Gimbal_Rocket1
+    3300178: Gimbal_Rocket10
+    3300180: Gimbal_Rocket11
+    3300182: Gimbal_Rocket12
+    3300184: Gimbal_Rocket13
+    3300186: Gimbal_Rocket14
+    3300188: Gimbal_Rocket15
+    3300190: Gimbal_Rocket18
+    3300192: Gimbal_Rocket19
+    3300194: Gimbal_Rocket2
+    3300196: Gimbal_Rocket20
+    3300198: Gimbal_Rocket21
+    3300200: Gimbal_Rocket22
+    3300202: Gimbal_Rocket23
+    3300204: Gimbal_Rocket24
+    3300206: Gimbal_Rocket25
+    3300208: Gimbal_Rocket26
+    3300210: Gimbal_Rocket27
+    3300212: Gimbal_Rocket28
+    3300214: Gimbal_Rocket29
+    3300216: Gimbal_Rocket3
+    3300218: Gimbal_Rocket30
+    3300220: Gimbal_Rocket31
+    3300222: Gimbal_Rocket32
+    3300224: Gimbal_Rocket4
+    3300226: Gimbal_Rocket5
+    3300228: Gimbal_Rocket6
+    3300230: Gimbal_Rocket7
+    3300232: Gimbal_Rocket8
+    3300234: Gimbal_Rocket9
+    3300236: Gimbals 6
+    3300238: Gimbals 7
+    3300240: Interior_Hull
+    3300242: Interior_Hull 1
+    3300244: Interior_Hull 2
+    3300246: Interior_Hull 3
+    3300248: Interior_Hull 4
+    3300250: Interior_Hull 5
+    3300252: Interior_Hull 6
+    3300254: Interior_Hull 7
+    3300256: Interior_Hull 8
+    3300258: LiquidFuel_System
+    3300260: LiquidFuel_System 1
+    3300262: LiquidFuel_System 2
+    3300264: LiquidFuel_System 3
+    3300266: LiquidFuel_System 4
+    3300268: LiquidFuel_System 5
+    3300270: LiquidFuel_System 6
+    3300272: LiquidFuel_System 7
+    3300274: LiquidFuel_System 8
+    3300276: pCube4
+    3300278: pCube4 1
+    3300280: pCube4 2
+    3300282: pCube4 3
+    3300284: pCube4 4
+    3300286: pCube4 5
+    3300288: pCube4 6
+    3300290: pCube4 7
+    3300292: pCube4 8
+    3300294: pCylinder78
+    3300296: pCylinder79
+    3300298: pCylinder80
+    3300300: pCylinder81
+    3300302: polySurface1001
+    3300304: polySurface1001 1
+    3300306: polySurface1001 2
+    3300308: polySurface1001 3
+    3300310: polySurface1001 4
+    3300312: polySurface1001 5
+    3300314: polySurface1001 6
+    3300316: polySurface1001 7
+    3300318: polySurface1001 8
+    3300320: polySurface1029
+    3300322: polySurface1030
+    3300324: polySurface1031
+    3300326: polySurface866
+    3300328: polySurface868
+    3300330: polySurface996
+    3300332: polySurface996 1
+    3300334: polySurface996 10
+    3300336: polySurface996 11
+    3300338: polySurface996 12
+    3300340: polySurface996 13
+    3300342: polySurface996 14
+    3300344: polySurface996 15
+    3300346: polySurface996 16
+    3300348: polySurface996 17
+    3300350: polySurface996 18
+    3300352: polySurface996 19
+    3300354: polySurface996 2
+    3300356: polySurface996 20
+    3300358: polySurface996 21
+    3300360: polySurface996 22
+    3300362: polySurface996 23
+    3300364: polySurface996 3
+    3300366: polySurface996 4
+    3300368: polySurface996 5
+    3300370: polySurface996 6
+    3300372: polySurface996 7
+    3300374: polySurface996 8
+    3300376: polySurface996 9
+    3300378: polySurface998
+    3300380: polySurface998 1
+    3300382: polySurface998 10
+    3300384: polySurface998 11
+    3300386: polySurface998 12
+    3300388: polySurface998 13
+    3300390: polySurface998 14
+    3300392: polySurface998 15
+    3300394: polySurface998 16
+    3300396: polySurface998 17
+    3300398: polySurface998 18
+    3300400: polySurface998 19
+    3300402: polySurface998 2
+    3300404: polySurface998 20
+    3300406: polySurface998 21
+    3300408: polySurface998 22
+    3300410: polySurface998 23
+    3300412: polySurface998 3
+    3300414: polySurface998 4
+    3300416: polySurface998 5
+    3300418: polySurface998 6
+    3300420: polySurface998 7
+    3300422: polySurface998 8
+    3300424: polySurface998 9
+    3300426: Remove_Outerpanel
+    3300428: Remove_Outerpanel 1
+    3300430: Remove_Outerpanel 2
+    3300432: Remove_Outerpanel 5
+    3300434: Remove_Outerpanel 6
+    3300436: Remove_Outerpanel 7
+    3300438: RRS_1
+    3300440: RRS_2_A
+    3300442: RRS_2_B
+    3300444: RRS_3_A
+    3300446: RRS_3_B
+    3300448: RRS_3_C
+    3300450: SolidFuel_System
+    3300452: SolidFuel_System 1
+    3300454: SolidFuel_System 2
+    3300456: SolidFuel_System 3
+    3300458: SolidFuel_System 4
+    3300460: SolidFuel_System 5
+    3300462: SolidFuel_System 6
+    3300464: SolidFuel_System 7
+    3300466: SolidFuel_System 8
+    4300000: Interior_Hull
+    4300002: LiquidFuel_System
+    4300004: SolidFuel_System
+    4300006: Gimbals
+    4300008: polySurface1001
+    4300010: pCube4
+    4300012: polySurface1001
+    4300014: pCube4
+    4300016: polySurface1001
+    4300018: pCube4
+    4300020: ControlvaneA_1
+    4300022: ControlvanemountA_1
+    4300024: ControlvaneA_1
+    4300026: ControlvanemountA_1
+    4300028: Remove_Outerpanel
+    4300030: Base_RocketCone
+    4300032: RRS_1
+    4300034: Gimbals
+    4300036: polySurface1001
+    4300038: pCube4
+    4300040: polySurface1001
+    4300042: pCube4
+    4300044: polySurface1001
+    4300046: pCube4
+    4300048: ControlvaneA_1
+    4300050: ControlvanemountA_1
+    4300052: ControlvaneA_1
+    4300054: ControlvanemountA_1
+    4300056: Interior_Hull
+    4300058: LiquidFuel_System
+    4300060: SolidFuel_System
+    4300062: Base_RocketCone
+    4300064: RRS_2_B
+    4300066: RRS_2_A
+    4300068: Remove_Outerpanel
+    4300070: Gimbal_Rocket15
+    4300072: polySurface1001
+    4300074: pCube4
+    4300076: polySurface1001
+    4300078: pCube4
+    4300080: polySurface1001
+    4300082: pCube4
+    4300084: ControlvaneA_1
+    4300086: ControlvanemountA_1
+    4300088: ControlvaneA_1
+    4300090: ControlvanemountA_1
+    4300092: Interior_Hull
+    4300094: LiquidFuel_System
+    4300096: SolidFuel_System
+    4300098: Base_RocketCone
+    4300100: RRS_3_C
+    4300102: RRS_3_B
+    4300104: RRS_3_A
+    4300106: Remove_Outerpanel
+    4300108: polySurface1029
+    4300110: polySurface1030
+    4300112: polySurface1031
+    4300114: ControlvaneA_1
+    4300116: ControlvanemountA_1
+    4300118: ControlvaneA_1
+    4300120: ControlvanemountA_1
+    4300122: ControlvaneA_1
+    4300124: ControlvanemountA_1
+    4300126: ControlvaneA_1
+    4300128: ControlvanemountA_1
+    4300130: ControlvaneA_1
+    4300132: ControlvanemountA_1
+    4300134: polySurface998
+    4300136: polySurface996
+    4300138: polySurface998
+    4300140: polySurface996
+    4300142: polySurface998
+    4300144: polySurface996
+    4300146: polySurface998
+    4300148: polySurface996
+    4300150: Gimbal_Rocket
+    4300152: Gimbal_Rocket3
+    4300154: Gimbal_Rocket4
+    4300156: Gimbal_Rocket1
+    4300158: Gimbal_Rocket2
+    4300160: Base_RocketCone
+    4300162: LiquidFuel_System
+    4300164: SolidFuel_System
+    4300166: Interior_Hull
+    4300168: FRS_1
+    4300170: polySurface866
+    4300172: pCylinder78
+    4300174: pCylinder79
+    4300176: Gimbal_Rocket9
+    4300178: Gimbal_Rocket6
+    4300180: Gimbal_Rocket5
+    4300182: Gimbal_Rocket7
+    4300184: Gimbal_Rocket8
+    4300186: polySurface998
+    4300188: polySurface996
+    4300190: polySurface998
+    4300192: polySurface996
+    4300194: polySurface998
+    4300196: polySurface996
+    4300198: polySurface998
+    4300200: polySurface996
+    4300202: ControlvaneA_1
+    4300204: ControlvanemountA_1
+    4300206: ControlvaneA_1
+    4300208: ControlvanemountA_1
+    4300210: ControlvaneA_1
+    4300212: ControlvanemountA_1
+    4300214: ControlvaneA_1
+    4300216: ControlvanemountA_1
+    4300218: ControlvaneA_1
+    4300220: ControlvanemountA_1
+    4300222: Base_RocketCone
+    4300224: LiquidFuel_System
+    4300226: SolidFuel_System
+    4300228: Interior_Hull
+    4300230: FRS_2_B
+    4300232: FRS_2_A
+    4300234: pCylinder80
+    4300236: polySurface868
+    4300238: pCylinder81
+    4300240: LiquidFuel_System
+    4300242: SolidFuel_System
+    4300244: Interior_Hull
+    4300246: Base_RocketCone
+    4300248: Gimbal_Rocket10
+    4300250: Gimbal_Rocket12
+    4300252: Gimbal_Rocket11
+    4300254: Gimbal_Rocket14
+    4300256: Gimbal_Rocket13
+    4300258: polySurface998
+    4300260: polySurface996
+    4300262: polySurface998
+    4300264: polySurface996
+    4300266: polySurface998
+    4300268: polySurface996
+    4300270: polySurface998
+    4300272: polySurface996
+    4300274: ControlvaneA_1
+    4300276: ControlvanemountA_1
+    4300278: ControlvaneA_1
+    4300280: ControlvanemountA_1
+    4300282: ControlvaneA_1
+    4300284: ControlvanemountA_1
+    4300286: ControlvaneA_1
+    4300288: ControlvanemountA_1
+    4300290: ControlvaneA_1
+    4300292: ControlvanemountA_1
+    4300294: FRS_3_C
+    4300296: FRS_3_B
+    4300298: FRS_3_A
+    4300300: SolidFuel_System
+    4300302: LiquidFuel_System
+    4300304: Interior_Hull
+    4300306: Base_RocketCone
+    4300308: ControlvaneB_1
+    4300310: ControlvanemountB_1
+    4300312: ControlvaneB_1
+    4300314: ControlvanemountB_1
+    4300316: ControlvaneB_1
+    4300318: ControlvanemountB_1
+    4300320: ControlvaneB_1
+    4300322: ControlvanemountB_1
+    4300324: polySurface998
+    4300326: polySurface996
+    4300328: polySurface998
+    4300330: polySurface996
+    4300332: polySurface998
+    4300334: polySurface996
+    4300336: polySurface998
+    4300338: polySurface996
+    4300340: Gimbal_Rocket20
+    4300342: Gimbal_Rocket19
+    4300344: Gimbal_Rocket21
+    4300346: Gimbal_Rocket26
+    4300348: Gimbal_Rocket18
+    4300350: CRS_1
+    4300352: Remove_Outerpanel
+    4300354: SolidFuel_System
+    4300356: LiquidFuel_System
+    4300358: Interior_Hull
+    4300360: Base_RocketCone
+    4300362: ControlvaneB_1
+    4300364: ControlvanemountB_1
+    4300366: ControlvaneB_1
+    4300368: ControlvanemountB_1
+    4300370: ControlvaneB_1
+    4300372: ControlvanemountB_1
+    4300374: ControlvaneB_1
+    4300376: ControlvanemountB_1
+    4300378: polySurface998
+    4300380: polySurface996
+    4300382: polySurface998
+    4300384: polySurface996
+    4300386: polySurface998
+    4300388: polySurface996
+    4300390: polySurface998
+    4300392: polySurface996
+    4300394: Gimbal_Rocket22
+    4300396: Gimbal_Rocket25
+    4300398: Gimbal_Rocket23
+    4300400: Gimbal_Rocket27
+    4300402: Gimbal_Rocket24
+    4300404: CRS_2_A
+    4300406: CRS_2_B
+    4300408: Remove_Outerpanel
+    4300410: Base_RocketCone
+    4300412: ControlvaneB_1
+    4300414: ControlvanemountB_1
+    4300416: ControlvaneB_1
+    4300418: ControlvanemountB_1
+    4300420: ControlvaneB_1
+    4300422: ControlvanemountB_1
+    4300424: ControlvaneB_1
+    4300426: ControlvanemountB_1
+    4300428: polySurface998
+    4300430: polySurface996
+    4300432: polySurface998
+    4300434: polySurface996
+    4300436: polySurface998
+    4300438: polySurface996
+    4300440: polySurface998
+    4300442: polySurface996
+    4300444: Gimbal_Rocket28
+    4300446: Gimbal_Rocket31
+    4300448: Gimbal_Rocket32
+    4300450: Gimbal_Rocket29
+    4300452: Gimbal_Rocket30
+    4300454: SolidFuel_System
+    4300456: LiquidFuel_System
+    4300458: Interior_Hull
+    4300460: CRS_3_C
+    4300462: CRS_3_B
+    4300464: CRS_3_A
+    4300466: Remove_Outerpanel
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

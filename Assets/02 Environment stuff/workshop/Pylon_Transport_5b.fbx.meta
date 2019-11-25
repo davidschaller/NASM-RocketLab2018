@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: d552c02214a024427ab107e55a3725d9
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Plunger_1
+    100002: Plunger_1 1
+    100004: Plunger_1 2
+    100006: Plunger_1 3
+    100008: //RootNode
+    100010: Pylon_Wheels1
+    100012: Shaft_1
+    100014: Shaft_1 1
+    100016: Shaft_1 2
+    100018: Shaft_1 3
+    100020: Strut_1
+    100022: Strut_1 1
+    100024: Strut_1 2
+    100026: Strut_1 3
+    100028: Strut_Base_1
+    100030: Strut_Base_1 1
+    100032: Strut_Base_1 2
+    100034: Strut_Base_1 3
+    100036: Strut_Group_1
+    100038: Strut_Group_1 1
+    100040: Strut_Group_1 2
+    100042: Strut_Group_1 3
+    100044: Wing_Group_A
+    100046: Wing_Group_B
+    100048: Wing_L
+    100050: Wing_L 1
+    100052: Wing_L 2
+    100054: Wing_L 3
+    100056: Wing_L 4
+    100058: Wing_L 5
+    100060: Wing_R
+    100062: Wing_R 1
+    400000: Plunger_1
+    400002: Plunger_1 1
+    400004: Plunger_1 2
+    400006: Plunger_1 3
+    400008: //RootNode
+    400010: Pylon_Wheels1
+    400012: Shaft_1
+    400014: Shaft_1 1
+    400016: Shaft_1 2
+    400018: Shaft_1 3
+    400020: Strut_1
+    400022: Strut_1 1
+    400024: Strut_1 2
+    400026: Strut_1 3
+    400028: Strut_Base_1
+    400030: Strut_Base_1 1
+    400032: Strut_Base_1 2
+    400034: Strut_Base_1 3
+    400036: Strut_Group_1
+    400038: Strut_Group_1 1
+    400040: Strut_Group_1 2
+    400042: Strut_Group_1 3
+    400044: Wing_Group_A
+    400046: Wing_Group_B
+    400048: Wing_L
+    400050: Wing_L 1
+    400052: Wing_L 2
+    400054: Wing_L 3
+    400056: Wing_L 4
+    400058: Wing_L 5
+    400060: Wing_R
+    400062: Wing_R 1
+    2300000: Plunger_1
+    2300002: Plunger_1 1
+    2300004: Plunger_1 2
+    2300006: Plunger_1 3
+    2300008: Pylon_Wheels1
+    2300010: Shaft_1
+    2300012: Shaft_1 1
+    2300014: Shaft_1 2
+    2300016: Shaft_1 3
+    2300018: Strut_Base_1
+    2300020: Strut_Base_1 1
+    2300022: Strut_Base_1 2
+    2300024: Strut_Base_1 3
+    2300026: Wing_L 2
+    2300028: Wing_L 3
+    2300030: Wing_L 4
+    2300032: Wing_L 5
+    3300000: Plunger_1
+    3300002: Plunger_1 1
+    3300004: Plunger_1 2
+    3300006: Plunger_1 3
+    3300008: Pylon_Wheels1
+    3300010: Shaft_1
+    3300012: Shaft_1 1
+    3300014: Shaft_1 2
+    3300016: Shaft_1 3
+    3300018: Strut_Base_1
+    3300020: Strut_Base_1 1
+    3300022: Strut_Base_1 2
+    3300024: Strut_Base_1 3
+    3300026: Wing_L 2
+    3300028: Wing_L 3
+    3300030: Wing_L 4
+    3300032: Wing_L 5
+    4300000: Shaft_1
+    4300002: Plunger_1
+    4300004: Strut_Base_1
+    4300006: Wing_L
+    4300008: Shaft_1
+    4300010: Plunger_1
+    4300012: Strut_Base_1
+    4300014: Wing_L
+    4300016: Shaft_1
+    4300018: Plunger_1
+    4300020: Strut_Base_1
+    4300022: Wing_L
+    4300024: Shaft_1
+    4300026: Plunger_1
+    4300028: Strut_Base_1
+    4300030: Wing_L
+    4300032: Pylon_Wheels1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

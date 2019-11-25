@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 0f14fbf9c3eea4c8e8ed1da0da8a1671
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Plunger_2
+    100002: Plunger_2 1
+    100004: Plunger_2 2
+    100006: Plunger_2 3
+    100008: Pylon_Group_A
+    100010: Pylon_Group_B
+    100012: Pylon_Support
+    100014: //RootNode
+    100016: Shaft_1
+    100018: Shaft_1 1
+    100020: Shaft_1 2
+    100022: Shaft_1 3
+    100024: Strut_1
+    100026: Strut_1 1
+    100028: Strut_1 2
+    100030: Strut_1 3
+    100032: Strut_Base_1
+    100034: Strut_Base_1 1
+    100036: Strut_Base_1 2
+    100038: Strut_Base_1 3
+    100040: Strut_Group_1
+    100042: Strut_Group_1 1
+    100044: Strut_Group_1 2
+    100046: Strut_Group_1 3
+    100048: Wheel_Base_A
+    100050: Wheel_Base_B
+    100052: Wheel_Base_C
+    100054: Wing_Group_A
+    100056: Wing_Group_B
+    100058: Wing_L
+    100060: Wing_L 1
+    100062: Wing_L 2
+    100064: Wing_L 3
+    100066: Wing_L 4
+    100068: Wing_L 5
+    100070: Wing_R
+    100072: Wing_R 1
+    400000: Plunger_2
+    400002: Plunger_2 1
+    400004: Plunger_2 2
+    400006: Plunger_2 3
+    400008: Pylon_Group_A
+    400010: Pylon_Group_B
+    400012: Pylon_Support
+    400014: //RootNode
+    400016: Shaft_1
+    400018: Shaft_1 1
+    400020: Shaft_1 2
+    400022: Shaft_1 3
+    400024: Strut_1
+    400026: Strut_1 1
+    400028: Strut_1 2
+    400030: Strut_1 3
+    400032: Strut_Base_1
+    400034: Strut_Base_1 1
+    400036: Strut_Base_1 2
+    400038: Strut_Base_1 3
+    400040: Strut_Group_1
+    400042: Strut_Group_1 1
+    400044: Strut_Group_1 2
+    400046: Strut_Group_1 3
+    400048: Wheel_Base_A
+    400050: Wheel_Base_B
+    400052: Wheel_Base_C
+    400054: Wing_Group_A
+    400056: Wing_Group_B
+    400058: Wing_L
+    400060: Wing_L 1
+    400062: Wing_L 2
+    400064: Wing_L 3
+    400066: Wing_L 4
+    400068: Wing_L 5
+    400070: Wing_R
+    400072: Wing_R 1
+    2300000: Plunger_2
+    2300002: Plunger_2 1
+    2300004: Plunger_2 2
+    2300006: Plunger_2 3
+    2300008: Pylon_Support
+    2300010: Shaft_1
+    2300012: Shaft_1 1
+    2300014: Shaft_1 2
+    2300016: Shaft_1 3
+    2300018: Strut_Base_1
+    2300020: Strut_Base_1 1
+    2300022: Strut_Base_1 2
+    2300024: Strut_Base_1 3
+    2300026: Wheel_Base_A
+    2300028: Wheel_Base_B
+    2300030: Wheel_Base_C
+    2300032: Wing_L 2
+    2300034: Wing_L 3
+    2300036: Wing_L 4
+    2300038: Wing_L 5
+    3300000: Plunger_2
+    3300002: Plunger_2 1
+    3300004: Plunger_2 2
+    3300006: Plunger_2 3
+    3300008: Pylon_Support
+    3300010: Shaft_1
+    3300012: Shaft_1 1
+    3300014: Shaft_1 2
+    3300016: Shaft_1 3
+    3300018: Strut_Base_1
+    3300020: Strut_Base_1 1
+    3300022: Strut_Base_1 2
+    3300024: Strut_Base_1 3
+    3300026: Wheel_Base_A
+    3300028: Wheel_Base_B
+    3300030: Wheel_Base_C
+    3300032: Wing_L 2
+    3300034: Wing_L 3
+    3300036: Wing_L 4
+    3300038: Wing_L 5
+    4300000: Wheel_Base_C
+    4300002: Pylon_Support
+    4300004: Wheel_Base_A
+    4300006: Shaft_1
+    4300008: Plunger_2
+    4300010: Strut_Base_1
+    4300012: Wing_L
+    4300014: Shaft_1
+    4300016: Plunger_2
+    4300018: Strut_Base_1
+    4300020: Wing_L
+    4300022: Shaft_1
+    4300024: Plunger_2
+    4300026: Strut_Base_1
+    4300028: Wing_L
+    4300030: Shaft_1
+    4300032: Plunger_2
+    4300034: Strut_Base_1
+    4300036: Wing_L
+    4300038: Wheel_Base_B
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

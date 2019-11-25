@@ -1,0 +1,15 @@
+This is a set of 11 meshes for warehouse and industry low 
+poly environments.
+3 shared 1024x1024 textures, batching buildings good for 
+backgrounds and mobile games.
+Closed meshes are also available if it's required by your
+lighting plugin.
+
+
+
+
+_____________________________________
+
+Version history:
+
+1.0 Initial release

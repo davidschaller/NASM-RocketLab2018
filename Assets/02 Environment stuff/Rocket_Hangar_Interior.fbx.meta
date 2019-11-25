@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 5dcfdfc8525394023ae57170ff5ef850
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Box_1
+    100002: Box_2
+    100004: camera1
+    100006: Camera_Position_Reference
+    100008: Crane
+    100010: Crane_Support
+    100012: Desks
+    100014: Floor_Grate
+    100016: Fuel_Tanks
+    100018: Grip_1
+    100020: Grip_1 1
+    100022: Grip_2
+    100024: Grip_2 1
+    100026: Grip_3
+    100028: Grip_3 1
+    100030: Grip_4
+    100032: Grip_4 1
+    100034: Lamps
+    100036: People_Ref
+    100038: polySurface108
+    100040: polySurface109
+    100042: polySurface110
+    100044: polySurface111
+    100046: polySurface112
+    100048: polySurface113
+    100050: polySurface114
+    100052: polySurface14
+    100054: polySurface15
+    100056: polySurface29
+    100058: polySurface30
+    100060: Pylon_A
+    100062: Pylon_B
+    100064: Pylon_Support
+    100066: Pylon_Support 1
+    100068: Rails
+    100070: Railsupports
+    100072: //RootNode
+    100074: Shaft_1
+    100076: Shaft_1 1
+    100078: Shaft_2
+    100080: Shaft_2 1
+    100082: Shell_Floor
+    100084: Shell_Foreground
+    100086: Shell_HangarDoor_L
+    100088: Shell_HangarDoor_R
+    100090: Shell_WallandBeams
+    100092: Stairs
+    100094: Tracks
+    100096: Vehicles
+    100098: Wing_L
+    100100: Wing_L 1
+    100102: Wing_R
+    100104: Wing_R 1
+    400000: Box_1
+    400002: Box_2
+    400004: camera1
+    400006: Camera_Position_Reference
+    400008: Crane
+    400010: Crane_Support
+    400012: Desks
+    400014: Floor_Grate
+    400016: Fuel_Tanks
+    400018: Grip_1
+    400020: Grip_1 1
+    400022: Grip_2
+    400024: Grip_2 1
+    400026: Grip_3
+    400028: Grip_3 1
+    400030: Grip_4
+    400032: Grip_4 1
+    400034: Lamps
+    400036: People_Ref
+    400038: polySurface108
+    400040: polySurface109
+    400042: polySurface110
+    400044: polySurface111
+    400046: polySurface112
+    400048: polySurface113
+    400050: polySurface114
+    400052: polySurface14
+    400054: polySurface15
+    400056: polySurface29
+    400058: polySurface30
+    400060: Pylon_A
+    400062: Pylon_B
+    400064: Pylon_Support
+    400066: Pylon_Support 1
+    400068: Rails
+    400070: Railsupports
+    400072: //RootNode
+    400074: Shaft_1
+    400076: Shaft_1 1
+    400078: Shaft_2
+    400080: Shaft_2 1
+    400082: Shell_Floor
+    400084: Shell_Foreground
+    400086: Shell_HangarDoor_L
+    400088: Shell_HangarDoor_R
+    400090: Shell_WallandBeams
+    400092: Stairs
+    400094: Tracks
+    400096: Vehicles
+    400098: Wing_L
+    400100: Wing_L 1
+    400102: Wing_R
+    400104: Wing_R 1
+    2300000: Box_1
+    2300002: Box_2
+    2300004: Camera_Position_Reference
+    2300006: Crane
+    2300008: Crane_Support
+    2300010: Desks
+    2300012: Floor_Grate
+    2300014: Grip_1
+    2300016: Grip_1 1
+    2300018: Grip_2
+    2300020: Grip_2 1
+    2300022: Grip_3
+    2300024: Grip_3 1
+    2300026: Grip_4
+    2300028: Grip_4 1
+    2300030: Lamps
+    2300032: People_Ref
+    2300034: polySurface108
+    2300036: polySurface109
+    2300038: polySurface110
+    2300040: polySurface111
+    2300042: polySurface112
+    2300044: polySurface113
+    2300046: polySurface114
+    2300048: polySurface15
+    2300050: polySurface29
+    2300052: polySurface30
+    2300054: Pylon_Support
+    2300056: Pylon_Support 1
+    2300058: Rails
+    2300060: Railsupports
+    2300062: Shaft_1
+    2300064: Shaft_1 1
+    2300066: Shaft_2
+    2300068: Shaft_2 1
+    2300070: Shell_Foreground
+    2300072: Shell_HangarDoor_L
+    2300074: Shell_HangarDoor_R
+    2300076: Vehicles
+    2300078: Wing_L
+    2300080: Wing_L 1
+    2300082: Wing_R
+    2300084: Wing_R 1
+    3300000: Box_1
+    3300002: Box_2
+    3300004: Camera_Position_Reference
+    3300006: Crane
+    3300008: Crane_Support
+    3300010: Desks
+    3300012: Floor_Grate
+    3300014: Grip_1
+    3300016: Grip_1 1
+    3300018: Grip_2
+    3300020: Grip_2 1
+    3300022: Grip_3
+    3300024: Grip_3 1
+    3300026: Grip_4
+    3300028: Grip_4 1
+    3300030: Lamps
+    3300032: People_Ref
+    3300034: polySurface108
+    3300036: polySurface109
+    3300038: polySurface110
+    3300040: polySurface111
+    3300042: polySurface112
+    3300044: polySurface113
+    3300046: polySurface114
+    3300048: polySurface15
+    3300050: polySurface29
+    3300052: polySurface30
+    3300054: Pylon_Support
+    3300056: Pylon_Support 1
+    3300058: Rails
+    3300060: Railsupports
+    3300062: Shaft_1
+    3300064: Shaft_1 1
+    3300066: Shaft_2
+    3300068: Shaft_2 1
+    3300070: Shell_Foreground
+    3300072: Shell_HangarDoor_L
+    3300074: Shell_HangarDoor_R
+    3300076: Vehicles
+    3300078: Wing_L
+    3300080: Wing_L 1
+    3300082: Wing_R
+    3300084: Wing_R 1
+    4300000: Rails
+    4300002: Railsupports
+    4300004: polySurface15
+    4300006: polySurface30
+    4300008: Box_2
+    4300010: Box_1
+    4300012: polySurface29
+    4300014: Shell_Foreground
+    4300016: polySurface112
+    4300018: polySurface113
+    4300020: polySurface114
+    4300022: Shell_HangarDoor_L
+    4300024: Shell_HangarDoor_R
+    4300026: Crane
+    4300028: Desks
+    4300030: Crane_Support
+    4300032: Lamps
+    4300034: polySurface108
+    4300036: polySurface109
+    4300038: polySurface110
+    4300040: polySurface111
+    4300042: Vehicles
+    4300044: Camera_Position_Reference
+    4300046: Floor_Grate
+    4300048: People_Ref
+    4300050: Pylon_Support
+    4300052: Wing_L
+    4300054: Wing_R
+    4300056: Shaft_1
+    4300058: Grip_2
+    4300060: Grip_1
+    4300062: Grip_4
+    4300064: Shaft_2
+    4300066: Grip_3
+    4300068: Pylon_Support
+    4300070: Wing_L
+    4300072: Wing_R
+    4300074: Shaft_1
+    4300076: Grip_2
+    4300078: Grip_1
+    4300080: Grip_4
+    4300082: Shaft_2
+    4300084: Grip_3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

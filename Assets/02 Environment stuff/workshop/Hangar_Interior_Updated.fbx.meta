@@ -1,0 +1,473 @@
+fileFormatVersion: 2
+guid: 6f4e6b18e657e44aeb89efca01766200
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Cables
+    100002: Camera_Safe_Arch
+    100004: Cargo_Truck_A
+    100006: Cargo_Truck_B
+    100008: Cargo_Truck_Trailer
+    100010: Crane
+    100012: Crane_Supports
+    100014: Crate1
+    100016: Crate2
+    100018: Crate3
+    100020: Crate4
+    100022: Crate5
+    100024: Crate6
+    100026: Desks
+    100028: Floor
+    100030: Floor_Grate
+    100032: Forklift
+    100034: Gas_Tanks
+    100036: Grip_1
+    100038: Grip_1 1
+    100040: Grip_2
+    100042: Grip_2 1
+    100044: Grip_3
+    100046: Grip_3 1
+    100048: Grip_4
+    100050: Grip_4 1
+    100052: Hangar_Door_A
+    100054: Hangar_Door_B
+    100056: //RootNode
+    100058: Hangar_Wall_A
+    100060: Hangar_Wall_B
+    100062: Hangar_Wall_C
+    100064: Lamps
+    100066: polySurface1
+    100068: polySurface1 1
+    100070: polySurface10
+    100072: polySurface10 1
+    100074: polySurface14
+    100076: polySurface14 1
+    100078: polySurface15
+    100080: polySurface15 1
+    100082: polySurface16
+    100084: polySurface16 1
+    100086: polySurface17
+    100088: polySurface17 1
+    100090: polySurface18
+    100092: polySurface18 1
+    100094: polySurface29
+    100096: polySurface29 1
+    100098: polySurface30
+    100100: polySurface30 1
+    100102: polySurface37
+    100104: polySurface37 1
+    100106: polySurface38
+    100108: polySurface38 1
+    100110: polySurface39
+    100112: polySurface39 1
+    100114: polySurface40
+    100116: polySurface5
+    100118: polySurface5 1
+    100120: polySurface6
+    100122: polySurface6 1
+    100124: polySurface7
+    100126: polySurface7 1
+    100128: polySurface8
+    100130: polySurface8 1
+    100132: polySurface9
+    100134: polySurface9 1
+    100136: Pylon_1
+    100138: Pylon_2
+    100140: Pylon_Base_1
+    100142: Pylon_Base_2
+    100144: Pylon_Transport
+    100146: Second_Floor
+    100148: Shaft_1
+    100150: Shaft_1 1
+    100152: Shaft_2
+    100154: Shaft_2 1
+    100156: Spotlights2
+    100158: Stairs
+    100160: Support_Beam
+    100162: Topcover
+    100164: Tracks
+    100166: Wheel_Hub_1
+    100168: Wheel_Hub_1 1
+    100170: Wing_L
+    100172: Wing_L 1
+    100174: Wing_R
+    100176: Wing_R 1
+    400000: Cables
+    400002: Camera_Safe_Arch
+    400004: Cargo_Truck_A
+    400006: Cargo_Truck_B
+    400008: Cargo_Truck_Trailer
+    400010: Crane
+    400012: Crane_Supports
+    400014: Crate1
+    400016: Crate2
+    400018: Crate3
+    400020: Crate4
+    400022: Crate5
+    400024: Crate6
+    400026: Desks
+    400028: Floor
+    400030: Floor_Grate
+    400032: Forklift
+    400034: Gas_Tanks
+    400036: Grip_1
+    400038: Grip_1 1
+    400040: Grip_2
+    400042: Grip_2 1
+    400044: Grip_3
+    400046: Grip_3 1
+    400048: Grip_4
+    400050: Grip_4 1
+    400052: Hangar_Door_A
+    400054: Hangar_Door_B
+    400056: //RootNode
+    400058: Hangar_Wall_A
+    400060: Hangar_Wall_B
+    400062: Hangar_Wall_C
+    400064: Lamps
+    400066: polySurface1
+    400068: polySurface1 1
+    400070: polySurface10
+    400072: polySurface10 1
+    400074: polySurface14
+    400076: polySurface14 1
+    400078: polySurface15
+    400080: polySurface15 1
+    400082: polySurface16
+    400084: polySurface16 1
+    400086: polySurface17
+    400088: polySurface17 1
+    400090: polySurface18
+    400092: polySurface18 1
+    400094: polySurface29
+    400096: polySurface29 1
+    400098: polySurface30
+    400100: polySurface30 1
+    400102: polySurface37
+    400104: polySurface37 1
+    400106: polySurface38
+    400108: polySurface38 1
+    400110: polySurface39
+    400112: polySurface39 1
+    400114: polySurface40
+    400116: polySurface5
+    400118: polySurface5 1
+    400120: polySurface6
+    400122: polySurface6 1
+    400124: polySurface7
+    400126: polySurface7 1
+    400128: polySurface8
+    400130: polySurface8 1
+    400132: polySurface9
+    400134: polySurface9 1
+    400136: Pylon_1
+    400138: Pylon_2
+    400140: Pylon_Base_1
+    400142: Pylon_Base_2
+    400144: Pylon_Transport
+    400146: Second_Floor
+    400148: Shaft_1
+    400150: Shaft_1 1
+    400152: Shaft_2
+    400154: Shaft_2 1
+    400156: Spotlights2
+    400158: Stairs
+    400160: Support_Beam
+    400162: Topcover
+    400164: Tracks
+    400166: Wheel_Hub_1
+    400168: Wheel_Hub_1 1
+    400170: Wing_L
+    400172: Wing_L 1
+    400174: Wing_R
+    400176: Wing_R 1
+    2300000: Cables
+    2300002: Camera_Safe_Arch
+    2300004: Cargo_Truck_A
+    2300006: Cargo_Truck_B
+    2300008: Cargo_Truck_Trailer
+    2300010: Crane
+    2300012: Crane_Supports
+    2300014: Crate1
+    2300016: Crate2
+    2300018: Crate3
+    2300020: Crate4
+    2300022: Crate5
+    2300024: Crate6
+    2300026: Desks
+    2300028: Floor
+    2300030: Floor_Grate
+    2300032: Forklift
+    2300034: Gas_Tanks
+    2300036: Grip_1
+    2300038: Grip_1 1
+    2300040: Grip_2
+    2300042: Grip_2 1
+    2300044: Grip_3
+    2300046: Grip_3 1
+    2300048: Grip_4
+    2300050: Grip_4 1
+    2300052: Hangar_Door_A
+    2300054: Hangar_Door_B
+    2300056: Hangar_Wall_A
+    2300058: Hangar_Wall_B
+    2300060: Hangar_Wall_C
+    2300062: Lamps
+    2300064: polySurface1
+    2300066: polySurface1 1
+    2300068: polySurface10
+    2300070: polySurface10 1
+    2300072: polySurface14
+    2300074: polySurface14 1
+    2300076: polySurface15
+    2300078: polySurface15 1
+    2300080: polySurface16
+    2300082: polySurface16 1
+    2300084: polySurface17
+    2300086: polySurface17 1
+    2300088: polySurface18
+    2300090: polySurface18 1
+    2300092: polySurface29
+    2300094: polySurface29 1
+    2300096: polySurface30
+    2300098: polySurface30 1
+    2300100: polySurface37
+    2300102: polySurface37 1
+    2300104: polySurface38
+    2300106: polySurface38 1
+    2300108: polySurface39
+    2300110: polySurface39 1
+    2300112: polySurface40
+    2300114: polySurface5
+    2300116: polySurface5 1
+    2300118: polySurface6
+    2300120: polySurface6 1
+    2300122: polySurface7
+    2300124: polySurface7 1
+    2300126: polySurface8
+    2300128: polySurface8 1
+    2300130: polySurface9
+    2300132: polySurface9 1
+    2300134: Pylon_Base_1
+    2300136: Pylon_Base_2
+    2300138: Second_Floor
+    2300140: Shaft_1
+    2300142: Shaft_1 1
+    2300144: Shaft_2
+    2300146: Shaft_2 1
+    2300148: Spotlights2
+    2300150: Stairs
+    2300152: Support_Beam
+    2300154: Topcover
+    2300156: Tracks
+    3300000: Cables
+    3300002: Camera_Safe_Arch
+    3300004: Cargo_Truck_A
+    3300006: Cargo_Truck_B
+    3300008: Cargo_Truck_Trailer
+    3300010: Crane
+    3300012: Crane_Supports
+    3300014: Crate1
+    3300016: Crate2
+    3300018: Crate3
+    3300020: Crate4
+    3300022: Crate5
+    3300024: Crate6
+    3300026: Desks
+    3300028: Floor
+    3300030: Floor_Grate
+    3300032: Forklift
+    3300034: Gas_Tanks
+    3300036: Grip_1
+    3300038: Grip_1 1
+    3300040: Grip_2
+    3300042: Grip_2 1
+    3300044: Grip_3
+    3300046: Grip_3 1
+    3300048: Grip_4
+    3300050: Grip_4 1
+    3300052: Hangar_Door_A
+    3300054: Hangar_Door_B
+    3300056: Hangar_Wall_A
+    3300058: Hangar_Wall_B
+    3300060: Hangar_Wall_C
+    3300062: Lamps
+    3300064: polySurface1
+    3300066: polySurface1 1
+    3300068: polySurface10
+    3300070: polySurface10 1
+    3300072: polySurface14
+    3300074: polySurface14 1
+    3300076: polySurface15
+    3300078: polySurface15 1
+    3300080: polySurface16
+    3300082: polySurface16 1
+    3300084: polySurface17
+    3300086: polySurface17 1
+    3300088: polySurface18
+    3300090: polySurface18 1
+    3300092: polySurface29
+    3300094: polySurface29 1
+    3300096: polySurface30
+    3300098: polySurface30 1
+    3300100: polySurface37
+    3300102: polySurface37 1
+    3300104: polySurface38
+    3300106: polySurface38 1
+    3300108: polySurface39
+    3300110: polySurface39 1
+    3300112: polySurface40
+    3300114: polySurface5
+    3300116: polySurface5 1
+    3300118: polySurface6
+    3300120: polySurface6 1
+    3300122: polySurface7
+    3300124: polySurface7 1
+    3300126: polySurface8
+    3300128: polySurface8 1
+    3300130: polySurface9
+    3300132: polySurface9 1
+    3300134: Pylon_Base_1
+    3300136: Pylon_Base_2
+    3300138: Second_Floor
+    3300140: Shaft_1
+    3300142: Shaft_1 1
+    3300144: Shaft_2
+    3300146: Shaft_2 1
+    3300148: Spotlights2
+    3300150: Stairs
+    3300152: Support_Beam
+    3300154: Topcover
+    3300156: Tracks
+    4300000: Lamps
+    4300002: Hangar_Wall_C
+    4300004: Forklift
+    4300006: Cargo_Truck_B
+    4300008: Cargo_Truck_A
+    4300010: Cargo_Truck_Trailer
+    4300012: Stairs
+    4300014: Spotlights2
+    4300016: Hangar_Door_A
+    4300018: Hangar_Door_B
+    4300020: Hangar_Wall_B
+    4300022: Topcover
+    4300024: Crate6
+    4300026: Crate5
+    4300028: Crate4
+    4300030: Crate3
+    4300032: Gas_Tanks
+    4300034: Desks
+    4300036: Floor
+    4300038: Crate2
+    4300040: Camera_Safe_Arch
+    4300042: Hangar_Wall_A
+    4300044: Floor_Grate
+    4300046: Crate1
+    4300048: Second_Floor
+    4300050: Cables
+    4300052: Crane_Supports
+    4300054: Crane
+    4300056: Tracks
+    4300058: Pylon_Base_1
+    4300060: Pylon_Base_2
+    4300062: polySurface30
+    4300064: polySurface29
+    4300066: polySurface37
+    4300068: polySurface38
+    4300070: polySurface39
+    4300072: Grip_3
+    4300074: Shaft_2
+    4300076: Grip_4
+    4300078: Grip_1
+    4300080: Grip_2
+    4300082: Shaft_1
+    4300084: polySurface10
+    4300086: polySurface14
+    4300088: polySurface15
+    4300090: polySurface16
+    4300092: polySurface17
+    4300094: polySurface18
+    4300096: polySurface1
+    4300098: polySurface5
+    4300100: polySurface6
+    4300102: polySurface7
+    4300104: polySurface8
+    4300106: polySurface9
+    4300108: polySurface30
+    4300110: polySurface29
+    4300112: polySurface37
+    4300114: polySurface38
+    4300116: polySurface39
+    4300118: polySurface40
+    4300120: Grip_3
+    4300122: Shaft_2
+    4300124: Grip_4
+    4300126: Grip_1
+    4300128: Grip_2
+    4300130: Shaft_1
+    4300132: polySurface10
+    4300134: polySurface14
+    4300136: polySurface15
+    4300138: polySurface16
+    4300140: polySurface17
+    4300142: polySurface18
+    4300144: polySurface1
+    4300146: polySurface5
+    4300148: polySurface6
+    4300150: polySurface7
+    4300152: polySurface8
+    4300154: polySurface9
+    4300156: Support_Beam
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 
