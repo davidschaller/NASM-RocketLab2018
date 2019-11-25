@@ -1,0 +1,3 @@
+# ignore meta files, since the Plugins dir is shared between multiple projects.
+# I think this means we only lose the ability to set default assets on script references
+# *.meta
