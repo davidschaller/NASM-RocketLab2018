@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b47fa721b0b6a294cb52d89cc9838023
+labels:
+- Desert
+- Jet
+- Missile
+- Rocket
+- TakeOff
+- War
+timeCreated: 1497876752
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
