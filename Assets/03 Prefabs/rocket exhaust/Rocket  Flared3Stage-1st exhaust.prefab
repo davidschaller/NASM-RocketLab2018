@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400004}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: Rocket  Flared3Stage-1st exhaust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,6 @@ GameObject:
   m_Component:
   - component: {fileID: 400024}
   - component: {fileID: 10800010}
-  - component: {fileID: 714978600279306797}
   m_Layer: 12
   m_Name: ThrusterLight
   m_TagString: Untagged
@@ -101,102 +100,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!82 &714978600279306797
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100022}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e47f2fc33504cb44696c272f866f7c27, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 10000
-  Pan2D: 0
-  rolloffMode: 1
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0.002
-      value: 1
-      inSlope: -2.9865336
-      outSlope: -2.9865336
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0.002
-      inSlope: -0.04896177
-      outSlope: -0.04896177
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &4950566465086581721
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,7 +111,7 @@ GameObject:
   - component: {fileID: 4950566465086581720}
   - component: {fileID: 4950566465086581718}
   - component: {fileID: 4950566465086581719}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4762,7 +4665,7 @@ GameObject:
   - component: {fileID: 4950566465604323810}
   - component: {fileID: 4950566465604323808}
   - component: {fileID: 4950566465604323809}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9316,7 +9219,7 @@ GameObject:
   - component: {fileID: 4950566466030013676}
   - component: {fileID: 4950566466030013674}
   - component: {fileID: 4950566466030013675}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13869,7 +13772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4950566466508942159}
   - component: {fileID: 504588877236821619}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14003,7 +13906,7 @@ GameObject:
   - component: {fileID: 4950566466777350790}
   - component: {fileID: 4950566466777350788}
   - component: {fileID: 4950566466777350789}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18557,7 +18460,7 @@ GameObject:
   - component: {fileID: 3318110853923086819}
   - component: {fileID: 4512580282063049205}
   - component: {fileID: 5795301443001008930}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -7,15 +7,23 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/0 Scenes/Title Screen.unity
+    guid: 054ff0a1c6a064dfcb031cacda850c00
   - enabled: 0
     path: Assets/0 Scenes/Mission 1-MainScene.unity
+    guid: 8dde4c7f4076f4a01b8208d834d999ef
   - enabled: 0
     path: Assets/0 Scenes/Mission 2-MainScene.unity
+    guid: cfb2b4db807ee487a949b9689b730554
   - enabled: 0
     path: Assets/0 Scenes/Mission 3-MainScene.unity
+    guid: 79d8f04e74c634d889b76b755dc699e1
   - enabled: 1
     path: Assets/0 Scenes/Mission 1-MainScene web.unity
+    guid: 170c822ac59ab46beaa6f930f7e3d23b
   - enabled: 1
     path: Assets/0 Scenes/Mission 2-MainScene web.unity
+    guid: 01971ee3395f54cd0a4bec7828cd5371
   - enabled: 1
     path: Assets/0 Scenes/Mission 3-MainScene web.unity
+    guid: 35206240af4cf449db39b1c1eedd04e6
+  m_configObjects: {}

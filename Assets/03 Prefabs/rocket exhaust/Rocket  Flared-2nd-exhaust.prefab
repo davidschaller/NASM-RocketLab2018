@@ -78,7 +78,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400004}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: Rocket  Flared-2nd-exhaust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 2610128544488352831}
   - component: {fileID: 3892482496161606103}
   - component: {fileID: 1307941254771085259}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4665,7 +4665,7 @@ GameObject:
   - component: {fileID: 7739564186376226431}
   - component: {fileID: 7739564186376226417}
   - component: {fileID: 7739564186376226416}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9219,7 +9219,7 @@ GameObject:
   - component: {fileID: 7739564186533837754}
   - component: {fileID: 7739564186533837756}
   - component: {fileID: 7739564186533837755}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13772,7 +13772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7739564187811325709}
   - component: {fileID: 632211778211342677}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13905,7 +13905,7 @@ GameObject:
   - component: {fileID: 7739564187829706852}
   - component: {fileID: 7739564187829706854}
   - component: {fileID: 7739564187829706853}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

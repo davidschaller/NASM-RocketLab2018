@@ -21,11 +21,11 @@ Material:
     m_TexEnvs:
     - _CloudAndNightTex:
         m_Texture: {fileID: 2800000, guid: 7434bc603ca3845698d2caf7865249e1, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 1, y: 2}
         m_Offset: {x: 0, y: 0}
     - _DiffuseTex:
         m_Texture: {fileID: 2800000, guid: 30114edd3e7bf44d08c652eff8f2544d, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 1, y: 2}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
@@ -37,7 +37,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AtmosphereMultiply: 3
-    - _AtmospherePow: 4.7
+    - _AtmospherePow: 5.33
     - _SunsetIntensity: 0.7464286
     m_Colors:
     - _AtmosphereColor: {r: 0.36209506, g: 0.47623622, b: 0.745283, a: 1}
