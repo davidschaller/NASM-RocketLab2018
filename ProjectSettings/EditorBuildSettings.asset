@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/0 Scenes/Title Screen test2.unity
     guid: 0b53b94c6911348e4b381729a36814cc
   - enabled: 1

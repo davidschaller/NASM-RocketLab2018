@@ -28,4 +28,4 @@ Material:
     - _intensity: 10
     - _maxIntensity: 100
     m_Colors:
-    - _Color: {r: 0.23567447, g: 0.33775806, b: 0.58275867, a: 0.728}
+    - _Color: {r: 0.5149074, g: 0.6044237, b: 0.8207547, a: 1}
