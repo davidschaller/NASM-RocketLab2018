@@ -82,9 +82,10 @@ public class GUIOneButtonDialogRenderer : OneButtonDialogRendererBase
         string buttonStyle = DialogXMLParser.GetStyle(xml.text, propertySettings.buttonStyle);
 
         boxGUIStyle = guiSkin.GetStyle(boxStyle);
-        buttonGUIStyle = guiSkin.GetStyle(buttonStyle);
+//        buttonGUIStyle = guiSkin.GetStyle("buttonStyle");
+		buttonGUIStyle = guiSkin.GetStyle("Button");
 
-        enabled = true;
+		enabled = true;
 
         clickCallback += callback;
     }

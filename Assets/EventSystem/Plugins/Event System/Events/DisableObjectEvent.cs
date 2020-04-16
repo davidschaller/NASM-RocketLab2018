@@ -27,12 +27,12 @@ class DisableObjectRunner : IEvent
                 }
                 else
                 {
-                    Debug.LogError("I couldn't fin a child with path '" + pathToDeactivate + "' inside of '" + parentToDeactivate.name + "' tranform", parentToDeactivate.transform);
+                    Debug.LogWarning("I couldn't fin a child with path '" + pathToDeactivate + "' inside of '" + parentToDeactivate.name + "' tranform", parentToDeactivate.transform);
                 }
             }
             else
             {
-                Debug.LogError("target Object to deactivate OR parent To Deactivate with the path are not set");
+                Debug.LogWarning("target Object to deactivate OR parent To Deactivate with the path are not set");
             }
         }        
 

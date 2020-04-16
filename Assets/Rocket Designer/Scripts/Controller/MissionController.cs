@@ -889,7 +889,10 @@ if (item.eventPlayer)
 
             launchControllerBase.Toggle(false);
 
-            if (currentEventPair.isSuccess)
+			//uncomment for cheat to force success panel to show
+//			currentEventPair.isSuccess = true;
+
+			if (currentEventPair.isSuccess)
             {
                 string multipleSForAttempts = launchAttempts > 1 ? "s" : "";
                 alerterBase.ShowOneButton(AlerterBase.OneButtonAlerts.Success, new string[2] { launchAttempts.ToString(), multipleSForAttempts }, ToTheNextMission, CompareRockets2, true);
