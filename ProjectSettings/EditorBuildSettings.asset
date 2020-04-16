@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
+=======
+    path: Assets/0 Scenes/Mission 1-MainScene web 1.unity
+    guid: 9edb1be29b70240feb37a306203f6416
+  - enabled: 1
+>>>>>>> 873f59babe9345a2eb66d69919086b43573ff17a
     path: Assets/0 Scenes/Title Screen.unity
     guid: 054ff0a1c6a064dfcb031cacda850c00
   - enabled: 1
@@ -18,8 +24,13 @@ EditorBuildSettings:
     path: Assets/0 Scenes/Mission 3-MainScene web.unity
     guid: 35206240af4cf449db39b1c1eedd04e6
   - enabled: 0
+<<<<<<< HEAD
     path: Assets/Space Graphics Toolkit/Features/Atmosphere/00 Atmosphere.unity
     guid: c435d2623d241c048a502d7bf99083e5
+=======
+    path: 
+    guid: 00000000000000000000000000000000
+>>>>>>> 873f59babe9345a2eb66d69919086b43573ff17a
   - enabled: 0
     path: Assets/0 Scenes/Title Screen test2.unity
     guid: 0b53b94c6911348e4b381729a36814cc

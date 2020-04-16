@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StarParticleMaterial
+  m_Shader: {fileID: 4800000, guid: 80abca4a6fc55c2489a526bbb14485eb, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _AlphaPow: 2.14
+    - _ClosestParticleDistance: 3500
+    - _Core1Pow: 6.76
+    - _Core1Size: 0.202
+    - _Core2Pow: 0.22
+    - _Core2Size: 0.01
+    - _CoreColorMult: 0.21
+    - _DotSizeMultiplier: 1.12
+    - _FarthestDotAlpha: 0.186
+    - _FarthestParticleDistance: 4000
+    - _Glow1Pow: 0.21
+    - _Glow1Size: 1.169
+    - _Glow2Pow: 0.16
+    - _Glow2Size: 1.111
+    - _GlowColorMult: 1.18
+    - _ParticleSize: 100
+    - _ScintillationSpeed: 3.13
+    - _ScintillationStrength: 1
+    m_Colors: []
