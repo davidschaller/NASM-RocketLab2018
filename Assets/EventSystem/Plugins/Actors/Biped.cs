@@ -73,15 +73,15 @@ public class Biped : ActorBase, ISceneActor, ISceneObject
         }
 	}
 
-    void GetYWithRaycast(Vector3 cachedPosition)
+    void GetYWithRaycast(Vector3 cachdPosition)
     {
         RaycastHit hit;
 
-        Ray ray = new Ray(cachedPosition + Vector3.up * 40, Vector3.down);
+        Ray ray = new Ray(cachdPosition + Vector3.up * 40, Vector3.down);
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, 1 << LayerMask.NameToLayer("Walkable")))
         {
-            cachedPos = new Vector3(cachedPosition.x, hit.point.y, cachedPosition.z);
+            cachedPos = new Vector3(cachdPosition.x, hit.point.y, cachdPosition.z);
         }
         else
             cachedPos = Vector3.zero;		

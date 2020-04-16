@@ -7,7 +7,6 @@ public class NPCRival : NPCController
 #if Crypto
     //private string TO_CHALLENGE_TEXT = "Do you want to challenge ";
 
-    public float maxTalkDistance = 10;
     //private string interviewButtonText = "Challenge ";
 
     private List<Vector3> clickTargets = new List<Vector3>();

@@ -13,9 +13,7 @@ public class HorseController : NPCController
     public AudioClip TrotAudio;
 
     public float horseRiderHeight = 0.77f;
-
-    public float turnSpeed = 3f;
-
+    
     private GameObject playerGO = null;
 
     private bool canShowDismountButton = false;

@@ -162,4 +162,6 @@
 			ENDCG
 		}
 	}
+    
+    FallBack "Mobile/Mobile/AlphaBlended"
 }
