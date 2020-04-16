@@ -66,14 +66,14 @@ MonoBehaviour:
   - name: virtualreal_idle
     outer:
       serializedVersion: 2
-      x: 653
-      y: 317
+      x: 0
+      y: 1
       width: 121
       height: 36
     inner:
       serializedVersion: 2
-      x: 653
-      y: 317
+      x: 0
+      y: 1
       width: 121
       height: 36
     rotated: 0
@@ -84,14 +84,14 @@ MonoBehaviour:
   - name: virtualreal_hover
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1
+      x: 653
+      y: 317
       width: 121
       height: 36
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1
+      x: 653
+      y: 317
       width: 121
       height: 36
     rotated: 0
@@ -139,13 +139,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 977
-      y: 562
+      y: 661
       width: 25
       height: 25
     inner:
       serializedVersion: 2
       x: 985
-      y: 569
+      y: 668
       width: 9
       height: 11
     rotated: 0
@@ -193,13 +193,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 951
-      y: 536
+      y: 635
       width: 25
       height: 25
     inner:
       serializedVersion: 2
       x: 959
-      y: 543
+      y: 642
       width: 9
       height: 11
     rotated: 0
@@ -282,14 +282,14 @@ MonoBehaviour:
   - name: mission_hover
     outer:
       serializedVersion: 2
-      x: 354
-      y: 358
+      x: 977
+      y: 619
       width: 30
       height: 20
     inner:
       serializedVersion: 2
-      x: 354
-      y: 358
+      x: 977
+      y: 619
       width: 30
       height: 20
     rotated: 0
@@ -336,14 +336,14 @@ MonoBehaviour:
   - name: gallery_hover
     outer:
       serializedVersion: 2
-      x: 914
-      y: 233
+      x: 827
+      y: 186
       width: 100
       height: 36
     inner:
       serializedVersion: 2
-      x: 914
-      y: 233
+      x: 827
+      y: 186
       width: 100
       height: 36
     rotated: 0
@@ -409,13 +409,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 977
-      y: 541
+      y: 640
       width: 30
       height: 20
     inner:
       serializedVersion: 2
       x: 977
-      y: 541
+      y: 640
       width: 30
       height: 20
     rotated: 0
@@ -427,13 +427,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 951
-      y: 562
+      y: 661
       width: 25
       height: 25
     inner:
       serializedVersion: 2
       x: 959
-      y: 571
+      y: 670
       width: 9
       height: 7
     rotated: 0
@@ -499,13 +499,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 977
-      y: 593
+      y: 708
       width: 25
       height: 25
     inner:
       serializedVersion: 2
       x: 985
-      y: 600
+      y: 715
       width: 9
       height: 11
     rotated: 0
@@ -534,14 +534,14 @@ MonoBehaviour:
   - name: flight2_path
     outer:
       serializedVersion: 2
-      x: 281
-      y: 168
+      x: 152
+      y: 55
       width: 85
       height: 92
     inner:
       serializedVersion: 2
-      x: 281
-      y: 168
+      x: 152
+      y: 55
       width: 85
       height: 92
     rotated: 0
@@ -571,13 +571,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 951
-      y: 740
+      y: 737
       width: 51
       height: 35
     inner:
       serializedVersion: 2
       x: 951
-      y: 740
+      y: 737
       width: 51
       height: 35
     rotated: 0
@@ -588,14 +588,14 @@ MonoBehaviour:
   - name: camera_idle
     outer:
       serializedVersion: 2
-      x: 653
-      y: 176
+      x: 734
+      y: 747
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 653
-      y: 176
+      x: 734
+      y: 747
       width: 86
       height: 46
     rotated: 0
@@ -607,13 +607,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 653
-      y: 223
+      y: 270
       width: 86
       height: 46
     inner:
       serializedVersion: 2
       x: 653
-      y: 223
+      y: 270
       width: 86
       height: 46
     rotated: 0
@@ -679,13 +679,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 951
-      y: 588
+      y: 703
       width: 25
       height: 30
     inner:
       serializedVersion: 2
       x: 951
-      y: 588
+      y: 703
       width: 25
       height: 30
     rotated: 0
@@ -697,13 +697,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 951
-      y: 619
+      y: 687
       width: 48
       height: 15
     inner:
       serializedVersion: 2
       x: 951
-      y: 619
+      y: 687
       width: 48
       height: 15
     rotated: 0
@@ -732,14 +732,14 @@ MonoBehaviour:
   - name: risk_fg_big
     outer:
       serializedVersion: 2
-      x: 401
-      y: 2
+      x: 532
+      y: 4
       width: 120
       height: 24
     inner:
       serializedVersion: 2
-      x: 401
-      y: 2
+      x: 532
+      y: 4
       width: 120
       height: 24
     rotated: 0
@@ -751,13 +751,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 904
-      y: 443
+      y: 433
       width: 120
       height: 30
     inner:
       serializedVersion: 2
       x: 904
-      y: 443
+      y: 433
       width: 120
       height: 30
     rotated: 0
@@ -768,14 +768,14 @@ MonoBehaviour:
   - name: mission3
     outer:
       serializedVersion: 2
-      x: 973
-      y: 848
+      x: 951
+      y: 773
       width: 50
       height: 50
     inner:
       serializedVersion: 2
-      x: 973
-      y: 848
+      x: 951
+      y: 773
       width: 50
       height: 50
     rotated: 0
@@ -786,14 +786,14 @@ MonoBehaviour:
   - name: mission2
     outer:
       serializedVersion: 2
-      x: 951
-      y: 635
+      x: 973
+      y: 848
       width: 50
       height: 50
     inner:
       serializedVersion: 2
-      x: 951
-      y: 635
+      x: 973
+      y: 848
       width: 50
       height: 50
     rotated: 0
@@ -876,14 +876,14 @@ MonoBehaviour:
   - name: cost_fg_big1
     outer:
       serializedVersion: 2
-      x: 740
-      y: 194
+      x: 827
+      y: 124
       width: 109
       height: 30
     inner:
       serializedVersion: 2
-      x: 740
-      y: 194
+      x: 827
+      y: 124
       width: 109
       height: 30
     rotated: 0
@@ -894,14 +894,14 @@ MonoBehaviour:
   - name: cost_bg_big1
     outer:
       serializedVersion: 2
-      x: 850
-      y: 194
+      x: 827
+      y: 155
       width: 109
       height: 30
     inner:
       serializedVersion: 2
-      x: 850
-      y: 194
+      x: 827
+      y: 155
       width: 109
       height: 30
     rotated: 0
@@ -1074,14 +1074,14 @@ MonoBehaviour:
   - name: flight2_paths
     outer:
       serializedVersion: 2
-      x: 152
-      y: 55
+      x: 281
+      y: 168
       width: 85
       height: 92
     inner:
       serializedVersion: 2
-      x: 152
-      y: 55
+      x: 281
+      y: 168
       width: 85
       height: 92
     rotated: 0
@@ -1147,13 +1147,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 401
-      y: 27
+      y: 17
       width: 106
       height: 46
     inner:
       serializedVersion: 2
       x: 401
-      y: 27
+      y: 17
       width: 106
       height: 46
     rotated: 0
@@ -1164,14 +1164,14 @@ MonoBehaviour:
   - name: propellant_hover
     outer:
       serializedVersion: 2
-      x: 904
-      y: 474
+      x: 532
+      y: 74
       width: 106
       height: 46
     inner:
       serializedVersion: 2
-      x: 904
-      y: 474
+      x: 532
+      y: 74
       width: 106
       height: 46
     rotated: 0
@@ -1182,14 +1182,14 @@ MonoBehaviour:
   - name: propellant_done
     outer:
       serializedVersion: 2
-      x: 401
-      y: 74
+      x: 532
+      y: 121
       width: 106
       height: 46
     inner:
       serializedVersion: 2
-      x: 401
-      y: 74
+      x: 532
+      y: 121
       width: 106
       height: 46
     rotated: 0
@@ -1201,13 +1201,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 532
-      y: 123
+      y: 29
       width: 106
       height: 44
     inner:
       serializedVersion: 2
       x: 532
-      y: 123
+      y: 29
       width: 106
       height: 44
     rotated: 0
@@ -1219,13 +1219,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 653
-      y: 270
+      y: 35
       width: 86
       height: 46
     inner:
       serializedVersion: 2
       x: 653
-      y: 270
+      y: 35
       width: 86
       height: 46
     rotated: 0
@@ -1236,14 +1236,14 @@ MonoBehaviour:
   - name: control_hover
     outer:
       serializedVersion: 2
-      x: 532
-      y: 29
+      x: 653
+      y: 82
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 532
-      y: 29
+      x: 653
+      y: 82
       width: 86
       height: 46
     rotated: 0
@@ -1254,14 +1254,14 @@ MonoBehaviour:
   - name: stages_hover
     outer:
       serializedVersion: 2
-      x: 532
-      y: 76
+      x: 653
+      y: 129
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 532
-      y: 76
+      x: 653
+      y: 129
       width: 86
       height: 46
     rotated: 0
@@ -1272,14 +1272,14 @@ MonoBehaviour:
   - name: shape_idle
     outer:
       serializedVersion: 2
-      x: 734
-      y: 747
+      x: 653
+      y: 176
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 734
-      y: 747
+      x: 653
+      y: 176
       width: 86
       height: 46
     rotated: 0
@@ -1291,13 +1291,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 653
-      y: 129
+      y: 223
       width: 86
       height: 46
     inner:
       serializedVersion: 2
       x: 653
-      y: 129
+      y: 223
       width: 86
       height: 46
     rotated: 0
@@ -1308,13 +1308,13 @@ MonoBehaviour:
   - name: control_pressed
     outer:
       serializedVersion: 2
-      x: 740
+      x: 914
       y: 225
       width: 86
       height: 44
     inner:
       serializedVersion: 2
-      x: 740
+      x: 914
       y: 225
       width: 86
       height: 44
@@ -1326,14 +1326,14 @@ MonoBehaviour:
   - name: shape_pressed
     outer:
       serializedVersion: 2
-      x: 827
-      y: 225
+      x: 740
+      y: 178
       width: 86
       height: 44
     inner:
       serializedVersion: 2
-      x: 827
-      y: 225
+      x: 740
+      y: 178
       width: 86
       height: 44
     rotated: 0
@@ -1344,14 +1344,14 @@ MonoBehaviour:
   - name: control_done
     outer:
       serializedVersion: 2
-      x: 653
-      y: 82
+      x: 914
+      y: 270
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 653
-      y: 82
+      x: 914
+      y: 270
       width: 86
       height: 46
     rotated: 0
@@ -1362,14 +1362,14 @@ MonoBehaviour:
   - name: stages_done
     outer:
       serializedVersion: 2
-      x: 653
-      y: 35
+      x: 740
+      y: 223
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 653
-      y: 35
+      x: 740
+      y: 223
       width: 86
       height: 46
     rotated: 0
@@ -1380,14 +1380,14 @@ MonoBehaviour:
   - name: stages_pressed
     outer:
       serializedVersion: 2
-      x: 914
-      y: 271
+      x: 827
+      y: 224
       width: 86
       height: 45
     inner:
       serializedVersion: 2
-      x: 914
-      y: 271
+      x: 827
+      y: 224
       width: 86
       height: 45
     rotated: 0
@@ -1398,13 +1398,13 @@ MonoBehaviour:
   - name: stages_idle
     outer:
       serializedVersion: 2
-      x: 740
+      x: 827
       y: 270
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 740
+      x: 827
       y: 270
       width: 86
       height: 46
@@ -1416,13 +1416,13 @@ MonoBehaviour:
   - name: control_idle
     outer:
       serializedVersion: 2
-      x: 827
+      x: 740
       y: 270
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 827
+      x: 740
       y: 270
       width: 86
       height: 46
@@ -1542,14 +1542,14 @@ MonoBehaviour:
   - name: thrust_bg2a
     outer:
       serializedVersion: 2
-      x: 532
-      y: 14
+      x: 885
+      y: 361
       width: 76
       height: 14
     inner:
       serializedVersion: 2
-      x: 532
-      y: 14
+      x: 885
+      y: 361
       width: 76
       height: 14
     rotated: 0
@@ -1560,14 +1560,14 @@ MonoBehaviour:
   - name: risk_bg3
     outer:
       serializedVersion: 2
-      x: 885
-      y: 359
+      x: 874
+      y: 386
       width: 100
       height: 16
     inner:
       serializedVersion: 2
-      x: 885
-      y: 359
+      x: 874
+      y: 386
       width: 100
       height: 16
     rotated: 0
@@ -1578,14 +1578,14 @@ MonoBehaviour:
   - name: risk_fg3
     outer:
       serializedVersion: 2
-      x: 874
-      y: 386
+      x: 401
+      y: 0
       width: 100
       height: 16
     inner:
       serializedVersion: 2
-      x: 874
-      y: 386
+      x: 401
+      y: 0
       width: 100
       height: 16
     rotated: 0
@@ -1596,39 +1596,39 @@ MonoBehaviour:
   - name: 64px-Mute_IconNGUI
     outer:
       serializedVersion: 2
-      x: 951
-      y: 686
-      width: 59
-      height: 47
+      x: 904
+      y: 464
+      width: 95
+      height: 56
     inner:
       serializedVersion: 2
-      x: 951
-      y: 686
-      width: 59
-      height: 47
+      x: 904
+      y: 464
+      width: 95
+      height: 56
     rotated: 0
-    paddingLeft: 0.050847456
-    paddingRight: 0.033898305
-    paddingTop: 0.19148937
-    paddingBottom: 0.17021276
+    paddingLeft: 0.031578947
+    paddingRight: 0.021052632
+    paddingTop: 0.071428575
+    paddingBottom: 0.071428575
   - name: 64px-Speaker_IconNGUI
     outer:
       serializedVersion: 2
-      x: 951
-      y: 776
-      width: 60
-      height: 47
+      x: 401
+      y: 64
+      width: 95
+      height: 56
     inner:
       serializedVersion: 2
-      x: 951
-      y: 776
-      width: 60
-      height: 47
+      x: 401
+      y: 64
+      width: 95
+      height: 56
     rotated: 0
-    paddingLeft: 0.033333335
-    paddingRight: 0.033333335
-    paddingTop: 0.19148937
-    paddingBottom: 0.17021276
+    paddingLeft: 0.021052632
+    paddingRight: 0.031578947
+    paddingTop: 0.071428575
+    paddingBottom: 0.071428575
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

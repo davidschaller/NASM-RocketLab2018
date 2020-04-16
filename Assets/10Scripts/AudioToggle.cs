@@ -1,34 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class AudioToggle : MonoBehaviour
 {
-	public Toggle audioToggle;
+	public UICheckbox audioToggle;
 	bool audioOn;
-
-	AudioSource audioSrc;
 
 	OptionsData optionsData;
 
 	IEnumerator Start()
 	{
+		AudioListener.volume = 0.0f;
+
 		yield return null;
 		audioOn = true;
-		audioSrc = gameObject.GetComponent<AudioSource>() as AudioSource;
-		if(audioSrc == null) {
-			Debug.Log("Audio Toggle has no audio source. Add one to play a button click sound.");
-		}
 
 		if(audioToggle == null) {
-			audioToggle = gameObject.GetComponent<Toggle>() as Toggle;
+			audioToggle = gameObject.GetComponent<UICheckbox>() as UICheckbox;
 		}
 
 		optionsData = FindObjectOfType<OptionsData>();
 		if(optionsData != null) {
 			if (!optionsData.AudioOn) {
-				audioToggle.isOn = false;
+				audioToggle.isChecked = false;
+			} else {
+				AudioListener.volume = 1.0f;
 			}
 		}
 	}
@@ -44,10 +41,6 @@ public class AudioToggle : MonoBehaviour
 
 		if(optionsData != null) {
 			optionsData.AudioOnOff(audioOn);
-		}
-
-		if (audioSrc != null) {
-			audioSrc.Play();
 		}
 	}
 }
