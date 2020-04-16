@@ -5,7 +5,6 @@ public class NPCInformator : NPCController
     public string location = "Bank";
     public EventPlayerBase interviewEventPlayer;
 
-    public float maxTalkDistance = 5;
     public string interviewButtonText = "Interview to ";
 
     private Quaternion oldRotation;
