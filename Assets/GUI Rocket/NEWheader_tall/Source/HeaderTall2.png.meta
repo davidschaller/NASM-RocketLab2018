@@ -54,9 +54,9 @@ TextureImporter:
   textureType: 0
   textureShape: 1
   singleChannelComponent: 0
-  maxTextureSizeSet: 0
+  maxTextureSizeSet: 1
   compressionQualitySet: 0
-  textureFormatSet: 0
+  textureFormatSet: 1
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform

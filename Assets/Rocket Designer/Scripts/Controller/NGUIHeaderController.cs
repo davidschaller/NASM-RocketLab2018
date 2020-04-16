@@ -570,7 +570,11 @@ public class NGUIHeaderController : HeaderControllerBase
         galleryClickCallback = galleryClick;
         homeClickCallback = homeClick;
 
-        UIEventListener.Get(headerMainDetails.galleryButton.gameObject).onClick = MainButtonClick;
+		if(headerMainDetails == null) {
+			return;
+		}
+
+		UIEventListener.Get(headerMainDetails.galleryButton.gameObject).onClick = MainButtonClick;
         UIEventListener.Get(headerMainDetails.homeButton.gameObject).onClick = MainButtonClick;
         UIEventListener.Get(headerIntroDetails.galleryButton.gameObject).onClick = MainButtonClick;
         UIEventListener.Get(headerIntroDetails.homeButton.gameObject).onClick = MainButtonClick;
@@ -658,7 +662,18 @@ public class NGUIHeaderController : HeaderControllerBase
 
     public override void UpdateSuccess(float success)
     {
-        headerMainDetails.successProgressBar.sliderValue = success;
+		if(headerMainDetails == null) {
+			return;
+		}
+
+		if(headerMainDetails.successProgressBar == null) {
+			return;
+		}
+
+		if(headerMainDetails.successRateValue == null) {
+			return;
+		}
+		headerMainDetails.successProgressBar.sliderValue = success;
         headerMainDetails.successRateValue.text = (Mathf.RoundToInt((success) * 100)).ToString();
     }
 }
