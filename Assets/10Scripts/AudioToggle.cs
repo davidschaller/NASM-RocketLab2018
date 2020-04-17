@@ -9,6 +9,8 @@ public class AudioToggle : MonoBehaviour
 
 	OptionsData optionsData;
 
+	bool blockInput;
+
 	IEnumerator Start()
 	{
 		AudioListener.volume = 0.0f;
@@ -19,6 +21,8 @@ public class AudioToggle : MonoBehaviour
 		if(audioToggle == null) {
 			audioToggle = gameObject.GetComponent<UICheckbox>() as UICheckbox;
 		}
+
+		blockInput = false;
 
 		optionsData = FindObjectOfType<OptionsData>();
 		if(optionsData != null) {
@@ -32,6 +36,12 @@ public class AudioToggle : MonoBehaviour
 
 	public void ToggleAudio()
 	{
+		if (blockInput) {
+			return;
+		}
+
+		blockInput = true;
+
 		audioOn = !audioOn;
 		if (audioOn) {
 			AudioListener.volume = 1.0f;
@@ -42,5 +52,30 @@ public class AudioToggle : MonoBehaviour
 		if(optionsData != null) {
 			optionsData.AudioOnOff(audioOn);
 		}
+
+		StartCoroutine(Unblock());
+	}
+
+	IEnumerator Unblock() {
+		yield return null;
+
+		bool audioCheck = false;
+		if (audioOn) {
+			if(!audioToggle.isChecked) {
+				audioToggle.isChecked = true;
+				audioCheck = true;
+			}
+		} else {
+			if (audioToggle.isChecked) {
+				audioToggle.isChecked = false;
+				audioCheck = true;
+			}
+		}
+
+		if (audioCheck) {
+			yield return null;
+		}
+
+		blockInput = false;
 	}
 }
