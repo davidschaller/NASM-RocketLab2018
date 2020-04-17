@@ -41,9 +41,17 @@ public class IpadExtraController : MonoBehaviour
     public string shareButtonText = "Share",
                   hideShareButtonText = "Hide";
 
-    public string webiteForPictures = "http://somewebite.com";
+	UIImageButton shareButton;
+	UILabel shareLabel;
+	bool shareIsOpen = false;
 
-    void Start()
+	Transform shareGroup;
+
+	public string webiteForPictures = "http://somewebite.com";
+
+#if !UNITY_WEBGL
+
+	void Start()
     {
         webCameraCam.enabled = false;
         newRealWebCam.gameObject.SetActive(false);
@@ -284,12 +292,6 @@ public class IpadExtraController : MonoBehaviour
         }
     }
 
-    UIImageButton shareButton;
-    UILabel shareLabel;
-    bool shareIsOpen = false;
-
-    Transform shareGroup;
-
     void ShareButtons(GameObject go)
     {
         if (go.name == "Button: Share")
@@ -362,7 +364,9 @@ public class IpadExtraController : MonoBehaviour
 #endif
     }
 
-    public void CheckForIpadExtraButtons(bool on)
+#endif
+
+	public void CheckForIpadExtraButtons(bool on)
     {
 #if UNITY_IOS
         if (!Application.isEditor)

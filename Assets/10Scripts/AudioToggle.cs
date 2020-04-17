@@ -58,6 +58,24 @@ public class AudioToggle : MonoBehaviour
 
 	IEnumerator Unblock() {
 		yield return null;
+
+		bool audioCheck = false;
+		if (audioOn) {
+			if(!audioToggle.isChecked) {
+				audioToggle.isChecked = true;
+				audioCheck = true;
+			}
+		} else {
+			if (audioToggle.isChecked) {
+				audioToggle.isChecked = false;
+				audioCheck = true;
+			}
+		}
+
+		if (audioCheck) {
+			yield return null;
+		}
+
 		blockInput = false;
 	}
 }
