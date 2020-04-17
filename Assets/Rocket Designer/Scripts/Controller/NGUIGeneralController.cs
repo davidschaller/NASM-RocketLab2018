@@ -31,9 +31,13 @@ public class NGUIGeneralController : GeneralControllerBase
 
     UIInput rocketNameInput;
 
+	OptionsData optionsData;
+
     void Start()
     {
-        Transform anchor = ResolutionDetector.Main.Gui2D.transform;
+		optionsData = FindObjectOfType<OptionsData>();
+
+		Transform anchor = ResolutionDetector.Main.Gui2D.transform;
 
         foreach (Transform tr in anchor.GetChild(0))
         {
@@ -187,17 +191,44 @@ public class NGUIGeneralController : GeneralControllerBase
         rocketNameDetails.tr.gameObject.SetActive(false);
     }
 
-    void CompareCloseClick(GameObject go)
-    {
-        if (compareCloseCallback != null)
-            compareCloseCallback();
+	void CompareCloseClick(GameObject go)
+	{
+		if (compareCloseCallback != null)
+			compareCloseCallback();
 
-        compareRocketDetails.tr.gameObject.SetActive(false);
-        if (!IsAlert)
-            rocketNameDetails.tr.gameObject.SetActive(true);
-    }
+		compareRocketDetails.tr.gameObject.SetActive(false);
+		if (!IsAlert) {
+			rocketNameDetails.tr.gameObject.SetActive(true);
+			if (optionsData != null) {
+				GameObject nameInput = rocketNameDetails.tr.Find("Name Rocket Popup/Input").gameObject;
+				GameObject nameLabel = rocketNameDetails.tr.Find("Name Rocket Popup/Rocketname label").gameObject;
+				GameObject nameButton = rocketNameDetails.tr.Find("Button: enter name").gameObject;
+				if (optionsData.TreatAsMobile) {
+					if(nameInput != null) {
+						nameInput.SetActive(false);
+					}
+					if(nameLabel != null) {
+						nameLabel.SetActive(false);
+					}
+					if(nameButton != null) {
+						nameButton.SetActive(false);
+					}
+				} else {
+					if (nameInput != null) {
+						nameInput.SetActive(true);
+					}
+					if (nameLabel != null) {
+						nameLabel.SetActive(true);
+					}
+					if (nameButton != null) {
+						nameButton.SetActive(true);
+					}
+				}
+			}
+		}
+	}
 
-    void SetCompareText()
+		void SetCompareText()
     {
         //RealRocket.Img
 
@@ -307,9 +338,35 @@ public class NGUIGeneralController : GeneralControllerBase
         compareCloseCallback = compareBackCallback;
 
         rocketNameDetails.tr.gameObject.SetActive(true);
-    }
+		if (optionsData != null) {
+			GameObject nameInput = rocketNameDetails.tr.Find("Name Rocket Popup/Input").gameObject;
+			GameObject nameLabel = rocketNameDetails.tr.Find("Name Rocket Popup/Rocketname label").gameObject;
+			GameObject nameButton = rocketNameDetails.tr.Find("Button: enter name").gameObject;
+			if (optionsData.TreatAsMobile) {
+				if (nameInput != null) {
+					nameInput.SetActive(false);
+				}
+				if (nameLabel != null) {
+					nameLabel.SetActive(false);
+				}
+				if (nameButton != null) {
+					nameButton.SetActive(false);
+				}
+			} else {
+				if (nameInput != null) {
+					nameInput.SetActive(true);
+				}
+				if (nameLabel != null) {
+					nameLabel.SetActive(true);
+				}
+				if (nameButton != null) {
+					nameButton.SetActive(true);
+				}
+			}
+		}
+	}
 
-    public override void HideNamePanel()
+	public override void HideNamePanel()
     {
         rocketNameDetails.tr.gameObject.SetActive(false);
     }

@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
+#if !UNITY_WEBGL
 using System.IO;
+#endif
 
 public class IpadExtraController : MonoBehaviour
 {
