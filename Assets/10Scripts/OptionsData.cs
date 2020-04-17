@@ -1,15 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Runtime.InteropServices;
 
 public class OptionsData : MonoBehaviour
 {
-	bool audioOn;
+#if UNITY_WEBGL
+	[DllImport("__Internal")]
+	private static extern void Init();
+#endif
+
+	protected bool audioOn;
 	public bool AudioOn {
 		get { return audioOn; }
 	}
 
-	bool isInstance;
+	protected bool treatAsMobile;
+	public bool TreatAsMobile {
+		get { return treatAsMobile; }
+	}
+
+	protected bool isInstance;
     void Start()
     {
 		OptionsData[] od = FindObjectsOfType<OptionsData>();
@@ -20,13 +31,35 @@ public class OptionsData : MonoBehaviour
 			}
 		}
 
+		treatAsMobile = false;
 		isInstance = true;
 		audioOn = true;
 		DontDestroyOnLoad(gameObject);
-    }
+
+#if UNITY_WEBGL
+		if (!Application.isEditor) {
+			StartCoroutine("SendInit");
+		}
+#endif
+	}
+
+	IEnumerator SendInit()
+	{
+		yield return null;
+#if UNITY_WEBGL
+		Init();
+#endif
+	}
 
 	public void AudioOnOff(bool isOn)
 	{
 		audioOn = isOn;
+	}
+
+	public void SetAsTouchDevice()
+	{
+#if UNITY_WEBGL
+		treatAsMobile = true;
+#endif
 	}
 }
