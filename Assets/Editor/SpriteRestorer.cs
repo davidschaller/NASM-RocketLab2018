@@ -40,7 +40,7 @@ public class SpriteRestorer : EditorWindow
             {
                 if (tr.GetComponent<UISprite>())
                 {
-                    if (!tr.GetComponent<UISprite>().atlas)
+                    if (tr.GetComponent<UISprite>().atlas != null)
                     {
                         tr.GetComponent<UISprite>().atlas = atlas;
                     }

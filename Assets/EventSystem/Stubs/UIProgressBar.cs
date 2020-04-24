@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class UIProgressBar : MonoBehaviour
+public class UIProgressBarESys : MonoBehaviour
 {
 	public float Value;
 }

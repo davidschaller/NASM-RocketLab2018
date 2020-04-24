@@ -3,12 +3,13 @@
 --- !u!1 &100000
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 400000}
-  - 114: {fileID: 11400000}
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
   m_Layer: 0
   m_Name: screen
   m_TagString: Untagged
@@ -18,201 +19,150 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &400000
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
   m_Name: 
-  material: {fileID: 2100000, guid: fea8dd493a5024332948bc9282cd12db, type: 2}
-  sprites:
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  mSprites:
   - name: grid_bg
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 351
-      width: 141
-      height: 161
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 351
-      width: 141
-      height: 161
-    rotated: 0
+    x: 0
+    y: 351
+    width: 141
+    height: 161
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: solidfuel_idle
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 324
-      width: 220
-      height: 26
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 324
-      width: 220
-      height: 26
-    rotated: 0
+    x: 0
+    y: 324
+    width: 220
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: solidfuel_hover
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 297
-      width: 220
-      height: 26
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 297
-      width: 220
-      height: 26
-    rotated: 0
+    x: 0
+    y: 297
+    width: 220
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: label_tap
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 257
-      width: 131
-      height: 11
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 257
-      width: 131
-      height: 11
-    rotated: 0
+    x: 0
+    y: 257
+    width: 131
+    height: 11
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: meter1_bg
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 281
-      width: 151
-      height: 15
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 281
-      width: 151
-      height: 15
-    rotated: 0
+    x: 0
+    y: 281
+    width: 151
+    height: 15
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: meter1_fg
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 269
-      width: 150
-      height: 11
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 269
-      width: 150
-      height: 11
-    rotated: 0
+    x: 0
+    y: 269
+    width: 150
+    height: 11
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: tooltip_bg
-    outer:
-      serializedVersion: 2
-      x: 142
-      y: 433
-      width: 111
-      height: 79
-    inner:
-      serializedVersion: 2
-      x: 142
-      y: 433
-      width: 111
-      height: 79
-    rotated: 0
+    x: 142
+    y: 433
+    width: 111
+    height: 79
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: button_hover
-    outer:
-      serializedVersion: 2
-      x: 142
-      y: 407
-      width: 25
-      height: 25
-    inner:
-      serializedVersion: 2
-      x: 150
-      y: 414
-      width: 9
-      height: 11
-    rotated: 0
+    x: 142
+    y: 407
+    width: 25
+    height: 25
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 7
+    borderBottom: 7
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
   - name: button_idle
-    outer:
-      serializedVersion: 2
-      x: 142
-      y: 381
-      width: 25
-      height: 25
-    inner:
-      serializedVersion: 2
-      x: 150
-      y: 388
-      width: 9
-      height: 11
-    rotated: 0
+    x: 142
+    y: 381
+    width: 25
+    height: 25
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 7
+    borderBottom: 7
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  mCoordinates: 0
   mPixelSize: 1
-  mReplacement: {fileID: 0}
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100000}
-  m_IsPrefabParent: 1
-  m_IsExploded: 1
+  mReplacement: {fileID: 11400000, guid: 2de190e1f1d034a0f91935a3a4c1f5fd, type: 2}
+  mCoordinates: 0
+  sprites: []

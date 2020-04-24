@@ -56,7 +56,7 @@ public class GameObjectActivator : MonoBehaviour
                     if (progressBar)
                     {
                         progressBar.transform.position = continueButton.transform.position;
-                        progressBar.Value = 0;
+                        progressBar.value = 0;
 
                         progressBar.gameObject.layer = LayerMask.NameToLayer("GUI");
                         foreach (Transform tr in progressBar.transform)
@@ -141,7 +141,7 @@ public class GameObjectActivator : MonoBehaviour
         if (level == recursiveLevel || root.childCount == 0)
         {
             doneParts++;
-            progressBar.Value = (float)doneParts / parts;
+            progressBar.value = (float)doneParts / parts;
 
             root.gameObject.SetActiveRecursively(true);
         }

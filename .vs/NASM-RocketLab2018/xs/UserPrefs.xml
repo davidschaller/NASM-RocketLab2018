@@ -1,9 +1,20 @@
 ﻿<Properties StartupConfiguration="{5D5043D7-8CC9-01BE-19AE-749A66D8847D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/10Scripts/AudioToggle.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EventSystem/Plugins/GUI/NGUILoadLevelRenderer.cs">
     <Files>
-      <File FileName="Assets/10Scripts/AudioToggle.cs" Line="78" Column="3" />
+      <File FileName="Assets/10Scripts/AudioToggle.cs" Line="67" Column="5" />
       <File FileName="Assets/Rocket Designer/Scripts/Controller/IpadExtraController.cs" Line="152" Column="1" />
       <File FileName="Assets/EventSystem/Plugins/Common.cs" Line="193" Column="15" />
+      <File FileName="Assets/NGUI/Scripts/Interaction/UIProgressBar.cs" Line="1" Column="1" />
+      <File FileName="Assets/EventSystem/Stubs/UIProgressBar.cs" Line="8" Column="1" />
+      <File FileName="Assets/EventSystem/Plugins/GameObjectActivator.cs" Line="142" Column="10" />
+      <File FileName="Assets/EventSystem/Plugins/Event System/Events/SpyGlassEvent.cs" Line="269" Column="31" />
+      <File FileName="Assets/Rocket Designer/Scripts/Controller/NGUIHeaderController.cs" Line="357" Column="53" />
+      <File FileName="Assets/NGUI/Scripts/Interaction/UIImageButton.cs" Line="82" Column="9" />
+      <File FileName="Assets/Rocket Designer/Scripts/RocketDesignerCommon.cs" Line="158" Column="58" />
+      <File FileName="Assets/Rocket Designer/Scripts/Controller/NGUIConsoleController.cs" Line="635" Column="1" />
+      <File FileName="Assets/Editor/SpriteRestorer.cs" Line="44" Column="22" />
+      <File FileName="Assets/EventSystem/Plugins/GUI/NGUILoadLevelRenderer.cs" Line="38" Column="56" />
+      <File FileName="Assets/EventSystem/Plugins/GUI/LoadLevelRendererBase.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

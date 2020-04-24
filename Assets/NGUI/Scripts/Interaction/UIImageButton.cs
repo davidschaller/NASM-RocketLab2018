@@ -73,13 +73,13 @@ public class UIImageButton : MonoBehaviour
 		}
 	}
 
-	void OnHover (bool isOver)
+	public void OnHover (bool isOver)
 	{
 		if (isEnabled && target != null)
 			SetSprite(isOver ? hoverSprite : normalSprite);
 	}
 
-	void OnPress (bool pressed)
+	public void OnPress (bool pressed)
 	{
 		if (pressed) SetSprite(pressedSprite);
 		else UpdateImage();
