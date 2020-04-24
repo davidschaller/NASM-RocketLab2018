@@ -1,7 +1,7 @@
-﻿//----------------------------------------------
+//-------------------------------------------------
 //            NGUI: Next-Gen UI kit
-// Copyright © 2011-2012 Tasharen Entertainment
-//----------------------------------------------
+// Copyright © 2011-2019 Tasharen Entertainment Inc
+//-------------------------------------------------
 
 using UnityEngine;
 using System.Collections.Generic;
@@ -14,15 +14,141 @@ using System.Collections.Generic;
 
 [ExecuteInEditMode]
 [AddComponentMenu("NGUI/UI/Texture")]
-public class UITexture : UIWidget
+public class UITexture : UIBasicSprite
 {
 	[HideInInspector][SerializeField] Rect mRect = new Rect(0f, 0f, 1f, 1f);
-	[HideInInspector][SerializeField] Shader mShader;
 	[HideInInspector][SerializeField] Texture mTexture;
+	[HideInInspector][SerializeField] Shader mShader;
+	[HideInInspector][SerializeField] Vector4 mBorder = Vector4.zero;
+	[HideInInspector][SerializeField] bool mFixedAspect = false;
 
-	Material mDynamicMat;
-	bool mCreatingMat = false;
-	int mPMA = -1;
+	[System.NonSerialized] int mPMA = -1;
+
+	/// <summary>
+	/// Texture used by the UITexture. You can set it directly, without the need to specify a material.
+	/// </summary>
+
+	public override Texture mainTexture
+	{
+		get
+		{
+			if (mTexture != null) return mTexture;
+			if (mMat != null) return mMat.mainTexture;
+			return null;
+		}
+		set
+		{
+			if (mTexture != value)
+			{
+				if (drawCall != null && drawCall.widgetCount == 1 && mMat == null)
+				{
+					mTexture = value;
+					drawCall.mainTexture = value;
+				}
+				else
+				{
+					RemoveFromPanel();
+					mTexture = value;
+					mPMA = -1;
+					MarkAsChanged();
+				}
+			}
+		}
+	}
+
+	/// <summary>
+	/// Material used by the widget.
+	/// </summary>
+
+	public override Material material
+	{
+		get
+		{
+			return mMat;
+		}
+		set
+		{
+			if (mMat != value)
+			{
+				RemoveFromPanel();
+				mShader = null;
+				mMat = value;
+				mPMA = -1;
+				MarkAsChanged();
+			}
+		}
+	}
+
+	/// <summary>
+	/// Shader used by the texture when creating a dynamic material (when the texture was specified, but the material was not).
+	/// </summary>
+
+	public override Shader shader
+	{
+		get
+		{
+			if (mMat != null) return mMat.shader;
+			if (mShader == null) mShader = Shader.Find("Unlit/Transparent Colored");
+			return mShader;
+		}
+		set
+		{
+			if (mShader != value)
+			{
+				if (drawCall != null && drawCall.widgetCount == 1 && mMat == null)
+				{
+					mShader = value;
+					drawCall.shader = value;
+				}
+				else
+				{
+					RemoveFromPanel();
+					mShader = value;
+					mPMA = -1;
+					mMat = null;
+					MarkAsChanged();
+				}
+			}
+		}
+	}
+
+	/// <summary>
+	/// Whether the texture is using a premultiplied alpha material.
+	/// </summary>
+
+	public override bool premultipliedAlpha
+	{
+		get
+		{
+			if (mPMA == -1)
+			{
+				Material mat = material;
+				mPMA = (mat != null && mat.shader != null && mat.shader.name.Contains("Premultiplied")) ? 1 : 0;
+			}
+			return (mPMA == 1);
+		}
+	}
+
+
+	/// <summary>
+	/// Sprite's border. X = left, Y = bottom, Z = right, W = top.
+	/// </summary>
+
+	public override Vector4 border
+	{
+		get
+		{
+			return mBorder;
+		}
+		set
+		{
+			if (mBorder != value)
+			{
+				mBorder = value;
+				MarkAsChanged();
+			}
+		}
+	}
 
 	/// <summary>
 	/// UV rectangle used by the texture.
@@ -45,134 +171,98 @@ public class UITexture : UIWidget
 	}
 
 	/// <summary>
-	/// Shader used by the texture when creating a dynamic material (when the texture was specified, but the material was not).
+	/// Widget's dimensions used for drawing. X = left, Y = bottom, Z = right, W = top.
+	/// This function automatically adds 1 pixel on the edge if the texture's dimensions are not even.
+	/// It's used to achieve pixel-perfect sprites even when an odd dimension widget happens to be centered.
 	/// </summary>
 
-	public Shader shader
+	public override Vector4 drawingDimensions
 	{
 		get
 		{
-			if (mShader == null)
+			Vector2 offset = pivotOffset;
+
+			float x0 = -offset.x * mWidth;
+			float y0 = -offset.y * mHeight;
+			float x1 = x0 + mWidth;
+			float y1 = y0 + mHeight;
+
+			if (mTexture != null && mType != UISprite.Type.Tiled)
 			{
-				Material mat = material;
-				if (mat != null) mShader = mat.shader;
-				if (mShader == null) mShader = Shader.Find("Unlit/Texture");
-			}
-			return mShader;
-		}
-		set
-		{
-			if (mShader != value)
-			{
-				mShader = value;
-				Material mat = material;
-				if (mat != null) mat.shader = value;
-				mPMA = -1;
-			}
-		}
-	}
+				int w = mTexture.width;
+				int h = mTexture.height;
+				int padRight = 0;
+				int padTop = 0;
 
-	/// <summary>
-	/// Whether the texture has created its material dynamically.
-	/// </summary>
+				float px = 1f;
+				float py = 1f;
 
-	public bool hasDynamicMaterial { get { return mDynamicMat != null; } }
-
-	/// <summary>
-	/// UI textures should keep the material reference.
-	/// </summary>
-
-	public override bool keepMaterial { get { return true; } }
-
-	/// <summary>
-	/// Automatically destroy the dynamically-created material.
-	/// </summary>
-
-	public override Material material
-	{
-		get
-		{
-			if (!mCreatingMat && mMat == null)
-			{
-				mCreatingMat = true;
-
-				if (mainTexture != null)
+				if (w > 0 && h > 0 && (mType == UISprite.Type.Simple || mType == UISprite.Type.Filled))
 				{
-					if (mShader == null) mShader = Shader.Find("Unlit/Texture");
-					mDynamicMat = new Material(mShader);
-					mDynamicMat.hideFlags = HideFlags.DontSave;
-					mDynamicMat.mainTexture = mainTexture;
-					base.material = mDynamicMat;
-					mPMA = 0;
+					if ((w & 1) != 0) ++padRight;
+					if ((h & 1) != 0) ++padTop;
+
+					px = (1f / w) * mWidth;
+					py = (1f / h) * mHeight;
 				}
-				mCreatingMat = false;
+
+				if (mFlip == UISprite.Flip.Horizontally || mFlip == UISprite.Flip.Both)
+				{
+					x0 += padRight * px;
+				}
+				else x1 -= padRight * px;
+
+				if (mFlip == UISprite.Flip.Vertically || mFlip == UISprite.Flip.Both)
+				{
+					y0 += padTop * py;
+				}
+				else y1 -= padTop * py;
 			}
-			return mMat;
-		}
-		set
-		{
-			if (mDynamicMat != value && mDynamicMat != null)
+
+			float fw, fh;
+
+			if (mFixedAspect)
 			{
-				NGUITools.Destroy(mDynamicMat);
-				mDynamicMat = null;
+				fw = 0f;
+				fh = 0f;
 			}
-			base.material = value;
-			mPMA = -1;
+			else
+			{
+				Vector4 br = border;
+				fw = br.x + br.z;
+				fh = br.y + br.w;
+			}
+
+			float vx = Mathf.Lerp(x0, x1 - fw, mDrawRegion.x);
+			float vy = Mathf.Lerp(y0, y1 - fh, mDrawRegion.y);
+			float vz = Mathf.Lerp(x0 + fw, x1, mDrawRegion.z);
+			float vw = Mathf.Lerp(y0 + fh, y1, mDrawRegion.w);
+
+			return new Vector4(vx, vy, vz, vw);
 		}
 	}
 
 	/// <summary>
-	/// Whether the texture is using a premultiplied alpha material.
+	/// Whether the drawn texture will always maintain a fixed aspect ratio.
+	/// This setting is not compatible with drawRegion adjustments (sliders, progress bars, etc).
 	/// </summary>
 
-	public bool premultipliedAlpha
+	public bool fixedAspect
 	{
 		get
 		{
-			if (mPMA == -1)
-			{
-				Material mat = material;
-				mPMA = (mat != null && mat.shader != null && mat.shader.name.Contains("Premultiplied")) ? 1 : 0;
-			}
-			return (mPMA == 1);
-		}
-	}
-
-	/// <summary>
-	/// Texture used by the UITexture. You can set it directly, without the need to specify a material.
-	/// </summary>
-
-	public override Texture mainTexture
-	{
-		get
-		{
-			return (mTexture != null) ? mTexture : base.mainTexture;
+			return mFixedAspect;
 		}
 		set
 		{
-			if (mPanel != null && mMat != null) mPanel.RemoveWidget(this);
-
-			if (mMat == null)
+			if (mFixedAspect != value)
 			{
-				mDynamicMat = new Material(shader);
-				mDynamicMat.hideFlags = HideFlags.DontSave;
-				mMat = mDynamicMat;
+				mFixedAspect = value;
+				mDrawRegion = new Vector4(0f, 0f, 1f, 1f);
+				MarkAsChanged();
 			}
-			
-			mPanel = null;
-			mTex = value;
-			mTexture = value;
-			mMat.mainTexture = value;
-			
-			if (enabled) CreatePanel();
 		}
 	}
-
-	/// <summary>
-	/// Clean up.
-	/// </summary>
-
-	void OnDestroy () { NGUITools.Destroy(mDynamicMat); }
 
 	/// <summary>
 	/// Adjust the scale of the widget to make it pixel-perfect.
@@ -180,49 +270,99 @@ public class UITexture : UIWidget
 
 	public override void MakePixelPerfect ()
 	{
-		Texture tex = mainTexture;
-
-		if (tex != null)
-		{
-			Vector3 scale = cachedTransform.localScale;
-			scale.x = tex.width * uvRect.width;
-			scale.y = tex.height * uvRect.height;
-			scale.z = 1f;
-			cachedTransform.localScale = scale;
-		}
 		base.MakePixelPerfect();
+		if (mType == Type.Tiled) return;
+
+		Texture tex = mainTexture;
+		if (tex == null) return;
+
+		if (mType == Type.Simple || mType == Type.Filled || !hasBorder)
+		{
+			if (tex != null)
+			{
+				int w = tex.width;
+				int h = tex.height;
+
+				if ((w & 1) == 1) ++w;
+				if ((h & 1) == 1) ++h;
+
+				width = w;
+				height = h;
+			}
+		}
 	}
 
 	/// <summary>
-	/// Virtual function called by the UIScreen that fills the buffers.
+	/// Adjust the draw region if the texture is using a fixed aspect ratio.
 	/// </summary>
 
-#if UNITY_3_5_4
-	public override void OnFill (BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols)
-#else
-	public override void OnFill (BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color32> cols)
-#endif
+	protected override void OnUpdate ()
 	{
-		Color colF = color;
-		colF.a *= mPanel.alpha;
-#if UNITY_3_5_4
-		Color col = premultipliedAlpha ? NGUITools.ApplyPMA(colF) : colF;
-#else
-		Color32 col = premultipliedAlpha ? NGUITools.ApplyPMA(colF) : colF;
-#endif
-		verts.Add(new Vector3(1f,  0f, 0f));
-		verts.Add(new Vector3(1f, -1f, 0f));
-		verts.Add(new Vector3(0f, -1f, 0f));
-		verts.Add(new Vector3(0f,  0f, 0f));
+		base.OnUpdate();
+		
+		if (mFixedAspect)
+		{
+			Texture tex = mainTexture;
 
-		uvs.Add(new Vector2(mRect.xMax, mRect.yMax));
-		uvs.Add(new Vector2(mRect.xMax, mRect.yMin));
-		uvs.Add(new Vector2(mRect.xMin, mRect.yMin));
-		uvs.Add(new Vector2(mRect.xMin, mRect.yMax));
+			if (tex != null)
+			{
+				int w = tex.width;
+				int h = tex.height;
+				if ((w & 1) == 1) ++w;
+				if ((h & 1) == 1) ++h;
+				float widgetWidth = mWidth;
+				float widgetHeight = mHeight;
+				float widgetAspect = widgetWidth / widgetHeight;
+				float textureAspect = (float)w / h;
 
-		cols.Add(col);
-		cols.Add(col);
-		cols.Add(col);
-		cols.Add(col);
+				if (textureAspect < widgetAspect)
+				{
+					float x = (widgetWidth - widgetHeight * textureAspect) / widgetWidth * 0.5f;
+					drawRegion = new Vector4(x, 0f, 1f - x, 1f);
+				}
+				else
+				{
+					float y = (widgetHeight - widgetWidth / textureAspect) / widgetHeight * 0.5f;
+					drawRegion = new Vector4(0f, y, 1f, 1f - y);
+				}
+			}
+		}
+	}
+
+	/// <summary>
+	/// Virtual function called by the UIPanel that fills the buffers.
+	/// </summary>
+
+	public override void OnFill (List<Vector3> verts, List<Vector2> uvs, List<Color> cols)
+	{
+		Texture tex = mainTexture;
+		if (tex == null) return;
+
+		Rect outer = new Rect(mRect.x * tex.width, mRect.y * tex.height, tex.width * mRect.width, tex.height * mRect.height);
+		Rect inner = outer;
+		Vector4 br = border;
+		inner.xMin += br.x;
+		inner.yMin += br.y;
+		inner.xMax -= br.z;
+		inner.yMax -= br.w;
+
+		float w = 1f / tex.width;
+		float h = 1f / tex.height;
+
+		outer.xMin *= w;
+		outer.xMax *= w;
+		outer.yMin *= h;
+		outer.yMax *= h;
+
+		inner.xMin *= w;
+		inner.xMax *= w;
+		inner.yMin *= h;
+		inner.yMax *= h;
+
+		int offset = verts.Count;
+		Fill(verts, uvs, cols, outer, inner);
+
+		if (onPostFill != null)
+			onPostFill(this, offset, verts, uvs, cols);
 	}
 }
