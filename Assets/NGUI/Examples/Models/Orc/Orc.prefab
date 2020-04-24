@@ -643,6 +643,21 @@ GameObject:
 --- !u!1002 &100069
 EditorExtensionImpl:
   serializedVersion: 6
+--- !u!1 &100070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400070}
+  m_Layer: 0
+  m_Name: NGUI Snapshot Point 0.1 10 35
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
@@ -653,6 +668,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 400070}
   - {fileID: 400002}
   m_Father: {fileID: 0}
 --- !u!1002 &400001
@@ -1167,6 +1183,17 @@ Transform:
 --- !u!1002 &400069
 EditorExtensionImpl:
   serializedVersion: 6
+--- !u!4 &400070
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100070}
+  m_LocalRotation: {x: -.0172545332, y: .98253113, z: -.140966162, w: -.120263994}
+  m_LocalPosition: {x: .210068077, y: 1.69627905, z: .890992284}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400000}
 --- !u!111 &11100000
 Animation:
   m_ObjectHideFlags: 1
@@ -1185,9 +1212,6 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 1
-  m_UserAABB:
-    m_Center: {x: -.00260972977, y: .868843436, z: -.098190397}
-    m_Extent: {x: .494616568, y: .876331925, z: .284962326}
 --- !u!1002 &11100001
 EditorExtensionImpl:
   serializedVersion: 6
@@ -1201,6 +1225,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e7393c14f99274841887c9890b46216d, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6
@@ -1214,6 +1239,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a05a718b5cd2ae4eb90743bca9a1032, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   slot: 5
 --- !u!1002 &11400003
 EditorExtensionImpl:
@@ -1228,6 +1254,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a05a718b5cd2ae4eb90743bca9a1032, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   slot: 4
 --- !u!1002 &11400005
 EditorExtensionImpl:
@@ -1242,6 +1269,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a05a718b5cd2ae4eb90743bca9a1032, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   slot: 4
 --- !u!1002 &11400007
 EditorExtensionImpl:
@@ -1256,6 +1284,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a05a718b5cd2ae4eb90743bca9a1032, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   slot: 5
 --- !u!1002 &11400009
 EditorExtensionImpl:
@@ -1270,6 +1299,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d335b6026587ad24dbe124fe5dd1cc02, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   target: {fileID: 0}
   speed: 1
 --- !u!1002 &11400011
@@ -1285,6 +1315,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb5a46fe53751ae41980843a556d012e, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   itemIDs: 000000000100000008000000
 --- !u!1002 &11400013
 EditorExtensionImpl:
@@ -1299,6 +1330,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669bf9dcd99e8c6448f446db4f3c10fc, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1002 &11400015
 EditorExtensionImpl:
   serializedVersion: 6
@@ -1312,6 +1344,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a05a718b5cd2ae4eb90743bca9a1032, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   slot: 6
 --- !u!1002 &11400017
 EditorExtensionImpl:
@@ -1326,6 +1359,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a05a718b5cd2ae4eb90743bca9a1032, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   slot: 6
 --- !u!1002 &11400019
 EditorExtensionImpl:
@@ -1364,6 +1398,9 @@ SkinnedMeshRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -1388,6 +1425,7 @@ SkinnedMeshRenderer:
   - {fileID: 400006}
   - {fileID: 400032}
   - {fileID: 400034}
+  m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
     m_Center: {x: -.0584264398, y: .107545763, z: -.00636123121}
