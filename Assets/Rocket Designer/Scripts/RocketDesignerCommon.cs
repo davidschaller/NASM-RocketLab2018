@@ -16,7 +16,7 @@ public class RocketDesignerCommon
         {
             uiImageButton = trButton.gameObject.AddComponent<UIImageButton>();
 
-            UIButtonSound uiSoundbutton = trButton.gameObject.AddComponent<UIButtonSound>();
+            UIPlaySound uiSoundbutton = trButton.gameObject.AddComponent<UIPlaySound>();
 
             if (clickAudioClip)
                 uiSoundbutton.audioClip = clickAudioClip;
@@ -87,7 +87,7 @@ public class RocketDesignerCommon
         {
             uiImageButton = trButton.gameObject.AddComponent<UIImageButton>();
 
-            UIButtonSound uiSoundbutton = trButton.gameObject.AddComponent<UIButtonSound>();
+            UIPlaySound uiSoundbutton = trButton.gameObject.AddComponent<UIPlaySound>();
 
             if (clickAudioClip)
                 uiSoundbutton.audioClip = clickAudioClip;
@@ -107,7 +107,7 @@ public class RocketDesignerCommon
 
                         if (uiSprite.atlas.GetSprite(uiImageButton.target.spriteName) == null)
                         {
-                            Debug.LogError("The atlas '" + uiSprite.atlas.name + "' doesn't have sprite with name '" + uiImageButton.target.spriteName + "'. It means that '" + trButton.name + "' background is invisible! ", trButton);
+                            Debug.LogError("The atlas doesn't have sprite with name '" + uiImageButton.target.spriteName + "'. It means that '" + trButton.name + "' background is invisible! ", trButton);
                         }
 
                         BoxCollider boxCollider = uiImageButton.gameObject.AddComponent<BoxCollider>();
@@ -132,7 +132,7 @@ public class RocketDesignerCommon
 
                             if (uiSprite.atlas.GetSprite(uiImageButton.target.spriteName) == null)
                             {
-                                Debug.LogError("The atlas '" + uiSprite.atlas.name + "' doesn't have sprite with name '" + uiImageButton.target.spriteName + "'. It means that '" + trButton.name + "' background is invisible! ", trButton);
+                                Debug.LogError("The atlas doesn't have sprite with name '" + uiImageButton.target.spriteName + "'. It means that '" + trButton.name + "' background is invisible! ", trButton);
                             }
 
                             break;
@@ -155,7 +155,7 @@ public class RocketDesignerCommon
 
                             if (uiSprite.atlas.GetSprite(uiImageButton.target.spriteName) == null)
                             {
-                                Debug.LogError("The atlas '" + uiSprite.atlas.name + "' doesn't have sprite with name '" + uiImageButton.target.spriteName + "'. It means that '" + trButton.name + "' background is invisible! ", trButton);
+                                Debug.LogError("The atlas doesn't have sprite with name '" + uiImageButton.target.spriteName + "'. It means that '" + trButton.name + "' background is invisible! ", trButton);
                             }
                             break;
                         }

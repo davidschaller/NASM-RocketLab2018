@@ -226,14 +226,14 @@ class SpyGlassRunner : IEvent
 
         currentTime -= Time.deltaTime;
 
-        progressBar.Value = currentTime / timeLeft;
+        progressBar.value = currentTime / timeLeft;
     }
 
     public void OnExit()
     {
         if (camera)
         {
-            camera.gameObject.SetActiveRecursively(false);
+            camera.gameObject.SetActive(false);
         }
 
         if (instantiatedGUI)
@@ -269,7 +269,7 @@ class SpyGlassRunner : IEvent
         instantiatedGUI = (GameObject)GameObject.Instantiate(ezGUIPrefab, pos, guiCamera.transform.rotation);
 
         progressBar = instantiatedGUI.GetComponentInChildren<UIProgressBar>();
-        progressBar.Value = 1;
+        progressBar.value = 1;
     }
 
     public void OnReset()

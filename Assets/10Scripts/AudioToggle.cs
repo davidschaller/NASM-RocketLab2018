@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AudioToggle : MonoBehaviour
 {
-	public UICheckbox audioToggle;
+	public UIToggle audioToggle;
 	bool audioOn;
 
 	OptionsData optionsData;
@@ -19,7 +19,7 @@ public class AudioToggle : MonoBehaviour
 		audioOn = true;
 
 		if(audioToggle == null) {
-			audioToggle = gameObject.GetComponent<UICheckbox>() as UICheckbox;
+			audioToggle = gameObject.GetComponent<UIToggle>() as UIToggle;
 		}
 
 		blockInput = false;
@@ -27,7 +27,7 @@ public class AudioToggle : MonoBehaviour
 		optionsData = FindObjectOfType<OptionsData>();
 		if(optionsData != null) {
 			if (!optionsData.AudioOn) {
-				audioToggle.isChecked = false;
+				audioToggle.value = false;
 			} else {
 				AudioListener.volume = 1.0f;
 			}
@@ -61,13 +61,13 @@ public class AudioToggle : MonoBehaviour
 
 		bool audioCheck = false;
 		if (audioOn) {
-			if(!audioToggle.isChecked) {
-				audioToggle.isChecked = true;
+			if(!audioToggle.value) {
+				audioToggle.value = true;
 				audioCheck = true;
 			}
 		} else {
-			if (audioToggle.isChecked) {
-				audioToggle.isChecked = false;
+			if (audioToggle.value) {
+				audioToggle.value = false;
 				audioCheck = true;
 			}
 		}
