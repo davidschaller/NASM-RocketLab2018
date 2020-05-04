@@ -49,13 +49,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 401
-      y: 121
+      y: 74
       width: 130
       height: 46
     inner:
       serializedVersion: 2
       x: 401
-      y: 121
+      y: 74
       width: 130
       height: 46
     rotated: 0
@@ -66,14 +66,14 @@ MonoBehaviour:
   - name: virtualreal_idle
     outer:
       serializedVersion: 2
-      x: 760
-      y: 317
+      x: 0
+      y: 1
       width: 121
       height: 36
     inner:
       serializedVersion: 2
-      x: 760
-      y: 317
+      x: 0
+      y: 1
       width: 121
       height: 36
     rotated: 0
@@ -84,14 +84,14 @@ MonoBehaviour:
   - name: virtualreal_hover
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1
+      x: 760
+      y: 317
       width: 121
       height: 36
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1
+      x: 760
+      y: 317
       width: 121
       height: 36
     rotated: 0
@@ -138,14 +138,14 @@ MonoBehaviour:
   - name: button_idle
     outer:
       serializedVersion: 2
-      x: 951
-      y: 692
+      x: 795
+      y: 737
       width: 25
       height: 25
     inner:
       serializedVersion: 2
-      x: 959
-      y: 699
+      x: 803
+      y: 744
       width: 9
       height: 11
     rotated: 0
@@ -192,13 +192,13 @@ MonoBehaviour:
   - name: home_idle
     outer:
       serializedVersion: 2
-      x: 977
+      x: 951
       y: 692
       width: 25
       height: 25
     inner:
       serializedVersion: 2
-      x: 985
+      x: 959
       y: 699
       width: 9
       height: 11
@@ -247,13 +247,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 401
-      y: 74
+      y: 121
       width: 130
       height: 46
     inner:
       serializedVersion: 2
       x: 401
-      y: 74
+      y: 121
       width: 130
       height: 46
     rotated: 0
@@ -426,14 +426,14 @@ MonoBehaviour:
   - name: button_hover
     outer:
       serializedVersion: 2
-      x: 951
-      y: 666
+      x: 977
+      y: 692
       width: 25
       height: 25
     inner:
       serializedVersion: 2
-      x: 959
-      y: 675
+      x: 985
+      y: 701
       width: 9
       height: 7
     rotated: 0
@@ -498,14 +498,14 @@ MonoBehaviour:
   - name: home_hover
     outer:
       serializedVersion: 2
-      x: 795
-      y: 737
+      x: 951
+      y: 666
       width: 25
       height: 25
     inner:
       serializedVersion: 2
-      x: 803
-      y: 744
+      x: 959
+      y: 673
       width: 9
       height: 11
     rotated: 0
@@ -589,13 +589,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 653
-      y: 262
+      y: 121
       width: 86
       height: 46
     inner:
       serializedVersion: 2
       x: 653
-      y: 262
+      y: 121
       width: 86
       height: 46
     rotated: 0
@@ -606,14 +606,14 @@ MonoBehaviour:
   - name: camera_hover
     outer:
       serializedVersion: 2
-      x: 653
-      y: 121
+      x: 827
+      y: 215
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 653
-      y: 121
+      x: 827
+      y: 215
       width: 86
       height: 46
     rotated: 0
@@ -696,14 +696,14 @@ MonoBehaviour:
   - name: cost_fg
     outer:
       serializedVersion: 2
-      x: 951
-      y: 718
+      x: 973
+      y: 832
       width: 48
       height: 15
     inner:
       serializedVersion: 2
-      x: 951
-      y: 718
+      x: 973
+      y: 832
       width: 48
       height: 15
     rotated: 0
@@ -714,14 +714,14 @@ MonoBehaviour:
   - name: cost_bg
     outer:
       serializedVersion: 2
-      x: 973
-      y: 832
+      x: 951
+      y: 718
       width: 48
       height: 15
     inner:
       serializedVersion: 2
-      x: 973
-      y: 832
+      x: 951
+      y: 718
       width: 48
       height: 15
     rotated: 0
@@ -877,13 +877,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 827
-      y: 92
+      y: 123
       width: 109
       height: 30
     inner:
       serializedVersion: 2
       x: 827
-      y: 92
+      y: 123
       width: 109
       height: 30
     rotated: 0
@@ -895,13 +895,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 827
-      y: 123
+      y: 92
       width: 109
       height: 30
     inner:
       serializedVersion: 2
       x: 827
-      y: 123
+      y: 92
       width: 109
       height: 30
     rotated: 0
@@ -1218,13 +1218,13 @@ MonoBehaviour:
   - name: shape_done
     outer:
       serializedVersion: 2
-      x: 827
+      x: 740
       y: 215
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 827
+      x: 740
       y: 215
       width: 86
       height: 46
@@ -1236,14 +1236,14 @@ MonoBehaviour:
   - name: control_hover
     outer:
       serializedVersion: 2
-      x: 740
-      y: 215
+      x: 914
+      y: 262
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 740
-      y: 215
+      x: 914
+      y: 262
       width: 86
       height: 46
     rotated: 0
@@ -1254,13 +1254,13 @@ MonoBehaviour:
   - name: stages_hover
     outer:
       serializedVersion: 2
-      x: 914
+      x: 827
       y: 262
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 914
+      x: 827
       y: 262
       width: 86
       height: 46
@@ -1272,13 +1272,13 @@ MonoBehaviour:
   - name: shape_idle
     outer:
       serializedVersion: 2
-      x: 827
+      x: 740
       y: 262
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 827
+      x: 740
       y: 262
       width: 86
       height: 46
@@ -1290,14 +1290,14 @@ MonoBehaviour:
   - name: shape_hover
     outer:
       serializedVersion: 2
-      x: 740
-      y: 262
+      x: 653
+      y: 27
       width: 86
       height: 46
     inner:
       serializedVersion: 2
-      x: 740
-      y: 262
+      x: 653
+      y: 27
       width: 86
       height: 46
     rotated: 0
@@ -1345,13 +1345,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 653
-      y: 27
+      y: 74
       width: 86
       height: 46
     inner:
       serializedVersion: 2
       x: 653
-      y: 27
+      y: 74
       width: 86
       height: 46
     rotated: 0
@@ -1363,13 +1363,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 653
-      y: 74
+      y: 168
       width: 86
       height: 46
     inner:
       serializedVersion: 2
       x: 653
-      y: 74
+      y: 168
       width: 86
       height: 46
     rotated: 0
@@ -1399,13 +1399,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 653
-      y: 168
+      y: 215
       width: 86
       height: 46
     inner:
       serializedVersion: 2
       x: 653
-      y: 168
+      y: 215
       width: 86
       height: 46
     rotated: 0
@@ -1417,13 +1417,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 653
-      y: 215
+      y: 262
       width: 86
       height: 46
     inner:
       serializedVersion: 2
       x: 653
-      y: 215
+      y: 262
       width: 86
       height: 46
     rotated: 0
@@ -1434,14 +1434,14 @@ MonoBehaviour:
   - name: cost_bg2
     outer:
       serializedVersion: 2
-      x: 152
-      y: 36
+      x: 281
+      y: 149
       width: 76
       height: 18
     inner:
       serializedVersion: 2
-      x: 152
-      y: 36
+      x: 281
+      y: 149
       width: 76
       height: 18
     rotated: 0
@@ -1453,13 +1453,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 152
-      y: 6
+      y: 21
       width: 76
       height: 14
     inner:
       serializedVersion: 2
       x: 152
-      y: 6
+      y: 21
       width: 76
       height: 14
     rotated: 0
@@ -1488,14 +1488,14 @@ MonoBehaviour:
   - name: cost_fg2
     outer:
       serializedVersion: 2
-      x: 281
-      y: 149
+      x: 152
+      y: 36
       width: 76
       height: 18
     inner:
       serializedVersion: 2
-      x: 281
-      y: 149
+      x: 152
+      y: 36
       width: 76
       height: 18
     rotated: 0
@@ -1507,13 +1507,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 152
-      y: 21
+      y: 6
       width: 76
       height: 14
     inner:
       serializedVersion: 2
       x: 152
-      y: 21
+      y: 6
       width: 76
       height: 14
     rotated: 0
@@ -1596,14 +1596,14 @@ MonoBehaviour:
   - name: 64px-Mute_IconNGUI
     outer:
       serializedVersion: 2
-      x: 401
-      y: 17
+      x: 904
+      y: 464
       width: 95
       height: 56
     inner:
       serializedVersion: 2
-      x: 401
-      y: 17
+      x: 904
+      y: 464
       width: 95
       height: 56
     rotated: 0
@@ -1614,19 +1614,19 @@ MonoBehaviour:
   - name: 64px-Speaker_IconNGUI
     outer:
       serializedVersion: 2
-      x: 904
-      y: 464
-      width: 95
+      x: 401
+      y: 17
+      width: 94
       height: 56
     inner:
       serializedVersion: 2
-      x: 904
-      y: 464
-      width: 95
+      x: 401
+      y: 17
+      width: 94
       height: 56
     rotated: 0
-    paddingLeft: 0.021052632
-    paddingRight: 0.031578947
+    paddingLeft: 0.031914894
+    paddingRight: 0.031914894
     paddingTop: 0.071428575
     paddingBottom: 0.071428575
   - name: rocketlab_newheader
