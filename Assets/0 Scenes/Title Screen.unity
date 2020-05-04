@@ -7432,7 +7432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a7ffe6c2fd84936b36d466d4d6c815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioToggle: {fileID: 0}
+  audioToggle: {fileID: 1671669364}
 --- !u!114 &1671669364
 MonoBehaviour:
   m_ObjectHideFlags: 0
