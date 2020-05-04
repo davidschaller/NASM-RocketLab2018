@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,7 +24,7 @@ public class NGUIAutoScaling : MonoBehaviour
 			return;
 		}
 
-		Undo.RegisterCompleteObjectUndo(panel.transform, 'Panel scale');
+//		Undo.RegisterCompleteObjectUndo(panel.transform, "Panel scale");
 
 		panel.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
 
@@ -52,7 +52,7 @@ public class NGUIAutoScaling : MonoBehaviour
 			return;
 		}
 
-		Undo.RegisterCompleteObjectUndo(panel.transform, 'Panel scale');
+//		Undo.RegisterCompleteObjectUndo(panel.transform, 'Panel scale');
 
 		panel.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
 
