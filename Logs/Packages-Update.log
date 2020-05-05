@@ -49,3 +49,13 @@ Update Mode: updateDependencies
 
 The following packages were updated:
   com.unity.package-manager-ui from version 2.0.7 to 2.0.8
+
+=== Tue May  5 17:16:20 2020
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.burst@1.1.1
+  com.unity.collections@0.0.9-preview.12
+  com.unity.mathematics@1.1.0

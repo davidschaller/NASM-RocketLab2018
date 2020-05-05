@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 612513759}
   - component: {fileID: 612513761}
   - component: {fileID: 612513760}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4798,7 +4798,7 @@ GameObject:
   - component: {fileID: 687995715}
   - component: {fileID: 687995717}
   - component: {fileID: 687995716}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9352,7 +9352,7 @@ GameObject:
   - component: {fileID: 1242393104}
   - component: {fileID: 1242393106}
   - component: {fileID: 1242393105}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13906,7 +13906,7 @@ GameObject:
   - component: {fileID: 1285115398}
   - component: {fileID: 1285115400}
   - component: {fileID: 1285115399}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Exhaust-central
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18460,7 +18460,7 @@ GameObject:
   - component: {fileID: 1364006764}
   - component: {fileID: 1364006766}
   - component: {fileID: 1364006765}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
