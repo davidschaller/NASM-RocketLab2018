@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 145582470}
   - component: {fileID: 145582472}
   - component: {fileID: 145582471}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5621,7 +5621,7 @@ GameObject:
   - component: {fileID: 979642473}
   - component: {fileID: 979642475}
   - component: {fileID: 979642474}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10175,7 +10175,7 @@ GameObject:
   - component: {fileID: 1116278612}
   - component: {fileID: 1116278614}
   - component: {fileID: 1116278613}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14729,7 +14729,7 @@ GameObject:
   - component: {fileID: 1246868523}
   - component: {fileID: 1246868525}
   - component: {fileID: 1246868524}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19283,7 +19283,7 @@ GameObject:
   - component: {fileID: 2009513859}
   - component: {fileID: 2009513861}
   - component: {fileID: 2009513860}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: flames_flame_red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
