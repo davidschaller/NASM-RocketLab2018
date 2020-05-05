@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class MissionController : MonoBehaviour
 {
+	public AudioSource workshopSfx;
     public int missionNumber;
 	const int LAST_MISSION_NUMBER = 3;
 
@@ -637,7 +638,13 @@ public class MissionController : MonoBehaviour
         rocketComponentsController.ToggleOuterPanel(isHidingOuterPanel);
 
         generalControllerBase.HideNamePanel();
-    }
+
+		if(workshopSfx != null) {
+			if (!workshopSfx.isPlaying) {
+				workshopSfx.Play();
+			}
+		}
+	}
 
     Transform rocketCopyToLaunch;
 
@@ -822,7 +829,7 @@ public class MissionController : MonoBehaviour
 
         if (!isLoadingTitle)
         {
-            launchControllerBase.Init(countDownTime, LaunchRocketClick, launchAttempts, currentEventPair.summary_section, currentEventPair.isSuccess);
+			launchControllerBase.Init(countDownTime, LaunchRocketClick, launchAttempts, currentEventPair.summary_section, currentEventPair.isSuccess);
             launchControllerBase.Toggle(true);
 
             if (currentEventPair != epThrustWeightIsHigher)
@@ -868,7 +875,11 @@ if (item.eventPlayer)
         {
             Debug.Log("MissionController: Triggering 'ep Launch Start'", epLaunchStart.transform);
 
-            if (epLaunchStart)
+			if (workshopSfx != null) {
+				workshopSfx.Stop();
+			}
+
+			if (epLaunchStart)
                 epLaunchStart.PlayerTriggered();
         }
     }
@@ -1018,7 +1029,13 @@ if (item.eventPlayer)
             }
         }
 
-        epReturnToDesigning.SubscribeForFinish(ReturnToRedesigning);
+		if(workshopSfx != null) {
+			if (!workshopSfx.isPlaying) {
+				workshopSfx.Play();
+			}
+		}
+
+		epReturnToDesigning.SubscribeForFinish(ReturnToRedesigning);
         epReturnToDesigning.PlayerTriggered();
     }
 
