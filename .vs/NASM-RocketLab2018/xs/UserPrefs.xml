@@ -4,6 +4,9 @@
       <File FileName="Assets/10Scripts/AudioToggle.cs" Line="64" Column="1" />
       <File FileName="Assets/Rocket Designer/Scripts/Controller/IpadExtraController.cs" Line="152" Column="1" />
       <File FileName="Assets/EventSystem/Plugins/Common.cs" Line="193" Column="15" />
+      <File FileName="Assets/Rocket Designer/Scripts/Controller/NGUIHeaderController.cs" Line="649" Column="58" />
+      <File FileName="Assets/Rocket Designer/Scripts/Controller/HeaderControllerBase.cs" Line="59" Column="30" />
+      <File FileName="Assets/Rocket Designer/Scripts/Controller/MissionController.cs" Line="415" Column="98" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
