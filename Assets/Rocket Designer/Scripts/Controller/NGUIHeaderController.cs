@@ -352,9 +352,11 @@ public class NGUIHeaderController : HeaderControllerBase
     {
         headerMainDetails.RemoveButtonColliders();
 
-        yield return 0;
+        yield return null;
 
-        headerMainDetails.missionButtons[round - 1].OnHover(true);
+		if (headerMainDetails.missionButtons != null && headerMainDetails.missionButtons[round - 1] != null) {
+			headerMainDetails.missionButtons[round - 1].OnHover(true);
+		}
     }
 
     class HeaderIntroDetails
