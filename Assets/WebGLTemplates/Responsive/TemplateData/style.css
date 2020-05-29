@@ -2,7 +2,7 @@
 .webgl-content {top: 0; left: 0;}
 
 .webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
-.webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 512px; height: 140px;}
+.webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 512px; height: 128px;}
 .webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
 .webgl-content .progress .empty {background: url('progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
 .webgl-content .progress .full {background: url('progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
