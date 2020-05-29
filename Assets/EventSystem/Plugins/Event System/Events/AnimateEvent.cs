@@ -45,11 +45,11 @@ class AnimateRunner : IEvent
             eventFinished = true;
             if (animation)
             {
-                Debug.LogError("Clip is not assigned for " + animation.name, animation.transform);
+                Debug.Log("Clip is not assigned for " + animation.name, animation.transform);
             }
             else
             {
-                Debug.LogError("Animation component or clip is not assigned");
+                Debug.Log("Animation component or clip is not assigned");
             }
         }
 	}
